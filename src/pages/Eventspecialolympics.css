@@ -1,0 +1,103 @@
+.eventspecialolympics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.eventspecialolympics-title {
+    text-transform: capitalize;
+    font-family: "Trebuchet MS", Raleway, sans-serif;
+    font-weight: 1000;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    color: var(--blue-color);
+    /* text-decoration: underline double;
+    text-underline-offset: 0.35rem; */
+    white-space: nowrap;
+    margin: 0.5rem 0;
+    text-align: start;
+    padding: 0 0.5rem;
+}
+
+.eventspecialolympics-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+}
+
+.eventspecialolympics-text-style-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-color);
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.eventspecialolympics-text-style-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lightblue-color);
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.eventspecialolympics-user {
+    display: grid;
+    grid-template-columns: 2rem 4rem 7rem 7rem 7rem 5.25rem 7rem auto;
+    width: 100%;
+    padding: 0.25rem;
+    box-sizing: border-box;
+}
+
+.eventspecialolympics-text {
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.eventspecialolympics-text-title {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    color: var(--blue-color);
+    font-weight: 600;
+}
+
+.eventspecialolympics-detail-text {
+    display: grid;
+    grid-template-columns: 2rem 7rem auto;
+    width: 100%;
+    padding: 0.25rem 0.25rem;
+    row-gap: 0.25rem;
+    box-sizing: border-box;
+    text-align: start;
+}
+
+.eventspecialolympics-record-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.eventspecialolympics a {
+    color: var(--blue-color);
+    text-decoration: underline;
+} 
+
+@media (max-width: 50rem) {
+    .eventspecialolympics-text-container {
+        width: 100%;
+    }
+
+    .eventspecialolympics-user {
+        grid-template-columns: 1.5rem 3.5rem 5rem 5rem 5rem 4.5rem 6.5rem auto;
+    }
+}

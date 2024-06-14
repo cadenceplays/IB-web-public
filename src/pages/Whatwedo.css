@@ -1,0 +1,85 @@
+.do {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    background: var(--white-color);
+    font-family: Raleway, sans-serif;
+    gap: 1rem;
+    margin: 0.5rem 0;
+
+}
+
+.do_slider {
+    display: flex;
+    justify-content: center;
+    width: 42%;
+}
+
+.do_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 58%;
+}
+
+.do_container p {
+    text-align: start;
+    margin: 0.5rem 0;
+    line-height: 125%;
+}
+
+.do_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.do_title {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+    margin: 0;
+}
+
+.do_title p {
+    text-transform: capitalize;
+    font-family: "Trebuchet MS", Raleway, sans-serif;
+    font-weight: 1000;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    color: var(--blue-color);
+    /* text-decoration: underline double;
+    text-underline-offset: 0.35rem; */
+}
+
+.left {
+    text-align: start;
+    margin: 0.25rem 0;
+}
+
+.goofy {
+    text-align: start;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    color: var(--blue-color);
+    margin: 0.75rem 0 0 0;
+}
+
+
+@media (max-width: 45rem) {
+    .do {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .do_container,
+    .do_slider {
+        width: 100%;
+    }
+}

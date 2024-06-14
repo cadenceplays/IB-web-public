@@ -1,0 +1,54 @@
+.history {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    box-sizing: border-box;
+    background: var(--white-color);
+    font-family: Raleway, sans-serif;
+    gap: 1rem;
+    margin: 0.5rem 0;
+
+}
+
+.history_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.history_container p {
+    text-align: start;
+    line-height: 150%;
+}
+
+.history_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.history_title {
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    text-transform: capitalize;
+    font-family: "Trebuchet MS", Raleway, sans-serif;
+    font-weight: 1000;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    color: var(--blue-color);
+    /* text-decoration: underline double;
+    text-underline-offset: 0.35rem; */
+}
+
+@media (max-width: 45rem) {
+    .history {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .history_container p {
+        line-height: 125%;
+    }
+}

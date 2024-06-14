@@ -1,0 +1,14 @@
+export {default as Article} from './article/article';
+export {default as Footer} from './footer/footer';
+export {default as Navbar} from './navbar/navbar';
+export {default as Numbers} from './numbers/numbers';
+export {default as Leaders} from './leaders/leaders';
+export {default as Button} from './button/button';
+export {default as Line} from './line/line';
+export {default as Recent} from './recent/recent';
+export {default as Upcoming} from './upcoming/upcoming';
+export {default as Activities} from './activities/activities';
+export {default as Activitiescontent} from './activities/activitiescontent';
+export {default as Events} from './events/events';
+export {default as Specialnews} from './specialnews/specialnews';
+export {default as Uselocalstorage} from './uselocalstorage/uselocalstorage';

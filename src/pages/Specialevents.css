@@ -1,0 +1,144 @@
+.special {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--lightblue-color);
+    font-family: Raleway, sans-serif;
+    gap: 0.75rem;
+    /* margin: 0 0 0.5rem 0; */
+    text-align: start;
+}
+
+.special_title_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+    width: 20%;
+}
+
+.special_content_container {
+    width: 80%;
+}
+
+.special_container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+    background-color: var(--white-color);
+    padding: 0 0.25rem;
+}
+
+.special_container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+    background-color: var(--white-color);
+    padding: 0 0.25rem;
+}
+
+.special_title {
+    justify-content: start;
+    align-items: start;
+    text-transform: capitalize;
+    font-family: "Trebuchet MS", Raleway, sans-serif;
+    font-weight: 1000;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    color: var(--blue-color);
+    /* text-decoration: underline double;
+    text-underline-offset: 0.35rem; */
+    margin: 0.25rem 0;
+    padding: 0.5rem;
+}
+
+.special_description {
+    text-align: start;
+    padding: 0.5rem;
+}
+
+.special_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 0.5rem;
+}
+
+.special_photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.special_content {
+    width: 50%;
+}
+
+.special_name {
+    font-weight: 600;
+    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+    color: var(--blue-color);
+    padding: 0.5rem;
+}
+
+.special_timeloc {
+    font-weight: 600;
+    font-size: clamp(1rem, 2.5vw, 1.1rem);
+    color: var(--blue-color);
+    padding: 0.5rem;
+}
+
+.special_selfintro {
+    padding: 0.5rem;
+    line-height: 125%;
+}
+
+.special_link {
+    text-decoration: underline;
+}
+
+@media (max-width: 55rem) {
+    .special_selfintro {
+        line-height: 110%;
+    }
+}
+
+@media (max-width: 45rem) {
+    .special {
+        flex-direction: column;
+    }
+
+    .special_selfintro {
+        line-height: 100%;
+    }
+
+    .special_container1,
+    .special_container2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 0rem;
+    }
+
+    .special_title_container {
+        width: 100%;
+    }
+
+    .special_content_container {
+        width: 100%;
+    }
+
+    .special_content {
+        width: 100%;
+    }
+
+    .special_photo {
+        width: 100%;
+    }
+}

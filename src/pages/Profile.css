@@ -1,0 +1,146 @@
+.profile {
+    font-family: Raleway, sans-serif;
+    margin: 0 0 0.75rem 0;
+    width: 100%;
+}
+
+.profile-title {
+    text-transform: capitalize;
+    font-family: "Trebuchet MS", Raleway, sans-serif;
+    font-weight: 1000;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    color: var(--blue-color);
+    /* text-decoration: underline double;
+    text-underline-offset: 0.35rem; */
+    padding: 0.5rem 0 1rem 0;
+}
+
+.profile-content {
+    text-align: start;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+}
+
+.profile-form {
+    display: grid;
+    grid-template-columns: 7rem 13rem auto;
+    width: 100%;
+    align-items: center;
+}
+
+.profile input, 
+.profile select,
+.profile textarea {
+    padding: 0.5rem;
+    margin: 0.25rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family: Raleway, sans-serif;
+}
+
+.profile p {
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+    text-align: start;    
+}
+
+.profile-form p {
+    padding: 0.5rem;
+}
+
+.profile label {
+    font-weight: 600;
+    text-align: start;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+.profile span {
+    padding: 0.5rem;
+    color: var(--darkgrey-color);
+    font-size: clamp(0.8rem, 2vw, 0.9rem);
+    text-align: start;
+}
+
+.profile button {
+    cursor: pointer;
+    margin: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    color: var(--black-color);
+    border-radius: 5px;
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+    width: min-content;
+    border: none;
+    background-color: var(--green-color);
+}
+
+.profile button:hover {
+    transform: scale(1.03);
+}
+
+.profile a {
+    color: var(--blue-color);
+    text-decoration: underline;
+} 
+
+.profile-tab-container {
+    border: 1px solid;
+    border-color: var(--lightgrey-color);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.profile-tab-title-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.profile-tab-title {
+    border-bottom: 1px solid var(--lightgrey-color);
+    padding: 0.5rem 0.5rem;
+    cursor: pointer;
+    width: 50%;
+    background: var(--lightergrey-color);
+}
+.profile-tab-title:not(:last-child) {
+    border-right: 1px solid var(--lightgrey-color);
+}
+
+.profile-tab-title-active {
+    background: var(--white-color);
+    border-bottom: 1px solid transparent;
+    cursor: default;
+}
+
+.profile-tab-title-empty {
+    cursor: default;
+}
+
+.profile-tab-content {
+    display: none;
+}
+
+.profile-tab-content-active {
+    display: block;
+}
+
+@media (max-width: 45rem) {
+    .profile-form {
+        grid-template-columns: auto;
+        align-items: start;
+    }
+
+    .profile input, 
+    .profile select,
+    .profile textarea {
+        margin: 0 0.5rem;
+    }
+
+    .profile label {
+        margin: 0.5rem 0 0 0;
+    }
+}

@@ -1,0 +1,39 @@
+.ibadmin {
+    font-family: Raleway, sans-serif;
+    margin: 0 0 0.75rem 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ibadmin-title {
+    text-transform: capitalize;
+    font-family: "Trebuchet MS", Raleway, sans-serif;
+    font-weight: 1000;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    color: var(--blue-color);
+    /* text-decoration: underline double;
+    text-underline-offset: 0.35rem; */
+    padding: 1rem 0 0.5rem 0;
+}
+
+.ibadmin-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    max-width: fit-content;
+}
+
+.ibadmin-content li {
+    padding-left: 1rem;
+    text-indent: -1.35rem;
+    margin: 0.5rem;
+    text-align: start;    
+}
+
+.ibadmin-content a {
+    color: var(--blue-color);
+    text-decoration: underline;
+} 

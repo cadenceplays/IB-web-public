@@ -1,0 +1,65 @@
+.recent {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 0.5rem;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--white-color);
+}
+
+.recent-title {
+    text-transform: capitalize;
+    font-family: "Trebuchet MS", Raleway, sans-serif;
+    font-weight: 1000;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    color: var(--blue-color);
+    /* text-decoration: underline double;
+    text-underline-offset: 0.35rem; */
+    white-space: nowrap;
+    margin: 0;
+}
+
+.recent-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.recent-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 35%;
+    margin: 0.5rem;
+}
+
+.recent-text-container p {
+    font-family: Raleway, sans-serif;
+    text-align: start;
+    margin: 0.5rem 0;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.recent-slider {
+    min-height: 200px;
+    min-width: 200px;
+    width: 65%;
+}
+
+@media (max-width: 45rem) {
+    .recent {
+        flex-direction: column;
+    }
+
+    .recent-text-container,
+    .recent-slider {
+        width: 100%;
+    }
+}

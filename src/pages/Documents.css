@@ -1,0 +1,70 @@
+.documents {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 0.5rem;
+    font-family: Raleway, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: var(--lightgreen-color);
+
+}
+
+.documents-title {
+    width: 25%;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    text-transform: capitalize;
+    font-family: "Trebuchet MS", Raleway, sans-serif;
+    font-weight: 1000;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    color: var(--blue-color);
+    /* text-decoration: underline double;
+    text-underline-offset: 0.35rem; */
+    padding: 0.5rem 0 0 0.5rem;
+}
+
+.documents-content {
+    width: 75%;
+    justify-content: start;
+    align-items: start;
+    background-color: var(--white-color);
+    padding: 0.5rem 0 1rem 0;
+}
+
+.documents-category {
+    text-align: start;
+    font-weight: 600;
+    padding: 0.5rem 0 0.25rem 0.5rem;
+}
+
+.documents-filename {
+    padding: 0.25rem 0 0.25rem 2rem; 
+    text-align: start;
+}
+
+.documents-filename a {
+    color: var(--blue-color);
+    text-decoration: underline;
+} 
+
+.documents-ri {
+    color: var(--blue-color);
+}
+
+@media (max-width: 45em) {
+    .documents {
+        flex-direction: column;
+    }
+
+    .documents-title {
+        width: 100%;
+        padding: 0.5rem 0 0.3rem 0.3rem;
+    }
+
+    .documents-content {
+        width: 100%;
+    }
+}

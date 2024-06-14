@@ -1,0 +1,76 @@
+.article {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 0.5rem;
+    box-sizing: border-box;
+    margin: 0.5rem 0 0 0;
+}
+
+.article-img {
+    width: 50%;
+}
+
+.article-img img {
+    width: 100%;
+}
+
+.article-whatwedo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.article-whatwedo-title {
+    text-transform: capitalize;
+    font-family: "Trebuchet MS", Raleway, sans-serif;
+    font-weight: 1000;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    color: var(--blue-color);
+    /* text-decoration: underline double;
+    text-underline-offset: 0.35rem; */
+}
+
+.article-whatwedo-content {
+    font-family: Raleway, sans-serif;
+    text-align: start;
+    line-height: 150%;
+}
+
+.article-link {
+    text-decoration: underline;
+}
+
+@media (max-width: 75em) {
+    .article-whatwedo-content {
+        line-height: 125%;
+    }
+}
+
+@media (max-width: 65em) {
+    .article-whatwedo-content {
+        line-height: 100%;
+    }
+}
+
+@media (max-width: 45em) {
+    .article {
+        flex-direction: column;
+    }
+
+    .article-img {
+        width: 100%;
+    }
+
+    .article-whatwedo {
+        width: 100%;
+    }
+
+    .article-whatwedo-content {
+        line-height: 100%;
+    }
+
+}
