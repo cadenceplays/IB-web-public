@@ -38,6 +38,10 @@ const Training = () => {
                         <a href="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/volunteer_training%2FInternational%20Buddy%20-%20handouts%202023%20for%20volunteers.pdf?alt=media&token=fff6777e-c896-44a3-a136-a8cead02a04f" download="Handouts for Volunteers.pdf" target="_blank" rel="noopener">Handouts for Volunteers</a>&nbsp;&nbsp;
                         {getLanguageLogo('English')}
                     </div>
+                    <div className="training-filename">
+                        <a href="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/volunteer_training%2FCopy%20of%20Copy%20of%20CARES%20-%20Volunteer%20Training%20for%20International%20Buddy.pdf?alt=media&token=62314814-e130-4964-8029-e2754efcbdfe" download="CARES-Volunteer Training for IB.pdf" target="_blank" rel="noopener">CARES - Volunteer Training for International Buddy</a>&nbsp;&nbsp;
+                        {getLanguageLogo('English')}
+                    </div>
                 </Fragment>
             </div>
         </div>

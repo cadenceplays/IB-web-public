@@ -7,9 +7,9 @@ const Home = () => {
       <Article />
       <Specialnews />
       <Numbers />
+      <Leaders />
       <Activities />
       <Events />
-      <Leaders />
       <Recent />
       <Upcoming />
     </>

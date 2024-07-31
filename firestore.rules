@@ -8,7 +8,8 @@ service cloud.firestore {
       || userEmail == "syga2029@gmail.com"
       || userEmail == "hzslmc@gmail.com"
       || userEmail == "support@internationalbuddy.org"
-      || userEmail == "internationalbuddyweb@gmail.com");
+      || userEmail == "internationalbuddyweb@gmail.com"
+      || userEmail == "kaicheng.bear@gmail.com");
     }
   
     match /{document=**} {

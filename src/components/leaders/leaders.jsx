@@ -1,16 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './leaders.css';
 import { Link } from 'react-router-dom';
 import { Button } from '../';
 
 const Leaders = () => {
-    const [showImg1, setShowImg1] = useState(true);
-    const [showImg2, setShowImg2] = useState(true);
-    const [showImg3, setShowImg3] = useState(true);
-    const [showImg4, setShowImg4] = useState(true);
-    const [showImg5, setShowImg5] = useState(true);
-
-    
 
     return (
         <div className="leaders">
@@ -24,51 +17,61 @@ const Leaders = () => {
             <div className="leaders-container">
                 <div className="leaders-cell">
                     <div className="leaders-button">
-                        {showImg1?
-                            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2Fleaders%2FGavin%20Zhou%20-%20President.jpg?alt=media&token=70db9e65-a892-43d4-923f-fe43958f8dd7" alt="President" onClick={()=>setShowImg1(false)} />
-                            :
-                            //<div><br/><br/><br/><b>I love music & cooking.</b><br/><br/><br/></div>
-                            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2Fleaders%2Fmusic.png?alt=media&token=f82f3759-5054-4c5c-9561-d0e1879a6226" alt="President" onClick={()=>setShowImg1(true)} />
-                        }
+                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2Fleaders%2FSteven%20Gao.JPG?alt=media&token=2aefd721-87e4-4c52-9ea0-079789b2a632" alt="President"  />
                     </div>
                     <div className="leaders-button-title">
-                        <b>Gavin Zhou</b><br/>
+                        <b>Steven Gao</b><br/>
                         President
                     </div>
                 </div>
                 <div className="leaders-cell">
                     <div className="leaders-button">
-                        {showImg4?
-                            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2Fleaders%2FHansley%20Wang%20-%20VP%20of%20Community%20Outreach.jpg?alt=media&token=e76c8207-b762-4439-967e-4e862966d791" alt="VP Community Outreach" onClick={()=>setShowImg4(false)} />
-                            :
-                            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2Fleaders%2Fchewie.png?alt=media&token=ba3939e0-c045-437c-abdf-9cd31a989d38" alt="VP Community Outreach" onClick={()=>setShowImg4(true)} />
-                        }
+                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2Fleaders%2FYiran%20(Ryan)%20Pang.JPG?alt=media&token=f823a4fa-f841-4091-9ec9-f94f34196092" alt="VP of Technology"  />
                     </div>
                     <div className="leaders-button-title">
-                        <b>Hansley Wang</b><br/>
-                        VP of <br/>Community Outreach
-                    </div>
-                </div>
-                <div className="leaders-cell">
-                    <div className="leaders-button">
-                        {showImg2?
-                            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2Fleaders%2FSteven%20Gao-%20VP%20of%20technology%201.jpg?alt=media&token=ab92883b-3b18-48d2-bd9b-75490a65d7e3" alt="VP Technology" onClick={()=>setShowImg2(false)}/>
-                            :
-                            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2Fleaders%2Fbasketball.png?alt=media&token=039970e3-fb78-47e0-93ec-e6edd550a33a" alt="VP Technology" onClick={()=>setShowImg2(true)} />
-                        }
-                    </div>
-                    <div className="leaders-button-title">
-                        <b>Steven Gao</b><br/>
+                        <b>Yiran (Ryan) Pang</b><br/>
                         VP of <br/>Technology
                     </div>
                 </div>
                 <div className="leaders-cell">
                     <div className="leaders-button">
-                        {showImg3?
-                            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2Fleaders%2FSean%20Choudhury%20-%20VP%20of%20Finance.jpg?alt=media&token=87648c84-c192-4743-867d-5496ab535606" alt="VP Finance" onClick={()=>setShowImg3(false)} />
-                            :
-                            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2Fleaders%2Fpiano.png?alt=media&token=f41d73c3-00ca-4209-94ef-686efb01fd39" alt="VP Finance" onClick={()=>setShowImg3(true)} />
-                        }
+                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2Fleaders%2FElla%20Chang.JPG?alt=media&token=86c201b2-a452-4bbd-9c07-48e7556277bd" alt="VP Operations & Communications" />
+                    </div>
+                    <div className="leaders-button-title">
+                        <b>Ella Chang</b><br/>
+                        VP of <br/>Operations & Communications
+                    </div>
+                </div>
+                <div className="leaders-cell">
+                    <div className="leaders-button">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2Fleaders%2FMax%20Li.JPG?alt=media&token=e3494dda-ff32-4a98-a15d-1710d7ffab36" alt="VP of Community Outreach" />
+                    </div>
+                    <div className="leaders-button-title">
+                        <b>Max Li</b><br/>
+                        VP of <br/>Community Outreach
+                    </div>
+                </div>
+                <div className="leaders-cell">
+                    <div className="leaders-button">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2Fleaders%2FValerie%20Wang.JPG?alt=media&token=ea255bcf-c8ff-4db7-a0e0-b21509893a46" alt="VP of Development" />
+                    </div>
+                    <div className="leaders-button-title">
+                        <b>Valerie Wang</b><br/>
+                        VP of <br/>Development
+                    </div>
+                </div>
+                <div className="leaders-cell">
+                    <div className="leaders-button">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2Fleaders%2FArthur%20Gao.JPG?alt=media&token=28de542a-0e33-488e-83e1-9626354c0331" alt="VP of Events" />
+                    </div>
+                    <div className="leaders-button-title">
+                        <b>Arthur Gao</b><br/>
+                        VP of <br/>Events
+                    </div>
+                </div>
+                <div className="leaders-cell">
+                    <div className="leaders-button">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2Fleaders%2FSean%20Choudhury.JPG?alt=media&token=03bc0aed-85e9-44dd-b0bf-1b049140d8b8" alt="VP of Finance" />
                     </div>
                     <div className="leaders-button-title">
                         <b>Sean Choudhury</b><br/>
@@ -77,26 +80,32 @@ const Leaders = () => {
                 </div>
                 <div className="leaders-cell">
                     <div className="leaders-button">
-                        {showImg5?
-                            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2Fleaders%2FEli%20Hou%20-%20VP%20of%20Administration.jpg?alt=media&token=613810c9-68f3-42b8-bfdb-9f9f01d27e03" alt="VP Administration" onClick={()=>setShowImg5(false)} />
-                            :
-                            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2Fleaders%2Fdog.png?alt=media&token=2ddb528c-6245-46dc-9fd3-0f97efad9467" alt="VP Administration" onClick={()=>setShowImg5(true)} />
-                        }
+                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2Fleaders%2FNathan%20Guan.JPG?alt=media&token=9b2bbf0f-319d-4252-96eb-ca1dbf7214f6" alt="VP of Career Training & Tutoring"  />
+                    </div>
+                    <div className="leaders-button-title">
+                        <b>Nathan Guan</b><br/>
+                        VP of <br/>Career Training & Tutoring
+                    </div>
+                </div>
+                <div className="leaders-cell">
+                    <div className="leaders-button">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2Fleaders%2FAndrew%20Kim.jpg?alt=media&token=d2420a4a-9225-4c34-949f-ce7cd6ccd3b9" alt="VP of Sustainability" />
+                    </div>
+                    <div className="leaders-button-title">
+                        <b>Andrew Kim</b><br/>
+                        VP of <br/>Sustainability
+                    </div>
+                </div>
+                <div className="leaders-cell">
+                    <div className="leaders-button">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2Fleaders%2FEli%20Hou.JPG?alt=media&token=68a707bb-f960-4115-a56c-c7730a986c7e" alt="VP of Administration" />
                     </div>
                     <div className="leaders-button-title">
                         <b>Eli Hou</b><br/>
                         VP of <br/>Administration
                     </div>
                 </div>
-                <div className="leaders-cell">
-                    <div className="leaders-button">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2Fleaders%2FKyle%20Li%20-%20chess%20lead.jpg?alt=media&token=0d6a7467-a936-4f5b-b5e3-35f54ba32565" alt="Chess Team Leader" />
-                    </div>
-                    <div className="leaders-button-title">
-                        <b>Kyle Li</b><br/>
-                        Chess Team Leader
-                    </div>
-                </div>
+
 
             </div>
         </div>

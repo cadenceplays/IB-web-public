@@ -3,6 +3,9 @@ import './footer.css';
 import { Line } from '../';
 import logo from '../../assets/internationalbuddy_logo_dark.png';
 import facebook from '../../assets/facebook-logo-small.png';
+import instagram from '../../assets/instagram-logo-small.png';
+import youtube from '../../assets/youtube-logo-small.png';
+import tiktok from '../../assets/tiktok-logo-small-b.png';
 import { RiArrowRightSLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
@@ -54,9 +57,12 @@ const Footer = () => {
         <div className="footer-logos">
           <Link to="/"><img src={logo} alt="Logo" height="50" /></Link>
           <a href="https://www.facebook.com/profile.php?id=100091862080207" target="_blank" rel="noopener"><img src={facebook} alt="facebook" height="35" /></a>
+          <a href="https://www.instagram.com/internationalbuddy_/" target="_blank" rel="noopener"><img src={instagram} alt="instagram" height="35" /></a>
+          <a href="https://www.youtube.com/@internationalbuddy" target="_blank" rel="noopener"><img src={youtube} alt="youtube" height="35" /></a> 
+          <a href="https://www.tiktok.com/@international.buddy" target="_blank" rel="noopener"><img src={tiktok} alt="tiktok" height="35" /></a>
         </div>
         <div>
-          <p>Copyright © 2023 International Buddy. <br /> Website by Yiran Pang</p>
+          <p>Copyright © 2023 International Buddy. <br /> Website by Yiran (Ryan) Pang</p>
         </div>
       </div>
     </div>

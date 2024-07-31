@@ -429,10 +429,92 @@ const nordicSkiCampImages = [
 
 const onevsoneImages = [
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FWeixin%20Image_20240524203252.jpg?alt=media&token=982d952a-aa00-427e-b986-f746cc0604b3',
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fonevsone.jpg?alt=media&token=b316f2d7-e305-4a54-a491-83e90245a958',
         originalHeight: PHOTO_HEIGHT,
     },
 ];
+
+const blueoriginImages = [
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fblue_origin%2FWeixin%20Image_20240618215758.jpg?alt=media&token=df23c258-3f85-4d60-9293-fa9a493d1eaf',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fblue_origin%2FWeixin%20Image_20240618215825.jpg?alt=media&token=afa717f4-83f7-4198-97b2-765793efd5b2',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fblue_origin%2FWeixin%20Image_20240618215830.jpg?alt=media&token=0cb841f9-af92-4ec2-8530-5d9ad193a7b3',
+        originalHeight: PHOTO_HEIGHT,
+    },
+];
+
+const trainingImages = [
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftraining%2FWeixin%20Image_20240625101501s.jpg?alt=media&token=d155b6e1-0d67-45fe-8d03-f24322e3fd0c',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftraining%2FWeixin%20Image_20240625101511s.jpg?alt=media&token=043fe01b-722c-40c6-8eaa-09e40bc5a8e4',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftraining%2FWeixin%20Image_20240625101517s.jpg?alt=media&token=43cc7897-83b4-4e4c-993c-7ce923334839',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftraining%2FWeixin%20Image_20240625101524s.jpg?alt=media&token=9ebfe222-ff97-4fab-8cae-0b933a1766eb',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftraining%2FWeixin%20Image_20240625101529s.jpg?alt=media&token=8cefbf7d-e561-4d18-8c7e-608a04cc9f15',
+        originalHeight: PHOTO_HEIGHT,
+    },
+];
+
+const chessImages = [
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchess%2F440854006_362306580174742_1247229090884165750_n.jpg?alt=media&token=2c083657-d431-40ae-be35-46024f2787fe',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchess%2F440866689_362306606841406_103135094331581692_n.jpg?alt=media&token=18a279b9-27d1-409a-9151-223b13293d21',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchess%2F440870376_362306636841403_4287446404433936207_n.jpg?alt=media&token=e93550be-6ba3-4b62-ad86-1fc112487e1f',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchess%2F440871806_362306553508078_7988486892452778631_n.jpg?alt=media&token=da62889b-878a-407e-aab7-2d4de897c3f7',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchess%2F440873761_362306536841413_2031524871054891725_n.jpg?alt=media&token=389afc5f-595e-407c-b4f4-7d2738d30891',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchess%2F440874974_362306640174736_1472686826511900594_n.jpg?alt=media&token=e2ff4adc-f83a-4a51-a02e-72f19251c7cc',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchess%2F440885827_362306603508073_4969919733407189123_n.jpg?alt=media&token=dbfcd16f-c75d-4bcf-87b2-96f63f78ea3a',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchess%2F440887157_362306613508072_6491173983600755719_n.jpg?alt=media&token=fca7079d-ff2f-411c-a81e-19cf3368745c',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchess%2F440889535_362306610174739_7525605313716154384_n.jpg?alt=media&token=d296ce84-1af8-4b6c-ac50-300fc5e967d1',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchess%2F440894676_362306570174743_8281160813329605220_n.jpg?alt=media&token=12712f90-a176-4b6b-a306-5d94a524b1ed',
+        originalHeight: PHOTO_HEIGHT,
+    },
+];
+
 
 const Specialevents = () => {
     return (
@@ -448,6 +530,68 @@ const Specialevents = () => {
                 </div>
             </div>
             <div className="special_content_container">
+
+                <div className="special_container1">
+                    <div className="special_content">
+                        <div className="special_name">
+                            Volunteer Training
+                        </div>
+                        <div className="special_timeloc">
+                            Date: June 22, 2024<br />
+                            Location: Mercer Island Library
+                        </div>
+                        <div className="special_selfintro">
+                        IB President and VPs gave in person training to our new volunteers and team leaders. More than 20 volunteers joined this session. Thank all the volunteers participated today. The three leaders talked about their experiences and insights in IB. In particular, Neo shared a lot of his experience as a volunteer in high school. The speeches and Q&A were great. We will hold such events regularly in the future to give everyone more opportunities to communicate.  <br/><br/><b><a href="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/volunteer_training%2FCopy%20of%20Copy%20of%20CARES%20-%20Volunteer%20Training%20for%20International%20Buddy.pdf?alt=media&token=62314814-e130-4964-8029-e2754efcbdfe" download="CARES-Volunteer Training for IB.pdf" target="_blank" rel="noopener">Training material can be found here</a></b>
+                        </div>
+                    </div>
+                    <div className="special_photo">
+
+                        <ImageGallery
+                            items={trainingImages}
+                            showPlayButton={true}
+                            showFullscreenButton={false}
+                            showIndex={false}
+                            slideInterval={2500}
+                            showThumbnails={false}
+                            showBullets={true}
+                            autoPlay={true}
+                            showNav={false}
+                        />
+
+                    </div>
+                </div>
+                <Line color="--mediumblue-color" width="100%" />
+
+                <div className="special_container2">
+                    <div className="special_content">
+                        <div className="special_name">
+                            Outreach Event
+                        </div>
+                        <div className="special_timeloc">
+                            Date: June 15, 2024<br />
+                            Location: Blue Origin
+                        </div>
+                        <div className="special_selfintro">
+                        During our field trip to Blue Origin, IB buddies and volunteers learned great amount of information, not only gained insight into Blue Origin's vision for the future but also were introduced to their Club for the Future, the nonprofit organization funded by Blue Origin. The most exciting part was that we had rare opportunity to view the very area where Blue Origin built the New Shepard reusable rocket. Overall, everyone had a blast time during the visit, learned about the future with Blue Origin and Blue Origin's passion for exploring the unknown. 
+                        </div>
+                    </div>
+                    <div className="special_photo">
+
+                        <ImageGallery
+                            items={blueoriginImages}
+                            showPlayButton={true}
+                            showFullscreenButton={false}
+                            showIndex={false}
+                            slideInterval={2500}
+                            showThumbnails={false}
+                            showBullets={true}
+                            autoPlay={true}
+                            showNav={false}
+                        />
+
+                    </div>
+                </div>
+                <Line color="--mediumblue-color" width="100%" />
 
                 <div className="special_container1">
                     <div className="special_content">
@@ -478,9 +622,40 @@ const Specialevents = () => {
 
                     </div>
                 </div>
-
                 <Line color="--mediumblue-color" width="100%" />
+
                 <div className="special_container2">
+                    <div className="special_content">
+                        <div className="special_name">
+                            Chess Tournament
+                        </div>
+                        <div className="special_timeloc">
+                            Date: April 21, 2024<br />
+                            Location: Microsoft Cafe
+                        </div>
+                        <div className="special_selfintro">
+                        Check out some highlights from our chess tournament hosted on April 21st at the Microsoft Building Cafe! Congratulations to all the participants and our amazing volunteers who helped with the competition! 
+                        </div>
+                    </div>
+                    <div className="special_photo">
+
+                        <ImageGallery
+                            items={chessImages}
+                            showPlayButton={true}
+                            showFullscreenButton={false}
+                            showIndex={false}
+                            slideInterval={2500}
+                            showThumbnails={false}
+                            showBullets={true}
+                            autoPlay={true}
+                            showNav={false}
+                        />
+
+                    </div>
+                </div>
+                <Line color="--mediumblue-color" width="100%" />
+
+                <div className="special_container1">
                     <div className="special_content">
                         <div className="special_name">
                             Nordic Ski Camp
@@ -509,9 +684,9 @@ const Specialevents = () => {
 
                     </div>
                 </div>
-
                 <Line color="--mediumblue-color" width="100%" />
-                <div className="special_container1">
+
+                <div className="special_container2">
                     <div className="special_content">
                         <div className="special_name">
                             Swim Meet
@@ -540,9 +715,9 @@ const Specialevents = () => {
 
                     </div>
                 </div>
-
                 <Line color="--mediumblue-color" width="100%" />
-                <div className="special_container2">
+
+                <div className="special_container1">
                     <div className="special_content">
                         <div className="special_name">
                             Christmas Party
@@ -571,9 +746,9 @@ const Specialevents = () => {
 
                     </div>
                 </div>
-                
                 <Line color="--mediumblue-color" width="100%" />
-                <div className="special_container1">
+
+                <div className="special_container2">
                     <div className="special_content">
                         <div className="special_name">
                             Thanksgiving Party
@@ -602,9 +777,9 @@ const Specialevents = () => {
 
                     </div>
                 </div>
-
                 <Line color="--mediumblue-color" width="100%" />
-                <div className="special_container2">
+
+                <div className="special_container1">
                     <div className="special_content">
                         <div className="special_name">
                             Halloween Party
@@ -633,9 +808,9 @@ const Specialevents = () => {
 
                     </div>
                 </div>
-
                 <Line color="--mediumblue-color" width="100%" />
-                <div className="special_container1">
+
+                <div className="special_container2">
                     <div className="special_content">
                         <div className="special_name">
                             Outreach and Fundraising Event
@@ -664,9 +839,9 @@ const Specialevents = () => {
 
                     </div>
                 </div>
-
                 <Line color="--mediumblue-color" width="100%" />
-                <div className="special_container2">
+
+                <div className="special_container1">
                     <div className="special_content">
                         <div className="special_name">
                             Fencing 101
@@ -695,9 +870,9 @@ const Specialevents = () => {
 
                     </div>
                 </div>
-
                 <Line color="--mediumblue-color" width="100%" />
-                <div className="special_container1">
+
+                <div className="special_container2">
                     <div className="special_content">
                         <div className="special_name">
                             Badminton 101
@@ -726,9 +901,9 @@ const Specialevents = () => {
 
                     </div>
                 </div>
-
                 <Line color="--mediumblue-color" width="100%" />
-                <div className="special_container2">
+
+                <div className="special_container1">
                     <div className="special_content">
                         <div className="special_name">
                             Wild Waves Park Tour
@@ -757,9 +932,9 @@ const Specialevents = () => {
 
                     </div>
                 </div>
-
                 <Line color="--mediumblue-color" width="100%" />
-                <div className="special_container1">
+
+                <div className="special_container2">
                     <div className="special_content">
                         <div className="special_name">
                             Garage Sale
@@ -788,9 +963,9 @@ const Specialevents = () => {
 
                     </div>
                 </div>
-
                 <Line color="--mediumblue-color" width="100%" />
-                <div className="special_container2">
+
+                <div className="special_container1">
                     <div className="special_content">
                         <div className="special_name">
                             Volunteer Appreciation Party
@@ -819,9 +994,9 @@ const Specialevents = () => {
 
                     </div>
                 </div>
-
                 <Line color="--mediumblue-color" width="100%" />
-                <div className="special_container1">
+
+                <div className="special_container2">
                     <div className="special_content">
                         <div className="special_name">
                             Summer Camp

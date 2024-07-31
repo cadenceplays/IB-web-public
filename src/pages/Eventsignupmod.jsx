@@ -503,7 +503,7 @@ const Eventsignupmod = () => {
         }
 
         const getUpcomings = async () => {
-            const q = query(collection(db, "event_upcomings"), orderBy("starttime", "desc"), limit(20));
+            const q = query(collection(db, "event_upcomings"), orderBy("starttime", "desc"), limit(30));
             try {
                 const data = await getDocs(q);
                 setRecords(data.docs.toReversed().map((doc) => ({ ...doc.data(), id: doc.id })));   // reverse the array to sort asc of starttime

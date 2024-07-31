@@ -66,7 +66,8 @@ const IBAdmin = () => {
             <div className="ibadmin-content">
                 <li><Link to="/eventsignup">Create an upcoming activity/event (for sign up)</Link></li>
                 <li><Link to="/eventsignupmod">Modify or cancel an upcoming activity/event</Link></li>
-                <li><Link to="/eventrecords">Add an activity/event record</Link></li>
+                <li><Link to="/eventsignupcontact">Show contact list of an upcoming activity/event</Link></li>
+                <li><Link to="/eventrecords">Add an activity/event news</Link></li>
                 <li><Link to="/eventservicehour">Validate service hours of volunteers for past activities/events</Link></li>
                 <li><Link to="/eventstats">Show statistics of volunteers' service hours</Link></li>
                 <li><Link to="/eventprofile">Show statistics of users' profile info</Link></li>

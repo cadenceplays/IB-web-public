@@ -5,6 +5,7 @@ export {default as Nopage} from './Nopage';
 export {default as Contact} from './Contact';
 export {default as History} from './History';
 export {default as Ourteam} from './Ourteam';
+export {default as Ourteam20232024} from './Ourteam20232024';
 export {default as Whatwedo} from './Whatwedo';
 export {default as Volunteer} from './Volunteer';
 export {default as Pastevents} from './Pastevents';
@@ -37,6 +38,7 @@ export {default as Eventonetoone} from './Eventonetoone';
 export {default as Eventsignupmod} from './Eventsignupmod';
 export {default as Eventspecialolympics} from './Eventspecialolympics';
 export {default as Eventfcm} from './Eventfcm';
+export {default as Eventsignupcontact} from './Eventsignupcontact';
 
 export {default as Specialolympics} from './Specialolympics';
 export {default as Specialolympicsreg} from './Specialolympicsreg';

@@ -15,6 +15,30 @@ const Events = () => {
             <div className="events-container">
                 <div className="events-cell">
                     <div className="events-button">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftraining%2FWeixin%20Image_20240625101501s.jpg?alt=media&token=d155b6e1-0d67-45fe-8d03-f24322e3fd0c" alt="Training" />
+                    </div>
+                    <div className="events-button-title">
+                        Volunteer Training
+                    </div>
+                </div>
+                <div className="events-cell">
+                    <div className="events-button">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fblue_origin%2FWeixin%20Image_20240618215758.jpg?alt=media&token=df23c258-3f85-4d60-9293-fa9a493d1eaf" alt="Blue Origin" />
+                    </div>
+                    <div className="events-button-title">
+                        Blue Origin Outreach Event
+                    </div>
+                </div>
+                <div className="events-cell">
+                    <div className="events-button">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchess%2F440885827_362306603508073_4969919733407189123_n.jpg?alt=media&token=dbfcd16f-c75d-4bcf-87b2-96f63f78ea3a" alt="Blue Origin" />
+                    </div>
+                    <div className="events-button-title">
+                        Chess Tournament
+                    </div>
+                </div>                 
+                <div className="events-cell">
+                    <div className="events-button">
                         <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fnordic_ski%2F6.png?alt=media&token=a7c7e3d8-aa51-41d9-80ce-01dda9fd40fc" alt="Nordic Ski Camp" />
                     </div>
                     <div className="events-button-title">
@@ -29,30 +53,30 @@ const Events = () => {
                         Swim Meet
                     </div>
                 </div> 
-                <div className="events-cell">
+                {/* <div className="events-cell">
                     <div className="events-button">
                         <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchristmas%2FWeixin%20Image_20231204084125a.jpg?alt=media&token=f7131892-f3d7-4d5e-aee4-14e1ab808b63" alt="Christmas Party" />
                     </div>
                     <div className="events-button-title">
                         Christmas Party
                     </div>
-                </div>  
-                <div className="events-cell">
+                </div>   */}
+                {/* <div className="events-cell">
                     <div className="events-button">
                         <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FWeixin%20Image_20231119222348a.png?alt=media&token=52af2bc4-5c71-496e-adb7-264383cece6d" alt="Thanksgiving Party" />
                     </div>
                     <div className="events-button-title">
                         Thanksgiving Party
                     </div>
-                </div>    
-                <div className="events-cell">
+                </div>     */}
+                {/* <div className="events-cell">
                     <div className="events-button">
                         <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FWeixin%20Image_20231027092607a.png?alt=media&token=e4a4da56-fb2b-4039-8ffd-46a351c80e47&_gl=1*kmw611*_ga*MzEyMDY4ODEwLjE2Nzc5MDE4NTU.*_ga_CW55HF8NVT*MTY5ODQyMjk2Ny4zOTEuMS4xNjk4NDI0MTYwLjQxLjAuMA.." alt="Halloween Party" />
                     </div>
                     <div className="events-button-title">
                         Halloween Party
                     </div>
-                </div>
+                </div> */}
                 <div className="events-cell">
                     <div className="events-button">
                         <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fmicrosoft%2FWeixin%20Image_20231029134413.jpg?alt=media&token=1fc7d9c6-1edb-4fc6-98b9-632ddb88ce36&_gl=1*um68hj*_ga*MzEyMDY4ODEwLjE2Nzc5MDE4NTU.*_ga_CW55HF8NVT*MTY5ODYxMzA1Ni4zOTQuMS4xNjk4NjE0ODEyLjQ3LjAuMA.." alt="Outreach & Fundraising" />

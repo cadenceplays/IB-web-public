@@ -44,6 +44,7 @@ const Eventsignup = () => {
         photos: "",
         type: "-1",     // -1 means special (ad hoc) event; all weekly activities are put into "weeklyTemplate" array with index starting from zero
         priority: 10,
+        uniquesignup: true,
     };
     const [formValues, setFormValues] = useState(initFormValues);
 
@@ -66,6 +67,10 @@ const Eventsignup = () => {
     const onChange = (e) => {
         setFormValues({ ...formValues, [e.target.name]: e.target.value });
     };
+
+    const onChangeCheckbox = (e) => {
+        setFormValues({ ...formValues, [e.target.name]: e.target.checked });
+    }
 
     const onTemplateChange = (e) => {
         setFormValues({ ...formValues, [e.target.name]: e.target.value});
@@ -214,6 +219,7 @@ const Eventsignup = () => {
         databaseValues.servicehour = false; // check if the service hours of this activity/event has been processed, default = false 
         databaseValues.type = (formValues.type === "-1")? "special" : weeklyTemplate[formValues.type].id;
         databaseValues.priority = Number(formValues.priority);   // default value of priority is 10; If an event has higher priority, it will be displayed at the beginning of upcoming event list
+        databaseValues.uniquesignup = formValues.uniquesignup;
         activities.map((activity, key) => {
             let akey = key + 101    // akey start from 101, 102, ...
             databaseValues[akey] = activity;
@@ -415,7 +421,7 @@ const Eventsignup = () => {
                                 <div className="event_signup-templateFormInput">
                                     <label>Name</label>
                                     <input type="text" name="templatename" id="templatename" maxLength='100' value={templateFormValues.templatename} required onChange={onTemplateModify} />
-                                    <span>The time (string) in template</span>
+                                    <span>The name (string) in template</span>
 
                                     <label>Time</label>
                                     <input type="text" name="templatetime" id="templatetime" maxLength='50' value={templateFormValues.templatetime} required onChange={onTemplateModify} />
@@ -462,6 +468,11 @@ const Eventsignup = () => {
                             <label htmlFor="priority">Priority</label>
                             <input type="number" name="priority" id="priority" min="0" max="9999" value={formValues.priority} required onChange={onChange} />
                             <span>(Optional) The priority of this activity/event. Default is 10.<br />The activity/event with higher priority will be listed first.</span>
+                        </div>
+                        <div className="event_signup-formInput">
+                            <label htmlFor="uniquesignup">Unique Signup</label>
+                            <input type="checkbox" name="uniquesignup" id="uniquesignup" checked={formValues.uniquesignup} onChange={onChangeCheckbox} />
+                            <span>(Optional) If this event allows a user to sign up more than one activity. Default is No.</span>
                         </div>
                         {activities.map((activity, key) => {
                             return (

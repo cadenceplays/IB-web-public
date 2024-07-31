@@ -21,22 +21,120 @@ const Specialnews = () => {
         link: "2024-06-10T02:02:06.089Z_Wild_Waves_8446",
     }
 
-    // below are for special olympics
+    // below are for special olympics track & field
     const data3Content = {
-        link: "2024-06-11T04:15:11.000Z_Special_Ol_9712",
+        link: "2024-07-30T03:42:22.144Z_Special_Ol_7242",
     }
-
-    // below are for additional event
+    // below are for special olympics tech connect
     const data4Content = {
-        link: "2024-05-25T16:53:35.167Z_Yard_Sale_5567",
+        link: "2024-07-30T03:45:47.368Z_Special_Ol_5849",
     }    
+
+    // below is for movie night
+    const data5Content = {
+        link: "2024-07-28T22:28:08.071Z_Movie_Nigh_4094",
+    }
 
     if (showSpecial) {
         return (
 
             <>
-                {/* below are for wild waves park tour */}
-                <div className="specialnews3a">
+                {/* below are for list of special events */}
+                <div className="specialnewslist">
+                    <div className="specialnewslist-title-container">
+                        <div className="specialnewslist-title">
+                            Upcoming Special Events
+                        </div>
+                    </div>
+                    <div className="specialnewslist-container">
+
+                        <div className="specialnewslist-cell">
+                            <div className="specialnewslist-button-date">Jul 30 (Feb)</div>
+                            <div className="specialnewslist-button-title">
+                                <Link to="/upcomingweekly" state={{ data: data5Content }}>
+                                    Movie Night
+                                </Link>
+                            </div>
+                            <div className="specialnewslist-button">
+                                <Link to="/upcomingweekly" state={{ data: data5Content }}>
+                                <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2F2024-07-28T22_28_08.071Z_0_1339a.jpg?alt=media&token=65cda1bc-caae-41ae-840a-e6ed9d9a2ce9" width="100%" alt="featured" />
+                                </Link>
+                            </div>
+                        </div>
+
+                        {/* <div className="specialnewslist-cell">
+                            <div className="specialnewslist-button-date">Jul 14 (Sun)</div>
+                            <div className="specialnewslist-button-title">
+                                <Link to="/upcomingweekly" state={{ data: data2Content }}>
+                                    Wild Waves Park
+                                </Link>
+                            </div>
+                            <div className="specialnewslist-button">
+                                <Link to="/upcomingweekly" state={{ data: data2Content }}>
+                                <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fwildwave2.png?alt=media&token=cac1e46d-4e06-41b3-9a7e-7290dd67663a" width="100%" alt="featured" />
+                                </Link>
+                            </div>
+                        </div> */}
+                        
+                        {/*<div className="specialnewslist-cell">
+                            <div className="specialnewslist-button-date">Jul 20 (Sat)</div>
+                            <div className="specialnewslist-button-title">
+                                <Link to="https://www.signupgenius.com/go/10C0E4FA4AA2FABFA7-50184265-ibcommunity">
+                                    International Art Festival
+                                </Link>
+                            </div>
+                            <div className="specialnewslist-button">
+                                <Link to="https://www.signupgenius.com/go/10C0E4FA4AA2FABFA7-50184265-ibcommunity">
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FBE63B0489E1D7C36C99EE6DEA5A1044A_0.jpg?alt=media&token=7d9a7915-28f5-40d7-b904-e65bb6aa6de2" width="100%" alt="featured" />
+                                </Link>
+                            </div>
+                        </div> */}
+
+                        <div className="specialnewslist-cell">
+                            <div className="specialnewslist-button-date">Ongoing</div>
+                            <div className="specialnewslist-button-title">
+                                <Link to="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fonevsone.jpg?alt=media&token=b316f2d7-e305-4a54-a491-83e90245a958">
+                                Summer Online Tutoring
+                                </Link>
+                            </div>
+                            <div className="specialnewslist-button">
+                                <Link to="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fonevsone.jpg?alt=media&token=b316f2d7-e305-4a54-a491-83e90245a958">
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FWeixin%20Image_20240524203252.jpg?alt=media&token=08d11e97-ece1-428a-967c-d843b398dc00" width="100%" alt="featured" />
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="specialnewslist-cell">
+                            <div className="specialnewslist-button-date">Jul 1-Aug 2</div>
+                            <div className="specialnewslist-button-title">
+                                <Link to="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_records%2F2024-05-28T23%3A03%3A13.673Z_0_5676?alt=media&token=8575a3d6-ad06-4a55-a1c4-2f819e1c4e58">
+                                    Art Exhibition 
+                                </Link>
+                            </div>
+                            <div className="specialnewslist-button">
+                                <Link to="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_records%2F2024-05-28T23%3A03%3A13.673Z_0_5676?alt=media&token=8575a3d6-ad06-4a55-a1c4-2f819e1c4e58">
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2F2024-05-28T23_03_13.673Z_0_5326.jpg?alt=media&token=d12cf217-b0bd-4c71-93d1-a6141aaa0d13" width="100%" alt="featured" />
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="specialnewslist-cell">
+                            <div className="specialnewslist-button-date">Jul 29 - Aug 2 & Aug 12 - 16</div>
+                            <div className="specialnewslist-button-title">
+                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
+                                    Summer Camp
+                                </Link>
+                            </div>
+                            <div className="specialnewslist-button">
+                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FSUMMER%20CAMP%202024%20(1).png?alt=media&token=21c1f01b-e353-4529-8976-e4b1fb79366e" width="100%" alt="featured" />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* below are for wild waves park tour banner */}
+                {/* <div className="specialnews3a">
                     <Link to="/upcomingweekly" state={{ data: data2Content }}>
                         <img src={photo2bLink} width="900" alt="featured" />
                     </Link>
@@ -45,9 +143,10 @@ const Specialnews = () => {
                     <Link to="/upcomingweekly" state={{ data: data2Content }}>
                         <img src={photo2aLink} width="100%" alt="featured" />
                     </Link>
-                </div>
+                </div> */}
                 
-                {/* below are for summer camp */}
+
+                {/* below are for summer camp banner */}
                 {/* <div className="specialnews2a">
                     <Link to="/upcomingweekly" state={{ data: dataContent }}>
                         <div className="specialnews-blue-button">
@@ -64,35 +163,28 @@ const Specialnews = () => {
                 </div> */}
 
 
-
                 {/* below are for special olympics */}
                 <div className="specialnews">
+
+                    <div className="specialnews-so">
+                        <Link to="/specialolympics">
+                        <img src={featuredImg} width="300" alt="featured" />
+                        </Link>
+                    </div>
+
+                    <div className="specialnews-title">
+                        <Link to="/upcomingweekly" state={{ data: data4Content }}>
+                            Tech Connect Program
+                        </Link>
+                    </div>
+
                     <div className="specialnews-title">
                         <Link to="/upcomingweekly" state={{ data: data3Content }}>
-                            Special Olympics<br/>Track & Field<br />
+                            Track & Field Program
                         </Link>
-                        {/* <Link to="/specialolympics">
-                        Join our Special Olympics team!
-                        </Link> */}
                     </div>
-                    
-                    <Link to="/specialolympics">
-                        <div className="specialnews-blue-button">
-                            <img src={featuredImg} width="300" alt="featured" />
-                        </div>
-                    </Link>
 
                 </div>
-
-                {/* below are for addtional events */}
-                <div className="specialnews4b">
-                    <Link to="/upcomingweekly" state={{data: data4Content }}>
-                        <div className="specialnews-blue-button">
-                            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FWeixin%20Image_20240524203245.png?alt=media&token=2589bc9f-ddbb-4e47-a1b1-8b43c878a15e" width="100%" alt="featured" />
-                        </div>
-                    </Link>
-                </div>
-
             </>
 
         )

@@ -72,6 +72,23 @@ const Upcomingevents = () => {
       const newSignup = await runTransaction(db, async (transaction) => {
         const eventDoc = await transaction.get(ref);
         if (!eventDoc.exists()) return Promise.reject("Sign up submit: document does not exist!");
+
+        // check if the user has signed up this event already
+        if (eventDoc.data().uniquesignup && eventDoc.data().uniquesignup === true) {
+          let signupFound = false;
+          let tempUserID = user.email;
+          if(memberIndex > 0) tempUserID = tempUserID + "_" + memberIndex;
+          for(let i=0; i<eventDoc.data().activities; i++) {
+            eventDoc.data()[i + 101].signup.map((signupData) => {
+              console.log("signupData.email:user.email: ", signupData.email, ":", tempUserID);
+              if(signupData.email === tempUserID) {
+                signupFound = true;
+              } 
+            })
+          }
+          if(signupFound) return Promise.reject("Sign up submit: you cannot signup more than once in this event!");
+        }
+
         const availableNumbers = eventDoc.data()[key + 101].maxs - eventDoc.data()[key + 101].signup.length;  // length of "signup" array shows how many people registered this activity
         console.log("signUpSubmit: available numbers: ", availableNumbers);
         if (availableNumbers > 0) {
@@ -79,7 +96,7 @@ const Upcomingevents = () => {
           if(memberIndex > 0) tempUserID = tempUserID + "_" + memberIndex;
 
           transaction.update(ref, {
-            [`${key + 101}.signup`]: arrayUnion({email: tempUserID, name: userData[memberIndex].name, grade: userData[memberIndex].grade, comment: sComment}),  // key starts from 0, the activity id starts from 101; "email" stores the ID of the user document, not the actual email
+            [`${key + 101}.signup`]: arrayUnion({email: tempUserID, name: userData[memberIndex].name, grade: userData[memberIndex].grade, phone: userData[memberIndex].phone, comment: sComment}),  // key starts from 0, the activity id starts from 101; "email" stores the ID of the user document, not the actual email
           });
 
           return (availableNumbers - 1);
@@ -105,7 +122,7 @@ const Upcomingevents = () => {
     }
   }
 
-  const onCancelClick = (recordId, key, comment) => {
+  const onCancelClick = (recordId, key, comment, phone) => {
     if (user && user.email && (userData != null)) {
       Swal.fire({
         title: 'Confirm to Cancel',
@@ -114,7 +131,7 @@ const Upcomingevents = () => {
         confirmButtonColor: '#005D8B',
         showLoaderOnConfirm: true,
         preConfirm: () => {
-          return cancelSubmit(recordId, key, comment)
+          return cancelSubmit(recordId, key, comment, phone)
         },
       })
     } else {
@@ -129,7 +146,7 @@ const Upcomingevents = () => {
     }
   }
 
-  const cancelSubmit = async (recordId, key, comment) => {
+  const cancelSubmit = async (recordId, key, comment, phone) => {
     console.log("Cancel submit: ", recordId, "|", key);
     const ref = doc(db, "event_upcomings", recordId);
     try {
@@ -137,9 +154,15 @@ const Upcomingevents = () => {
       let tempUserID = user.email;
       if(memberIndex > 0) tempUserID = tempUserID + "_" + memberIndex;
 
-      await updateDoc(ref, {
-        [`${key + 101}.signup`]: arrayRemove({email: tempUserID, name: userData[memberIndex].name, grade: userData[memberIndex].grade, comment: comment}),  // key starts from 0, the record in Firestore starts from 101; 
-      });
+      if(phone) { // phone has a value
+        await updateDoc(ref, {
+          [`${key + 101}.signup`]: arrayRemove({email: tempUserID, name: userData[memberIndex].name, grade: userData[memberIndex].grade, phone: userData[memberIndex].phone, comment: comment}),  // key starts from 0, the record in Firestore starts from 101; 
+        });
+      } else {  // phone is none
+        await updateDoc(ref, {
+          [`${key + 101}.signup`]: arrayRemove({email: tempUserID, name: userData[memberIndex].name, grade: userData[memberIndex].grade, comment: comment}),  // key starts from 0, the record in Firestore starts from 101; 
+        });
+      }
 
     } catch (error) {
       console.log(error);
@@ -184,7 +207,7 @@ const Upcomingevents = () => {
     ifShowAlert.current = 1; // reset this useRef to default value; assume user not signed in or does not have profle
 
     const getRecords = async () => {
-      const q = query(collection(db, "event_upcomings"), orderBy("priority"), orderBy("starttime", "desc"), limit(100));
+      const q = query(collection(db, "event_upcomings"), orderBy("priority"), orderBy("starttime", "desc"), limit(150));
       try {
         const data = await getDocs(q);
         
@@ -291,6 +314,7 @@ const Upcomingevents = () => {
                   {activities.map((activity, akey) => {
                     let registered = false; // variable to check if the current user has signed up this activity
                     let registeredComment = ""; // variable to store the comment added by the current user
+                    let registeredPhone = "";   // variable to store the phone of the current user, it can be none
                     const availableSlots = activity.maxs - activity.signup.length;
                     let typeMatch = 
                       (
@@ -316,6 +340,7 @@ const Upcomingevents = () => {
                               if (userData && userData[memberIndex].name === signupData.name) { // current user has registered this activity
                                 registered = true;
                                 registeredComment = signupData.comment;
+                                if(signupData.phone) registeredPhone = signupData.phone;
                               }
                               return (
                                 <div className="upcomingevents-activity-person" key={skey}>{skey+1}.&nbsp;<b>{signupData.name}</b>&nbsp;(Grade&nbsp;{signupData.grade}): {signupData.comment.substring(5)}</div>   // the comment has "XXXX_" prefix to make each comment unique, which needs to be removed before display
@@ -325,7 +350,7 @@ const Upcomingevents = () => {
                           <div className="upcomingevents-button">
                             {typeMatch ? ( // check if the type of this activity matches the role of the current user
                               registered ?   // if user registered, show "cancel" button
-                                <Button type="button greenButton" text="&nbsp;Cancel&nbsp;" onClick={() => onCancelClick(record.id, akey, registeredComment)} />
+                                <Button type="button greenButton" text="&nbsp;Cancel&nbsp;" onClick={() => onCancelClick(record.id, akey, registeredComment, registeredPhone)} />
                                 :
                                 ((availableSlots > 0) ? // if user not signed up yet, show "full" button or "sign up" button
                                   <Button type="button blueButton" text="Sign Up" onClick={() => onSignUpClick(record.id, akey)} />

@@ -5,7 +5,8 @@ import {
   Home, 
   Contact, 
   History, 
-  Ourteam, 
+  Ourteam,
+  Ourteam20232024, 
   Whatwedo, 
   Volunteer,
   Weekly, 
@@ -33,6 +34,7 @@ import {
   Eventsignupmod,
   Eventspecialolympics,
   Eventfcm,
+  Eventsignupcontact,
   Specialolympics,
   Specialolympicsreg,
   Nopage, 
@@ -84,6 +86,7 @@ function App() {
             <Route path="contact" element={<Contact />} />
             <Route path="history" element={<History />} />
             <Route path="ourteam" element={<Ourteam />} />
+            <Route path="ourteam20232024" element={<Ourteam20232024 />} />
             <Route path="whatwedo" element={<Whatwedo />} />
             <Route path="volunteer" element={<Volunteer />} />
             <Route path="pastevents" element={<Pastevents />} />
@@ -111,6 +114,7 @@ function App() {
             <Route path="eventsignupmod" element={<Eventsignupmod />} />
             <Route path="eventspecialolympics" element={<Eventspecialolympics />} />
             <Route path="eventfcm" element={<Eventfcm />} />
+            <Route path="eventsignupcontact" element={<Eventsignupcontact />} />            
             <Route path="specialolympics" element={<Specialolympics />} />
             <Route path="specialolympicsreg" element={<Specialolympicsreg />} />
             <Route path="*" element={<Nopage />} />
