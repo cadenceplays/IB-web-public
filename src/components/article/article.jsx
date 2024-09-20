@@ -14,8 +14,8 @@ const Article = () => {
         Welcome to International Buddy!
         </div>
         <div className="article-whatwedo-content">
-          <p>We are dedicated to helping autistic children thrive despite the potential language and financial barriers, spreading awareness, gathering volunteers, and hosting activities for the children.</p>
-          <p>Check out more details about <Link to="/whatwedo" className="article-link">what we do</Link>.</p>
+          <p>We foster an inclusive and accessible community where neurodivergent children and youth are empowered to reach their full potential.</p>
+          <p>Check out more details <Link to="/whatwedo" className="article-link">about us</Link>.</p>
           <p>Have you always wondered how you can help the children? A great way to start is by volunteering! Volunteers regularly spend time with the children to make them more comfortable around others and tutor them in various subject areas.</p>
           <p>Check out our <Link to="/volunteer" className="article-link">volunteer</Link> page and <Link to="/login" className="article-link">sign in</Link> for volunteering opportunities today!</p>
         </div>

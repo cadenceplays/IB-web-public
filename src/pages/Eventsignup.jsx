@@ -44,7 +44,7 @@ const Eventsignup = () => {
         photos: "",
         type: "-1",     // -1 means special (ad hoc) event; all weekly activities are put into "weeklyTemplate" array with index starting from zero
         priority: 10,
-        uniquesignup: true,
+        uniquesignup: false,
     };
     const [formValues, setFormValues] = useState(initFormValues);
 

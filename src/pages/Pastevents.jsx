@@ -7,6 +7,7 @@ import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const Pastevents = () => {
+  const NUMBEROFNEWS = 35;
   const { user } = UserAuth();
   const [images, setImages] = useState([]);
   const [records, setRecords] = useState([]);
@@ -32,11 +33,11 @@ const Pastevents = () => {
 
   useEffect(() => {
     const getRecords = async () => {
-      const q = query(collection(db, "event_records"), orderBy("time", "desc"), limit(20));
+      const q = query(collection(db, "event_records"), orderBy("time", "desc"), limit(NUMBEROFNEWS));
       const data = await getDocs(q);
       setRecords(data.docs.map((doc) => ({...doc.data(), id: doc.id})));
       
-      let imagesTemp = Array.from({length: 20}, () => []);  // temporarily store the urls of images in the format required by the slider
+      let imagesTemp = Array.from({length: NUMBEROFNEWS}, () => []);  // temporarily store the urls of images in the format required by the slider
       data.docs.map((doc, key) => { 
         // doc.data() is never undefined for query doc snapshots
         console.log("Pastevents: ", key, " | ", doc.id, " => ", doc.data());
@@ -82,7 +83,7 @@ const Pastevents = () => {
             <div className="pastevents-text">
               <p><b>
                 {record.name} <br />
-                {monthConversion[Number(dateValue[1])]} {dateValue[2]}, {dateValue[0]} {dateTimeValue[1]} <br />
+                {monthConversion[Number(dateValue[1])]} {dateValue[2]}, {dateValue[0]}<br />
                 {record.location} <br />
               </b></p>
               <p>

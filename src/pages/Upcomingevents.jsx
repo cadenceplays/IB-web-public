@@ -6,6 +6,7 @@ import './Upcomingevents.css';
 import { Button, Line } from '../components';
 import Swal from 'sweetalert2';
 
+
 const Upcomingevents = () => {
   const { user, memberIndex } = UserAuth();
   const [userData, setUserData] = useState();
@@ -73,20 +74,25 @@ const Upcomingevents = () => {
         const eventDoc = await transaction.get(ref);
         if (!eventDoc.exists()) return Promise.reject("Sign up submit: document does not exist!");
 
-        // check if the user has signed up this event already
-        if (eventDoc.data().uniquesignup && eventDoc.data().uniquesignup === true) {
-          let signupFound = false;
-          let tempUserID = user.email;
-          if(memberIndex > 0) tempUserID = tempUserID + "_" + memberIndex;
-          for(let i=0; i<eventDoc.data().activities; i++) {
-            eventDoc.data()[i + 101].signup.map((signupData) => {
-              console.log("signupData.email:user.email: ", signupData.email, ":", tempUserID);
-              if(signupData.email === tempUserID) {
-                signupFound = true;
-              } 
-            })
+        const startTime = new Date(eventDoc.data().starttime);
+        const releaseTime = new Date(startTime.getTime() - 24*60*60*1000);     // shift start time earlier to open multiple sign ups 24 hours before the event 
+        const nowTime = new Date();
+
+        if (releaseTime > nowTime) {   // not yet release time, check if the user has signed up this event already
+          if (eventDoc.data().uniquesignup && eventDoc.data().uniquesignup === true) {
+            let signupFound = false;
+            let tempUserID = user.email;
+            if(memberIndex > 0) tempUserID = tempUserID + "_" + memberIndex;
+            for(let i=0; i<eventDoc.data().activities; i++) {
+              eventDoc.data()[i + 101].signup.map((signupData) => {
+                console.log("signupData.email:user.email: ", signupData.email, ":", tempUserID);
+                if(signupData.email === tempUserID) {
+                  signupFound = true;
+                } 
+              })
+            }
+            if(signupFound) return Promise.reject("Sign up submit: you cannot signup more than once in this event!");
           }
-          if(signupFound) return Promise.reject("Sign up submit: you cannot signup more than once in this event!");
         }
 
         const availableNumbers = eventDoc.data()[key + 101].maxs - eventDoc.data()[key + 101].signup.length;  // length of "signup" array shows how many people registered this activity
@@ -207,7 +213,7 @@ const Upcomingevents = () => {
     ifShowAlert.current = 1; // reset this useRef to default value; assume user not signed in or does not have profle
 
     const getRecords = async () => {
-      const q = query(collection(db, "event_upcomings"), orderBy("priority"), orderBy("starttime", "desc"), limit(150));
+      const q = query(collection(db, "event_upcomings"), orderBy("priority"), orderBy("starttime", "desc"), limit(200));
       try {
         const data = await getDocs(q);
         
@@ -267,8 +273,8 @@ const Upcomingevents = () => {
 
   }, [user, forceGetDocs])
 
-  console.log("upcomingevents: records: ", records);
-  console.log("upcomingevents: userData: ", userData);
+  // console.log("upcomingevents: records: ", records);
+  // console.log("upcomingevents: userData: ", userData);
   let activityIndex = 0;
 
   return (
@@ -283,8 +289,10 @@ const Upcomingevents = () => {
           const startDateValue = startDateTimeValue[0].split("-");
           const endDateTimeValue = record.endtime.split("T");
           const endDateValue = endDateTimeValue[0].split("-");
-          const startDate = new Date(record.starttime);
-          const planedDate = new Date(startDate.getTime() + 24*60*60*1000);     // shift start time to 24 hours later to make the sign up open 1 day longer
+          // const startDate = new Date(record.starttime);
+          const endDate = new Date(record.endtime);
+          // const planedDate = new Date(startDate.getTime() + 24*60*60*1000);     // shift start time to 24 hours later to make the sign up open 1 day longer
+          const planedDate = new Date(endDate.getTime() + 24*60*60*1000);   // shift end time to 24 hours later to make the sign up open 1 day longer
           const nowDate = new Date();
           let activities = [];
           for (let i = 0; i < record.activities; i++) {

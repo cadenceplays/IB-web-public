@@ -503,7 +503,7 @@ const Eventsignupmod = () => {
         }
 
         const getUpcomings = async () => {
-            const q = query(collection(db, "event_upcomings"), orderBy("starttime", "desc"), limit(30));
+            const q = query(collection(db, "event_upcomings"), orderBy("starttime", "desc"), limit(200));
             try {
                 const data = await getDocs(q);
                 setRecords(data.docs.toReversed().map((doc) => ({ ...doc.data(), id: doc.id })));   // reverse the array to sort asc of starttime
@@ -581,8 +581,8 @@ const Eventsignupmod = () => {
                         const endDateTimeValue = record.endtime.split("T");
                         const endDateValue = endDateTimeValue[0].split("-");
 
-                        const startDate = new Date(record.starttime);
-                        const planedDate = new Date(startDate.getTime() + 24 * 60 * 60 * 1000);     // shift start time to 24 hours later to make the sign up open 1 day longer
+                        const endDate = new Date(record.endtime);
+                        const planedDate = new Date(endDate.getTime() + 24 * 60 * 60 * 1000);     // shift end time to 24 hours later to make the sign up open 1 day longer
                         const nowDate = new Date();
                         
                         let activities = [];

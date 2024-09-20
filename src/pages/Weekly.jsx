@@ -283,7 +283,7 @@ const weeklyTennisImages = [
         originalHeight: PHOTO_HEIGHT,
     },
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/weekly_activities%2Ftennis%2FWeChat%20Image_20230820142616.jpg?alt=media&token=6fee3e47-8d91-4872-82bd-c5f5a232877c',
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/weekly_activities%2Ftennis%2FWeixin%20Image_20240330094707a.jpg?alt=media&token=cc273da5-dbc4-4870-9697-4303ba8446f5',
         originalHeight: PHOTO_HEIGHT,
     },
 ];
@@ -297,7 +297,7 @@ const Weekly = () => {
                     Weekly Activities
                 </div>
                 <div className="weekly_description">
-                    We arrange various types of routine weekly activities at International Buddy, including sports activities like swimming, basketball, soccer, tennis and etc, as well as non-sports activites like drawing, chess and meal preparation.<br /><br />
+                    We arrange various types of routine weekly activities at International Buddy, including sports activities like swimming, basketball, badminton, soccer, tennis and etc, as well as non-sports activites like drawing, chess, tech and meal preparation.<br /><br />
                     <Link to="/upcomingevents" className="weekly_link">Click here</Link> to sign up for our upcoming activities.
                 </div>
             </div>
@@ -328,15 +328,16 @@ const Weekly = () => {
                             Swimming
                         </div>
                         <div className="weekly_timeloc">
-                            Time: 10AM - 2:30PM, Every Sunday<br />
-                            Location: Bellevue, Issaquah & Mercer Island
+                            Time: 4PM-9PM, Saturday / 10AM-12PM, Sunday<br />
+                            Location: Issaquah, Mercer Island, Redmond, Bellevue
                         </div>
                         <div className="weekly_selfintro">
-                            Swimming is a weekly activity hosted every Sunday in three locations. The children get to learn swimming and receive guidance from our volunteers in the water. Volunteers and kids are paired together in a 1:1 format.<br />
+                            Swimming is a weekly activity hosted every weekend in four locations. The children get to learn swimming and receive guidance from our volunteers in the water. Volunteers and kids are paired together in a 1:1 format. We also have Special Olympics swimming training at Bellevue for more experienced swimmers.<br />
                             <ul>
-                                <li>Bellevue Aquatic Center (601 143rd Ave NE, Bellevue, WA 98007): 10AM - 12PM</li>
-                                <li>Julius Boehm Pool (50 SE Clark St #2, Issaquah, WA 98027): 12:30PM - 2:30PM</li>
-                                <li>Mary Wayte Pool (8815 SE 40th St, Mercer Island, WA 98040): 12:30PM - 2:30PM</li>
+                                <li><b>Julius Boehm Pool: 4PM - 6PM Saturday</b><br/>(50 SE Clark St #2, Issaquah, WA 98027)</li>
+                                <li><b>Mary Wayte Pool: 4PM - 6PM Saturday</b><br />(8815 SE 40th St, Mercer Island, WA 98040)</li>
+                                <li><b>Redmond Pool: 8PM - 9PM Saturday</b><br/>(17535 NE 104th St, Redmond, WA 98052)</li>
+                                <li><b>Bellevue Aquatic Center: 10AM - 12PM Sunday</b><br/>(601 143rd Ave NE, Bellevue, WA 98007)</li>
                             </ul>
                         </div>
                     </div>
@@ -364,17 +365,17 @@ const Weekly = () => {
                             Basketball
                         </div>
                         <div className="weekly_timeloc">
-                            Time: Every Saturday<br />
-                            Location: Bellevue or Medina, WA
+                            Time: 2PM-4PM Saturday<br />
+                            Location: Bellevue, WA
                         </div>
                         <div className="weekly_selfintro">
                             Calling all hoop enthusiasts! Join our legendary basketball team for an action-packed experience. Led by dynamic volunteers, our team is all about mastering basketball skills, nailing those impressive shots, and diving into the thrilling world of the game.<br/>
-                            Come join us each Saturday at Medina Elementary School. Sample schedule as below.<br />
-                            1:00 - 1:30 Warmup<br />
-                            1:30 - 1:45 Playground Activities<br />
-                            1:45 - 2:15 Team Competition pt. 1<br />
-                            2:15 - 2:30 Halftime/Games<br />
-                            2:30 - 3:00 Team Competition pt. 2
+                            Come join us each Saturday at Crossroads Community Center. Sample schedule as below.<br />
+                            2:00 - 2:30 Warmup<br />
+                            2:30 - 2:45 Playground Activities<br />
+                            2:45 - 3:15 Team Competition pt. 1<br />
+                            3:15 - 3:30 Halftime/Games<br />
+                            3:30 - 4:00 Team Competition pt. 2
                         </div>
                     </div>
                 </div>
@@ -401,7 +402,7 @@ const Weekly = () => {
                             Sports Activities & Reading @ Issaquah
                         </div>
                         <div className="weekly_timeloc">
-                            Time: 10AM - 12PM, Every Sunday<br />
+                            Time: 10AM-12PM, Sunday<br />
                             Location: Issaquah, WA
                         </div>
                         <div className="weekly_selfintro">
@@ -432,8 +433,8 @@ const Weekly = () => {
                             Special Olympics Training
                         </div>
                         <div className="weekly_timeloc">
-                            Time: Every Saturday<br />
-                            Location: Redmond or Bellevue, WA
+                            Time: Saturday<br />
+                            Location: Redmond, WA
                         </div>
                         <div className="weekly_selfintro">
                             Every Saturday, International Buddy invites Coach Huang from the Special Olympics to host a physical training session consisting of track and field activities and social games to prepare for the Special Olympics track and field competition in the spring.
@@ -463,14 +464,15 @@ const Weekly = () => {
                             Tennis
                         </div>
                         <div className="weekly_timeloc">
-                            Time: Every Friday & Saturday<br />
-                            Location: Bellevue & Sammamish
+                            Time: Saturday and/or Sunday<br />
+                            Location: Seattle, Mercer Island, Sammamish
                         </div>
                         <div className="weekly_selfintro">
-                        During day season, International Buddy hosts two tennis training sessions in Bellevue and Sammamish every week. Our high school varsity level volunteers will help your child to enjoy the fun of playing tennis.
+                        International Buddy hosts two tennis training sessions in Sammamish and Mercer Island/Seattle every week. Our high school varsity level volunteers will help your child to enjoy the fun of playing tennis.
                         <ul>
-                            <li>Newport High School (4333 Factoria Blvd SE, Bellevue, WA 98006): 4PM - 6PM, Every Friday</li>
-                            <li>Skyline High School (1122 228th Ave SE, Sammamish, WA 98075): 5:45PM - 7:45PM, Every Saturday</li>
+                            <li>Amy Yee Tennis Club: around 3PM-4PM, Saturday</li>
+                            <li>Mercer Island High School: around 3PM-4PM, Sunday</li>
+                            <li>Eastlake High School: around 5PM-6PM, Sunday</li>
                         </ul>
                         </div>
                     </div>
@@ -498,7 +500,7 @@ const Weekly = () => {
                             Meal Prep at Salvation Army
                         </div>
                         <div className="weekly_timeloc">
-                            Time: 4PM - 7:30PM, Every Tuesday & Thursday<br />
+                            Time: 4PM - 7:30PM, Tuesday & Thursday<br />
                             Location: 911 164th AVE NE, Bellevue, WA 98008
                         </div>
                         <div className="weekly_selfintro">
@@ -529,11 +531,11 @@ const Weekly = () => {
                             Drawing
                         </div>
                         <div className="weekly_timeloc">
-                            Time: 2PM - 4PM, Every Sunday<br />
+                            Time: 1:30PM - 3:30PM, Sunday<br />
                             Location: Microsoft Campus, Redmond
                         </div>
                         <div className="weekly_selfintro">
-                            Join us for delightful and inclusive drawing activities for our young artists led by experienced volunteers! We host drawing in the Microsoft Campus every Sunday from 2PM to 4PM. Please bring your own art supplies.
+                            Join us for delightful and inclusive drawing activities for our young artists led by experienced volunteers! We host drawing in the Microsoft Campus every Sunday. Please bring your own art supplies.
                         </div>
                     </div>
                 </div>
@@ -560,8 +562,8 @@ const Weekly = () => {
                             Chess
                         </div>
                         <div className="weekly_timeloc">
-                            Time: 4PM - 6PM, Every Friday & Sunday<br />
-                            Location: Bellevue or Redmond, WA
+                            Time: 4PM - 6PM, Sunday<br />
+                            Location: Microsoft Campus, Redmond
                         </div>
                         <div className="weekly_selfintro">
                             Calling all chess enthusiasts!<br />

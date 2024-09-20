@@ -100,7 +100,7 @@ const Navbar = () => {
           <div className="navbar-dropdown-menu">
             <div className="navbar-links-item">About</div>
             <div className="navbar-links-subitem">
-              <p><Link to="/whatwedo">What we do <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
+              <p><Link to="/whatwedo">About us <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
               <p><Link to="/ourteam">Our leaders <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
               <p><Link to="/pastevents">News <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
               <p><Link to="/history">History <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
@@ -178,7 +178,7 @@ const Navbar = () => {
           <div className="navbar-dropdown" data-dropdown>
             <div className="navbar-dropdown-link" data-dropdown-button>About <RiArrowDownSLine className="navbar-menu-ri" data-dropdown-button /></div>
             <div className="navbar-dropdown-menu">
-              <p><Link to="/whatwedo">What we do <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
+              <p><Link to="/whatwedo">About us <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
               <p><Link to="/ourteam">Our leaders <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
               <p><Link to="/pastevents">News <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
               <p><Link to="/history">History <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>

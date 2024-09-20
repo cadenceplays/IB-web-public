@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { UserAuth } from '../context/Authcontext';
 import { db } from "../firebase";
-import { collection, query, orderBy, doc, getDoc, getDocs, where } from 'firebase/firestore';
+import { collection, query, orderBy, doc, getDoc, getDocs, where, getCountFromServer } from 'firebase/firestore';
 import Swal from 'sweetalert2';
 import "./Eventprofile.css";
 import { Link } from 'react-router-dom';
@@ -64,9 +64,16 @@ const Eventprofile = () => {
             }
         }
 
+        const getUpcomingCount = async () => {
+            const coll = collection(db, "event_upcomings");
+            const snapshot = await getCountFromServer(coll);
+            console.log('upcomings count: ', snapshot.data().count);
+        }
+
         if (user && user.email) {
             getUserData();
             getProfiles();
+            getUpcomingCount();
         }
         else setUserData(null); // not login yet
 
