@@ -10,6 +10,7 @@ import { getFunctions, httpsCallable } from "firebase/functions";
 
 const Eventsignupmod = () => {
     const EMAIL_TO = "internationalbuddyweb@gmail.com";
+    const BCC_TO = "conniehuang@msn.com";  //email of Cadence Liao
     const EMAIL_SUBJECT_PREFIX = "InternationalBuddy Activity Update: ";
 
     const { user } = UserAuth();
@@ -301,6 +302,7 @@ const Eventsignupmod = () => {
 
         // get the emails of the users who signed up this activity/event
         let emailList = [];
+        emailList.push(BCC_TO);
         for (let i = 1; i <= records[eventKey].activities; i++) {
             let activityID = 100 + i;
             let numberSignedup = records[eventKey][activityID].signup.length;

@@ -100,7 +100,7 @@ const Eventsignupcontact = () => {
         return (
             <div className="event_signup_mod">
                 <div className="event_signup_mod-title">
-                    Modify or Cancel an upcoming activity/event
+                    Get the contact list of an upcoming activity/event
                 </div>
                 <div className="event_signup_mod-content">
                     <p>Please <Link to="/login">sign in</Link> first!</p>
@@ -111,7 +111,7 @@ const Eventsignupcontact = () => {
         return (
             <div className="event_signup_mod">
                 <div className="event_signup_mod-title">
-                    Modify or Cancel an upcoming activity/event
+                    Get the contact list of an upcoming activity/event
                 </div>
                 <div className="event_signup_mod-content">
                     <p>You have no right to use this page!</p>

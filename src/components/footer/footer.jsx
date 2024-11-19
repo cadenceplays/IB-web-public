@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="footer-title">
             About
           </div>
-          <p><Link to="/whatwedo">What we do<RiArrowRightSLine /></Link></p>
+          <p><Link to="/whatwedo">About us<RiArrowRightSLine /></Link></p>
           <p><Link to="/ourteam">Our leaders <RiArrowRightSLine /></Link></p>
           <p><Link to="/pastevents">News <RiArrowRightSLine /></Link></p>
           <p><Link to="/history">History <RiArrowRightSLine /></Link></p>
@@ -31,6 +31,7 @@ const Footer = () => {
           </div>
           <p><Link to="/weekly">Weekly activities <RiArrowRightSLine /></Link></p>
           <p><Link to="/specialevents">Special events <RiArrowRightSLine /></Link></p>
+          <p><Link to="/specialolympics">Special Olympics <RiArrowRightSLine /></Link></p>
           <p><Link to="/upcomingevents">Sign up for upcomings <RiArrowRightSLine /></Link></p>
         </div>
 
@@ -40,15 +41,16 @@ const Footer = () => {
           </div>
           <p><Link to="/volunteer">Volunteer <RiArrowRightSLine /></Link></p>
           <p><Link to="/donate">Donate <RiArrowRightSLine /></Link></p>
+          <p><Link to="/artgallery">Art gallery <RiArrowRightSLine /></Link></p>
         </div>
 
         <div className="footer-text-container">
           <div className="footer-title">
             Resource
           </div>
-          <p><Link to="/documents">Related Documents <RiArrowRightSLine /></Link></p>
+          <p><Link to="/documents">Related documents <RiArrowRightSLine /></Link></p>
           <p><Link to="/training">Volunteer training <RiArrowRightSLine /></Link></p>
-          <p><a href="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/manual%2FIB%20Web%20Quick%20Manual.pdf?alt=media&token=e727a1b4-4081-4927-a2a4-6bad6bd6c60d" download="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/manual%2FIB%20Web%20Quick%20Manual.pdf?alt=media&token=e727a1b4-4081-4927-a2a4-6bad6bd6c60d" target="_blank" rel="noopener">Website Quick Manual <RiArrowRightSLine /></a></p>
+          <p><a href="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/manual%2FIB%20Web%20Quick%20Manual.pdf?alt=media&token=e727a1b4-4081-4927-a2a4-6bad6bd6c60d" download="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/manual%2FIB%20Web%20Quick%20Manual.pdf?alt=media&token=e727a1b4-4081-4927-a2a4-6bad6bd6c60d" target="_blank" rel="noopener">Website quick manual <RiArrowRightSLine /></a></p>
         </div>
 
       </div>

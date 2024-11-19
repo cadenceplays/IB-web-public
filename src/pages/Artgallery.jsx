@@ -42,7 +42,11 @@ const Artgallery = () => {
                                 <img src={record.link} alt={record.name} />
                             </div>
                             <div className="artgallery-content-text">
-                                <p><b>{record.name}</b><br/>By <b>{record.author}</b></p>
+                                {record.name?
+                                    <p><b>{record.name}</b><br/>By <b>{record.author}</b></p>
+                                    :
+                                    <p>By <b>{record.author}</b></p>
+                                }
                             </div>
                         </div>
                     )

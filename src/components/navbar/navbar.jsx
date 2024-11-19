@@ -119,14 +119,14 @@ const Navbar = () => {
             <div className="navbar-links-subitem">
               <p><Link to="/volunteer">Volunteer <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
               <p><Link to="/donate">Donate <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
-              <p><Link to="/artgallery">Art Gallery <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
+              <p><Link to="/artgallery">Art gallery <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
             </div>
 
             <div className="navbar-links-item">Resource</div>
             <div className="navbar-links-subitem">
               <p><Link to="/documents">Related documents <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
               <p><Link to="/training">Volunteer training <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
-              <p><a href="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/manual%2FIB%20Web%20Quick%20Manual.pdf?alt=media&token=e727a1b4-4081-4927-a2a4-6bad6bd6c60d" download="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/manual%2FIB%20Web%20Quick%20Manual.pdf?alt=media&token=e727a1b4-4081-4927-a2a4-6bad6bd6c60d" target="_blank" rel="noopener">Website Quick Manual <RiArrowRightSLine className="navbar-menu-ri" /></a></p>
+              <p><a href="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/manual%2FIB%20Web%20Quick%20Manual.pdf?alt=media&token=e727a1b4-4081-4927-a2a4-6bad6bd6c60d" download="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/manual%2FIB%20Web%20Quick%20Manual.pdf?alt=media&token=e727a1b4-4081-4927-a2a4-6bad6bd6c60d" target="_blank" rel="noopener">Website quick manual <RiArrowRightSLine className="navbar-menu-ri" /></a></p>
             </div>
             
             <div className="navbar-links-item">User</div>
@@ -201,7 +201,7 @@ const Navbar = () => {
             <div className="navbar-dropdown-menu">
               <p><Link to="/volunteer">Volunteer <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
               <p><Link to="/donate">Donate <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
-              <p><Link to="/artgallery">Art Gallery <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
+              <p><Link to="/artgallery">Art gallery <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
             </div>
           </div>
 
@@ -210,7 +210,7 @@ const Navbar = () => {
             <div className="navbar-dropdown-menu">
               <p><Link to="/documents">Related documents <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
               <p><Link to="/training">Volunteer training <RiArrowRightSLine className="navbar-menu-ri" /></Link></p>
-              <p><a href="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/manual%2FIB%20Web%20Quick%20Manual.pdf?alt=media&token=e727a1b4-4081-4927-a2a4-6bad6bd6c60d" download="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/manual%2FIB%20Web%20Quick%20Manual.pdf?alt=media&token=e727a1b4-4081-4927-a2a4-6bad6bd6c60d" target="_blank" rel="noopener">Website Quick Manual <RiArrowRightSLine className="navbar-menu-ri" /></a></p>
+              <p><a href="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/manual%2FIB%20Web%20Quick%20Manual.pdf?alt=media&token=e727a1b4-4081-4927-a2a4-6bad6bd6c60d" download="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/manual%2FIB%20Web%20Quick%20Manual.pdf?alt=media&token=e727a1b4-4081-4927-a2a4-6bad6bd6c60d" target="_blank" rel="noopener">Website quick manual <RiArrowRightSLine className="navbar-menu-ri" /></a></p>
             </div>
           </div>
 

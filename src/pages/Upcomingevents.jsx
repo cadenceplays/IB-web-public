@@ -11,8 +11,10 @@ const Upcomingevents = () => {
   const { user, memberIndex } = UserAuth();
   const [userData, setUserData] = useState();
   const [records, setRecords] = useState([]);
+  const [showContact, setShowContact] = useState([0]);
   const [forceGetDocs, setForceGetDocs] = useState(0);
   const ifShowAlert = useRef(1); // show alert if user not signed in, or user does not have profile, or user role not match
+
 
   const monthConversion = [
     "", // this is [0], no use
@@ -36,21 +38,51 @@ const Upcomingevents = () => {
 
   const onSignUpClick = (recordId, key) => {
     if (user && user.email && (userData != null)) {
-      Swal.fire({
-        title: 'Confirm Your Sign Up',
-        inputLabel: 'Comment (optional): ',
-        input: 'text',
-        inputAttributes: {
-          autocapitalize: 'off'
-        },
-        showCancelButton: true,
-        confirmButtonText: 'Confirm',
-        confirmButtonColor: '#005D8B',
-        showLoaderOnConfirm: true,
-        preConfirm: (comment) => {
-          return signUpSubmit(recordId, key, comment)
-        },
-      })
+      if (userData[memberIndex].role === "Volunteer") {
+        if (userData[memberIndex].locked === true) {
+          Swal.fire({
+            title: 'Warning',
+            html: `Your account is locked. Please contact <br/><a href="mailto: support@internationalbuddy.org">support@internationalbuddy.org</a><br/> to unlock your account.`,
+            icon: 'warning',
+            iconColor: '#A5C727',
+            confirmButtonText: 'OK',
+            confirmButtonColor: '#A5C727'
+          });
+        } else {
+          Swal.fire({
+            title: 'Confirm Your Sign Up',
+            html: `Once signed up, you are committed to this activity. If, for any reason, you cannot make it, please cancel asap. If you will be late, please text your captain exactly how many minutes you will be. <br/><b>No show will cause your account to be locked.</b><br/> You will need to contact <br/><a href="mailto: support@internationalbuddy.org">support@internationalbuddy.org</a><br/> to unlock your account. <br/><br/>Add (optional) comment below: `,
+            padding: "1em",
+            input: 'text',
+            inputAttributes: {
+              autocapitalize: 'off'
+            },
+            showCancelButton: true,
+            confirmButtonText: 'Confirm',
+            confirmButtonColor: '#005D8B',
+            showLoaderOnConfirm: true,
+            preConfirm: (comment) => {
+              return signUpSubmit(recordId, key, comment)
+            },
+          })
+        }
+      } else {
+        Swal.fire({
+          title: 'Confirm Your Sign Up',
+          inputLabel: 'Comment (optional): ',
+          input: 'text',
+          inputAttributes: {
+            autocapitalize: 'off'
+          },
+          showCancelButton: true,
+          confirmButtonText: 'Confirm',
+          confirmButtonColor: '#005D8B',
+          showLoaderOnConfirm: true,
+          preConfirm: (comment) => {
+            return signUpSubmit(recordId, key, comment)
+          },
+        })
+      }
     } else {
       Swal.fire({
         title: 'Warning',
@@ -209,17 +241,28 @@ const Upcomingevents = () => {
     }
   }
 
+  const onShowContactClick = (key) => {
+    let tempShowContact = showContact;
+    tempShowContact[key] = 2; 
+    setShowContact({...tempShowContact});
+  }
+
+  const onHideContactClick = (key) => {
+    let tempShowContact = showContact;
+    tempShowContact[key] = 1; 
+    setShowContact({...tempShowContact});
+  }
+
   useEffect(() => {
     ifShowAlert.current = 1; // reset this useRef to default value; assume user not signed in or does not have profle
 
     const getRecords = async () => {
-      const q = query(collection(db, "event_upcomings"), orderBy("priority"), orderBy("starttime", "desc"), limit(200));
+      const q = query(collection(db, "event_upcomings"), orderBy("priority"), orderBy("starttime", "desc"), limit(100));
       try {
         const data = await getDocs(q);
         
         // setRecords(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
         setRecords(data.docs.toReversed().map((doc) => ({ ...doc.data(), id: doc.id }))); // reverse the array to sort asc of starttime
-        
         // data.docs.map((doc, key) => {
         //   // doc.data() is never undefined for query doc snapshots
         //   console.log("upcomingevents: getRecords: ", key, " | ", doc.id, " => ", doc.data());
@@ -246,7 +289,7 @@ const Upcomingevents = () => {
       try {
           const docSnap = await getDocs(q);
           docSnap.forEach((doc) => {
-              console.log(doc.id, " => ", doc.data());
+              // console.log(doc.id, " => ", doc.data());
               tempUserData.push(doc.data());
           });
           setUserData(tempUserData);
@@ -265,16 +308,64 @@ const Upcomingevents = () => {
       }
     }
 
-    console.log("upcomingevents: useEffect");
-    
     getRecords();
     if (user && user.email) getUserData();
     else setUserData(null); // not login yet
 
   }, [user, forceGetDocs])
 
-  // console.log("upcomingevents: records: ", records);
-  // console.log("upcomingevents: userData: ", userData);
+
+  useEffect (() => {
+
+    const initShowContact = () => {
+      let userID = "";
+      let tempShowContact = showContact;
+      if(userData && userData[memberIndex].email) {
+        if(memberIndex === 0) userID = userData[memberIndex].email;
+        else userID = userData[memberIndex].email + "_" + memberIndex;
+      }
+  
+      records.map((record, key) => {
+  
+        let activities = [];
+        for (let i = 0; i < record.activities; i++) {
+          activities[i] = record[i + 101];
+        }
+  
+        let found = false;
+
+        // if the current user is the captain of the event, then the user can check the contact info of this event
+        if(record.captain && record.captain.email) {
+          console.log("captain: ", record.captain, " | userID: ", userID);
+          if(userID === record.captain.email) {
+            found = true;
+          }
+        }
+
+        // go through the signup data to check if the current user has signed up. if so, the user can check the contact info of this event
+        activities.map((activity, akey) => {
+          activity.signup.map((signupData, skey) => {
+            if (userID === signupData.email) { 
+              found = true;                                                          
+            }
+          })
+        })
+
+        if(found && (tempShowContact[key] != 2)) tempShowContact[key] = 1;  // 1 means that user has right to show contact; 2 means that user turned on contact already
+        else if (!found) tempShowContact[key] = 0;                          // if it's already 2, we don't change that here
+  
+      })
+  
+      console.log("tempShowContact: ", tempShowContact);
+      setShowContact({...tempShowContact});
+    }
+
+    if(user && user.email) {
+      initShowContact();    // check which events have the current user signed up; for these events, the user can turn on contact list
+    }
+  }, [user, userData, memberIndex, records])
+
+
   let activityIndex = 0;
 
   return (
@@ -316,6 +407,20 @@ const Upcomingevents = () => {
                   <p>
                     {record.description}
                   </p>
+                  <p>
+                      {(showContact[key]===1)?
+                        <Button type="button whiteButton" text="View Contacts" onClick={() => onShowContactClick(key)}/> 
+                        : 
+                        ((showContact[key]===2)?
+                          <>
+                            <Button type="button whiteButton" text="Hide Contacts" onClick={() => onHideContactClick(key)} />
+                            {(record.captain && record.captain.name)&&<div className="upcomingevents-activity-person"><b>Captain</b>: {record.captain.name}<br/><b>Phone</b>: {record.captain.phone}</div>}
+                          </>
+                          :
+                          <></>
+                        )
+                      }
+                  </p>
                 </div>
                 <div className="upcomingevents-text">
 
@@ -351,7 +456,10 @@ const Upcomingevents = () => {
                                 if(signupData.phone) registeredPhone = signupData.phone;
                               }
                               return (
-                                <div className="upcomingevents-activity-person" key={skey}>{skey+1}.&nbsp;<b>{signupData.name}</b>&nbsp;(Grade&nbsp;{signupData.grade}): {signupData.comment.substring(5)}</div>   // the comment has "XXXX_" prefix to make each comment unique, which needs to be removed before display
+                                (showContact[key]===2)?
+                                <div className="upcomingevents-activity-person" key={skey}>{skey+1}.&nbsp;<b>{signupData.name}</b>&nbsp;(Grade&nbsp;{signupData.grade}): <br/>&nbsp;&nbsp;&nbsp;{signupData.phone}</div>
+                                  :
+                                <div className="upcomingevents-activity-person" key={skey}>{skey+1}.&nbsp;<b>{signupData.name}</b>&nbsp;(Grade&nbsp;{signupData.grade}): <br/>{signupData.comment.substring(5)}</div>   // the comment has "XXXX_" prefix to make each comment unique, which needs to be removed before display
                               )
                             })}
                           </div>

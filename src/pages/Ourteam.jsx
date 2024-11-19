@@ -213,6 +213,22 @@ I am excited to continue supporting the special needs community and helping it t
       <Line color="--green-color" width="100%" />
       <div className="ourteam_container1">
         <div className="ourteam_photo">
+          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FElaine%20Sin.jpg?alt=media&token=4bd2a1db-646e-4910-9954-0a72ea19c1fb" alt="self" />
+        </div>
+        <div className="ourteam_content">
+          <div className="ourteam_name">
+          Elaine Sin<br />
+          Art Captain
+          </div>
+          <div className="ourteam_selfintro">
+          Hello, my name is Elaine Sin and I am a senior at Bellevue High School for the 2024-2025 school year. I love drawing, as I grew up in my parents' art studio and have pursued it my entire life. Starting with watercolor painting in elementary school and working with various mediums such as pastel, graphite, acrylic paint, and oil paint, I enjoyed all of them, especially acrylic. I first joined IB as a volunteer in Spring 2024 in hopes that I could share my passion with the drawing group. As the current leader of the IB drawing group, I am honored to be able to help kids express themselves artistically. This summer, and continuing on, I've been experimenting with different art projects and methods that best suit neurodivergent needs. I've learned a lot so far and still am learning. I am dedicated to our art program and am excited to keep empowering kids through their creative side!
+          </div>
+        </div>
+      </div>
+
+      <Line color="--green-color" width="100%" />
+      <div className="ourteam_container2">
+        <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FAiden%20Li.JPG?alt=media&token=f52ac43d-adf9-403d-abb8-bf7012df5a02" alt="self" />
         </div>
         <div className="ourteam_content">
@@ -227,7 +243,7 @@ I am excited to continue supporting the special needs community and helping it t
       </div>
 
       <Line color="--green-color" width="100%" />
-      <div className="ourteam_container2">
+      <div className="ourteam_container1">
         <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FChanning%20Huang.JPG?alt=media&token=35385f04-3dcc-4228-9b9f-a401fa823f0c" alt="self" />
         </div>
@@ -243,7 +259,7 @@ I am excited to continue supporting the special needs community and helping it t
       </div>
 
       <Line color="--green-color" width="100%" />
-      <div className="ourteam_container1">
+      <div className="ourteam_container2">
         <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FAlvin%20Chang.JPG?alt=media&token=f319e158-0b93-4e96-aa54-338805002d75" alt="self" />
         </div>
@@ -259,7 +275,7 @@ I am excited to continue supporting the special needs community and helping it t
       </div>
 
       <Line color="--green-color" width="100%" />
-      <div className="ourteam_container2">
+      <div className="ourteam_container1">
         <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FIvan%20Pong.JPG?alt=media&token=541d1f21-cdea-440b-9d76-eb90b6b1a5ac" alt="self" />
         </div>
@@ -275,7 +291,7 @@ I am excited to continue supporting the special needs community and helping it t
       </div>
 
       <Line color="--green-color" width="100%" />
-      <div className="ourteam_container1">
+      <div className="ourteam_container2">
         <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FElliott%20Webb.JPG?alt=media&token=8e36b296-94fc-4253-8c7a-c18c9c4540f6" alt="self" />
         </div>
@@ -291,7 +307,7 @@ I am excited to continue supporting the special needs community and helping it t
       </div>
 
       <Line color="--green-color" width="100%" />
-      <div className="ourteam_container2">
+      <div className="ourteam_container1">
         <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FDerek%20Li.JPG?alt=media&token=c7d79803-e069-4b2a-8b7a-48401c844b00" alt="self" />
         </div>
@@ -307,7 +323,7 @@ I am excited to continue supporting the special needs community and helping it t
       </div>
 
       <Line color="--green-color" width="100%" />
-      <div className="ourteam_container1">
+      <div className="ourteam_container2">
         <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FJennifer%20Xue.JPG?alt=media&token=2c5633af-bbe8-42c9-aead-5a143ef28bd2" alt="self" />
         </div>
@@ -323,7 +339,7 @@ I am excited to continue supporting the special needs community and helping it t
       </div>
 
       <Line color="--green-color" width="100%" />
-      <div className="ourteam_container2">
+      <div className="ourteam_container1">
         <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FCloris%20Wang.JPG?alt=media&token=702affb3-be0b-453d-8fa1-4259dd0c20a3" alt="self" />
         </div>
@@ -339,7 +355,7 @@ I am excited to continue supporting the special needs community and helping it t
       </div>
 
       <Line color="--green-color" width="100%" />
-      <div className="ourteam_container1">
+      <div className="ourteam_container2">
         <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FAlex%20Kang.JPG?alt=media&token=805cf6c6-2de8-472c-8c66-15db7187b510" alt="self" />
         </div>
@@ -355,7 +371,7 @@ I am excited to continue supporting the special needs community and helping it t
       </div>
 
       <Line color="--green-color" width="100%" />
-      <div className="ourteam_container2">
+      <div className="ourteam_container1">
         <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FJulia%20Shang.JPG?alt=media&token=c4ab015e-1973-4cd8-881f-913debff41f3" alt="self" />
         </div>
@@ -371,7 +387,7 @@ I am excited to continue supporting the special needs community and helping it t
       </div>
 
       <Line color="--green-color" width="100%" />
-      <div className="ourteam_container1">
+      <div className="ourteam_container2">
         <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FEmily%20Zheng.JPG?alt=media&token=aa5636f9-ba80-4bc2-a927-63346180857c" alt="self" />
         </div>
@@ -387,7 +403,7 @@ I am excited to continue supporting the special needs community and helping it t
       </div>
 
       <Line color="--green-color" width="100%" />
-      <div className="ourteam_container2">
+      <div className="ourteam_container1">
         <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FTimothy%20Liao.JPG?alt=media&token=b3ad0cec-fb64-4ee3-8a9e-b6155e05e7a1" alt="self" />
         </div>
@@ -403,7 +419,7 @@ I am excited to continue supporting the special needs community and helping it t
       </div>
 
       <Line color="--green-color" width="100%" />
-      <div className="ourteam_container1">
+      <div className="ourteam_container2">
         <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FAlexandra%20Deschenes.JPG?alt=media&token=682b7296-7413-4aff-905d-188acdf9a049" alt="self" />
         </div>
@@ -419,7 +435,7 @@ I am excited to continue supporting the special needs community and helping it t
       </div>
 
       <Line color="--green-color" width="100%" />
-      <div className="ourteam_container2">
+      <div className="ourteam_container1">
         <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FCelena%20Zhang.jpg?alt=media&token=12ec2592-69f9-4445-b8fa-7ed0fb1b4edf" alt="self" />
         </div>
@@ -435,7 +451,7 @@ I am excited to continue supporting the special needs community and helping it t
       </div>
 
       <Line color="--green-color" width="100%" />
-      <div className="ourteam_container1">
+      <div className="ourteam_container2">
         <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FIsabella%20Guan.JPG?alt=media&token=a4607395-517a-4440-bf15-6dcd393e17ed" alt="self" />
         </div>
@@ -452,7 +468,7 @@ With a passion for creativity and technology, I aim to provide innovative and ef
       </div>
 
       <Line color="--green-color" width="100%" />
-      <div className="ourteam_container2">
+      <div className="ourteam_container1">
         <div className="ourteam_photo">
           <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FKaicheng%20Shen.JPG?alt=media&token=62f17c21-6f7f-4b40-9b97-a125694474e8" alt="self" />
         </div>

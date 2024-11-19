@@ -39,7 +39,7 @@ const Events = () => {
                 </div>                 
                 <div className="events-cell">
                     <div className="events-button">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fnordic_ski%2F6.png?alt=media&token=a7c7e3d8-aa51-41d9-80ce-01dda9fd40fc" alt="Nordic Ski Camp" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fnordic_ski%2FWeixin%20Image_20240310184637a.jpg?alt=media&token=c5aaeafa-50fa-40f3-9ff9-857bd14e9853" alt="Nordic Ski Camp" />
                     </div>
                     <div className="events-button-title">
                         Nordic Ski Camp

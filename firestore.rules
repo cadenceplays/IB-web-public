@@ -9,6 +9,7 @@ service cloud.firestore {
       || userEmail == "hzslmc@gmail.com"
       || userEmail == "support@internationalbuddy.org"
       || userEmail == "internationalbuddyweb@gmail.com"
+      || userEmail == "cadencel2019@outlook.com"
       || userEmail == "kaicheng.bear@gmail.com");
     }
   

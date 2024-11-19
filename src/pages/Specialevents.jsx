@@ -38,44 +38,13 @@ const specialFencingImages = [
     },
 ];
 
-const specialBadmintonImages = [
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fbadminton%2F2023-07-20T04_18_40.157Z_0_8719.jpg?alt=media&token=3d529059-0da9-474d-a2aa-7831308477b2',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fbadminton%2F2023-07-20T04_18_40.157Z_1_6314.jpg?alt=media&token=a7e58ada-9960-4db0-8fe8-9605cfea49ee',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fbadminton%2F2023-07-20T04_18_40.157Z_2_8617.jpg?alt=media&token=20394c01-ed96-4071-8caa-20fb8f5ea1c4',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fbadminton%2F2023-07-20T04_18_40.157Z_4_8016.jpg?alt=media&token=a0759daf-78ec-422f-9028-38dace85fd7d',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fbadminton%2FWeChat%20Image_20230819182147.jpg?alt=media&token=f2d5344d-6d0a-4790-b347-ba3987ccdbc6',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fbadminton%2FWeChat%20Image_20230819182158.jpg?alt=media&token=e72a602e-eb26-48da-9b91-1e3ef5c2e888',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fbadminton%2FWeChat%20Image_20230819182202.jpg?alt=media&token=60582082-1e39-4a86-95f5-abb66bd9a06c',
-        originalHeight: PHOTO_HEIGHT,
-    },
-];
-
 const specialWildWavesImages = [
     {
         original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fwild_waves%2F2023-07-20T04_21_25.822Z_1_3272.jpg?alt=media&token=66877dca-2446-4308-bd55-63569ea58afe',
         originalHeight: PHOTO_HEIGHT,
     },
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fwild_waves%2F2023-07-20T04_21_25.822Z_2_7194.jpg?alt=media&token=f8646e0a-fa1d-4e5c-ae60-30e7ebdb0bdb',
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fwild_waves%2FaWeixin%20Image_20240716100713.jpg?alt=media&token=4947bfef-00e5-4be6-b029-8ac6e1339e36',
         originalHeight: PHOTO_HEIGHT,
     },
     {
@@ -83,7 +52,7 @@ const specialWildWavesImages = [
         originalHeight: PHOTO_HEIGHT,
     },
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fwild_waves%2F2023-07-20T04_21_25.822Z_5_3899.jpg?alt=media&token=b6e7699a-adfd-479b-8f70-881bc3c92472',
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fwild_waves%2FaWeixin%20Image_20240630213407.jpg?alt=media&token=c96a58ec-a90b-4a9e-a50e-01d603bfa84d',
         originalHeight: PHOTO_HEIGHT,
     },
     {
@@ -92,6 +61,14 @@ const specialWildWavesImages = [
     },
     {
         original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fwild_waves%2FWeChat%20Image_20230819181115.jpg?alt=media&token=8a87aaaf-068e-45c4-a1f8-063cb9178d45',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fwild_waves%2FaWeixin%20Image_20240716100659.jpg?alt=media&token=6e33aa92-7a0a-46ab-a8d1-496e6f6456af',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fwild_waves%2FaWeixin%20Image_20240630213354.jpg?alt=media&token=463733d3-78d0-406d-8be5-c6e66d901a63',
         originalHeight: PHOTO_HEIGHT,
     },
     {
@@ -106,15 +83,23 @@ const specialWildWavesImages = [
 
 const specialGarageSaleImages = [
     {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fgarage_sale%2FWeixin%20Image_20240924123641.jpg?alt=media&token=35178aff-b8f5-4ce1-80ee-bbcf84afbcf6',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fgarage_sale%2FWeixin%20Image_20240924123650.jpg?alt=media&token=1dd0f8b7-1931-49bd-9b68-471a216b4b6b',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
         original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fgarage_sale%2F2023-07-20T04_12_36.335Z_0_6637.jpg?alt=media&token=b80aa036-8d2f-4f62-aad4-66a94aac04a0',
         originalHeight: PHOTO_HEIGHT,
     },
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fgarage_sale%2F2023-07-20T04_12_36.335Z_1_259.jpg?alt=media&token=390caadf-9190-4df9-80ac-cef19147807f',
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fgarage_sale%2FaWeixin%20Image_20240924123700.jpg?alt=media&token=a3a24c10-d535-4868-a909-605d126b00ed',
         originalHeight: PHOTO_HEIGHT,
     },
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fgarage_sale%2F2023-07-20T04_12_36.335Z_2_3385.jpg?alt=media&token=88e7d3f4-7ba6-4909-9185-29af54fb2a10',
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fgarage_sale%2FWeixin%20Image_20240924113749.jpg?alt=media&token=09ecdd5f-9232-405c-af59-252da457630f',
         originalHeight: PHOTO_HEIGHT,
     },
     {
@@ -145,7 +130,7 @@ const specialPartyImages = [
         originalHeight: PHOTO_HEIGHT,
     },
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fappciation_party%2F2023-07-20T03_05_47.144Z_2_1249.jpg?alt=media&token=52cbcd9c-f40e-4cd7-bc59-771b2cd337b6',
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fappciation_party%2FaGE3A0483.JPG?alt=media&token=6b06b72a-58ef-4ec7-8ca6-2bdd3131911a',
         originalHeight: PHOTO_HEIGHT,
     },
     {
@@ -153,7 +138,7 @@ const specialPartyImages = [
         originalHeight: PHOTO_HEIGHT,
     },
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fappciation_party%2F2023-07-20T03_05_47.144Z_5_69.jpg?alt=media&token=ad21aa17-4197-4be7-9d1a-4cb04b2d6ccd',
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fappciation_party%2FaGE3A0615.JPG?alt=media&token=eeca8aaa-d479-4df2-98aa-3a0db09800ed',
         originalHeight: PHOTO_HEIGHT,
     },
     {
@@ -161,7 +146,7 @@ const specialPartyImages = [
         originalHeight: PHOTO_HEIGHT,
     },
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fappciation_party%2FWeChat%20Image_20230820143044_crop.jpg?alt=media&token=2ffeb3b1-981f-4e03-be64-7f8205dae802',
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fappciation_party%2FaGE3A0558.JPG?alt=media&token=688f5a59-e4b8-4e90-8e2f-e3220254b5b8',
         originalHeight: PHOTO_HEIGHT,
     },
     {
@@ -192,11 +177,11 @@ const summerCampImages = [
         originalHeight: PHOTO_HEIGHT,
     },
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp%2FWeChat%20Image_20230820140602.jpg?alt=media&token=dc1fa63b-35d9-42f4-8d56-cc1268c11faa',
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp_2024%2FaWeixin%20Image_20240731105639.jpg?alt=media&token=7c72faa2-a898-4c22-b6c9-43ec948182f6',
         originalHeight: PHOTO_HEIGHT,
     },
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp%2FWeChat%20Image_20230820140608.jpg?alt=media&token=e3f6a612-94a0-4843-abd0-0c780d8c1bd8',
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp_2024%2FaWeixin%20Image_20240815155354.jpg?alt=media&token=bc219457-1a2e-4393-bd77-ed32add2dfbc',
         originalHeight: PHOTO_HEIGHT,
     },
     {
@@ -212,7 +197,7 @@ const summerCampImages = [
         originalHeight: PHOTO_HEIGHT,
     },
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp%2FWeChat%20Image_20230820140755_crop.jpg?alt=media&token=30af8c66-0379-4e84-b169-72cf4d652cf6',
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp_2024%2FaWeixin%20Image_20240815202451.jpg?alt=media&token=9ade2c09-583c-4b97-85c0-5563079bc2b3',
         originalHeight: PHOTO_HEIGHT,
     },
 ];
@@ -234,11 +219,39 @@ const specialMicrosoftImages = [
         original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fmicrosoft%2FWeixin%20Image_20231029134429a.jpg?alt=media&token=30773e83-324c-4462-ba0d-8d7c69610919&_gl=1*175wxgh*_ga*MzEyMDY4ODEwLjE2Nzc5MDE4NTU.*_ga_CW55HF8NVT*MTY5ODYxMzA1Ni4zOTQuMS4xNjk4NjEzNTg0LjI3LjAuMA..',
         originalHeight: PHOTO_HEIGHT,
     },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fmicrosoft%2FWeixin%20Image_20240620151755s.jpg?alt=media&token=7e0fa72e-3768-49c2-8d49-30673e7ed1a5',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fmicrosoft%2FWeixin%20Image_20240620151820s.jpg?alt=media&token=2c2afc86-89c0-4885-a024-731c79a885ec',
+        originalHeight: PHOTO_HEIGHT,
+    },
 ];
 
-const specialHalloweenImages = [
+const specialChristmasImages = [
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fhalloween%2FWeixin%20Image_20231027092607a.jpg?alt=media&token=f0d29748-2c60-4686-9221-8ed5bfdf989f&_gl=1*tyvqcj*_ga*MzEyMDY4ODEwLjE2Nzc5MDE4NTU.*_ga_CW55HF8NVT*MTY5ODYxMzA1Ni4zOTQuMS4xNjk4NjEzNTAyLjQ5LjAuMA..',
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchristmas%2FWeixin%20Image_20231210213627.jpg?alt=media&token=4c7f324a-68b7-49aa-a293-b90f46015ef8',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchristmas%2FWeixin%20Image_20231210213649a.jpg?alt=media&token=0f64b151-6801-4812-ad38-da857bea908f',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchristmas%2FWeixin%20Image_20231210213743.jpg?alt=media&token=8aa4564e-05c2-4747-ba63-a6222b30f0fc',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchristmas%2FWeixin%20Image_20231210213605.jpg?alt=media&token=cd9a8507-5bfc-4fa1-8f1f-f911e411291a',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fthanksgiving%2FWeixin%20Image_20231126163406.jpg?alt=media&token=6391027e-fc5a-4690-af54-5a47f4250f2e',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fthanksgiving%2FWeixin%20Image_20231126163429.jpg?alt=media&token=ff8a4b9c-4dbc-46a3-8524-6b88ddced555',
         originalHeight: PHOTO_HEIGHT,
     },
     {
@@ -250,93 +263,11 @@ const specialHalloweenImages = [
         originalHeight: PHOTO_HEIGHT,
     },
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fhalloween%2FWeixin%20Image_20231029134319a.jpg?alt=media&token=83015d13-94c7-4208-ad10-116c4381875b&_gl=1*x223tr*_ga*MzEyMDY4ODEwLjE2Nzc5MDE4NTU.*_ga_CW55HF8NVT*MTY5ODYxMzA1Ni4zOTQuMS4xNjk4NjEzNTM5LjEyLjAuMA..',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
         original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fhalloween%2FWeixin%20Image_20231029142118a.jpg?alt=media&token=b75b3874-749a-486c-8a3d-e938bd496b11&_gl=1*ovdpjy*_ga*MzEyMDY4ODEwLjE2Nzc5MDE4NTU.*_ga_CW55HF8NVT*MTY5ODYxMzA1Ni4zOTQuMS4xNjk4NjE0NTM4LjQ4LjAuMA..',
         originalHeight: PHOTO_HEIGHT,
     },
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fhalloween%2FWeixin%20Image_20231029153959.jpg?alt=media&token=5a2baf30-577a-4f2c-b015-4f7961ee0c91&_gl=1*wgknd3*_ga*MzEyMDY4ODEwLjE2Nzc5MDE4NTU.*_ga_CW55HF8NVT*MTY5ODYxOTIyMi4zOTUuMS4xNjk4NjE5MjQwLjQyLjAuMA..',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
         original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fhalloween%2FWeixin%20Image_20231029154005.jpg?alt=media&token=ab593c81-30ce-438e-8376-2cbe26dc3a75&_gl=1*gneswg*_ga*MzEyMDY4ODEwLjE2Nzc5MDE4NTU.*_ga_CW55HF8NVT*MTY5ODYxOTIyMi4zOTUuMS4xNjk4NjE5Mjg0LjYwLjAuMA..',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fhalloween%2FWeixin%20Image_20231029154010.jpg?alt=media&token=bd5de87c-c11b-441d-9391-7f75918505cf&_gl=1*784b1e*_ga*MzEyMDY4ODEwLjE2Nzc5MDE4NTU.*_ga_CW55HF8NVT*MTY5ODYxOTIyMi4zOTUuMS4xNjk4NjE5MjkxLjUzLjAuMA..',
-        originalHeight: PHOTO_HEIGHT,
-    },
-];
-
-const specialThanksgivingImages = [
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fthanksgiving%2FWeixin%20Image_20231119222348a.png?alt=media&token=68e40452-5b2d-4d2e-9ac1-0acaa974d3bb',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fthanksgiving%2FWeixin%20Image_20231126163406.jpg?alt=media&token=6391027e-fc5a-4690-af54-5a47f4250f2e',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fthanksgiving%2FWeixin%20Image_20231126163425.jpg?alt=media&token=789bdccb-3bb0-4812-9c4c-17999371ac90',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fthanksgiving%2FWeixin%20Image_20231126163429.jpg?alt=media&token=ff8a4b9c-4dbc-46a3-8524-6b88ddced555',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fthanksgiving%2FWeixin%20Image_20231126163432a.jpg?alt=media&token=f994d232-b16b-4149-8ccd-6cb03e4b760c',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fthanksgiving%2FWeixin%20Image_20231126163436a.jpg?alt=media&token=b38a3037-1a09-4778-b060-a4e711f3b7c6',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fthanksgiving%2FWeixin%20Image_20231126163440.jpg?alt=media&token=9e0e3960-004b-4143-895d-9283b5f88ec8',
-        originalHeight: PHOTO_HEIGHT,
-    },
-];
-
-const specialChristmasImages = [
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchristmas%2FWeixin%20Image_20231204084125a.jpg?alt=media&token=f7131892-f3d7-4d5e-aee4-14e1ab808b63',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchristmas%2FWeixin%20Image_20231210213627.jpg?alt=media&token=4c7f324a-68b7-49aa-a293-b90f46015ef8',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchristmas%2FWeixin%20Image_20231210213656.jpg?alt=media&token=db5fae2a-4722-42e7-b6b8-f18a97a71e2a',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchristmas%2FWeixin%20Image_20231210213649a.jpg?alt=media&token=0f64b151-6801-4812-ad38-da857bea908f',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchristmas%2FWeixin%20Image_20231210213703a.jpg?alt=media&token=7f47d9dc-2422-40c6-9a07-c59d6164aa21',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchristmas%2FWeixin%20Image_20231210213726.jpg?alt=media&token=fc26cb70-5cfc-424e-8f27-5a8765768119',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchristmas%2FWeixin%20Image_20231210213743.jpg?alt=media&token=8aa4564e-05c2-4747-ba63-a6222b30f0fc',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchristmas%2FWeixin%20Image_20231210213527.jpg?alt=media&token=e507d035-9b7c-40f7-a662-714418624a64',
-        originalHeight: PHOTO_HEIGHT,
-    },
-    {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchristmas%2FWeixin%20Image_20231210213605.jpg?alt=media&token=cd9a8507-5bfc-4fa1-8f1f-f911e411291a',
         originalHeight: PHOTO_HEIGHT,
     },
 ];
@@ -525,7 +456,7 @@ const Specialevents = () => {
                     Special events
                 </div>
                 <div className="special_description">
-                    Besides our weekly activities, International Buddy hosts various types of special events each year. In 2022-2023, we have arranged sports events like fencing 101 and badminton 101, excursion events like Wild Waves Park tour, fundraising events like garage sale and much more.<br /><br />
+                Besides our weekly activities, International Buddy hosts various types of special events each year. In 2022-2024, we have arranged sports events like Nordic ski camp, fencing 101 and swim meet, fundraising events like Microsoft presentations and yard sale, excursion events like Wild Waves Park Tour, party events like volunteer appreciation party and holiday parties, and much more.<br /><br />
                     We will post new special events in our upcomings page, you can <Link to="/upcomingevents" className="special_link">click here</Link> to sign up for our upcoming special events.
                 </div>
             </div>
@@ -562,38 +493,7 @@ const Specialevents = () => {
                 </div>
                 <Line color="--mediumblue-color" width="100%" />
 
-                <div className="special_container2">
-                    <div className="special_content">
-                        <div className="special_name">
-                            Outreach Event
-                        </div>
-                        <div className="special_timeloc">
-                            Date: June 15, 2024<br />
-                            Location: Blue Origin
-                        </div>
-                        <div className="special_selfintro">
-                        During our field trip to Blue Origin, IB buddies and volunteers learned great amount of information, not only gained insight into Blue Origin's vision for the future but also were introduced to their Club for the Future, the nonprofit organization funded by Blue Origin. The most exciting part was that we had rare opportunity to view the very area where Blue Origin built the New Shepard reusable rocket. Overall, everyone had a blast time during the visit, learned about the future with Blue Origin and Blue Origin's passion for exploring the unknown. 
-                        </div>
-                    </div>
-                    <div className="special_photo">
-
-                        <ImageGallery
-                            items={blueoriginImages}
-                            showPlayButton={true}
-                            showFullscreenButton={false}
-                            showIndex={false}
-                            slideInterval={2500}
-                            showThumbnails={false}
-                            showBullets={true}
-                            autoPlay={true}
-                            showNav={false}
-                        />
-
-                    </div>
-                </div>
-                <Line color="--mediumblue-color" width="100%" />
-
-                <div className="special_container1">
+                {/* <div className="special_container1">
                     <div className="special_content">
                         <div className="special_name">
                             1:1 Online Tutoring
@@ -622,70 +522,8 @@ const Specialevents = () => {
 
                     </div>
                 </div>
-                <Line color="--mediumblue-color" width="100%" />
-
-                <div className="special_container2">
-                    <div className="special_content">
-                        <div className="special_name">
-                            Chess Tournament
-                        </div>
-                        <div className="special_timeloc">
-                            Date: April 21, 2024<br />
-                            Location: Microsoft Cafe
-                        </div>
-                        <div className="special_selfintro">
-                        Check out some highlights from our chess tournament hosted on April 21st at the Microsoft Building Cafe! Congratulations to all the participants and our amazing volunteers who helped with the competition! 
-                        </div>
-                    </div>
-                    <div className="special_photo">
-
-                        <ImageGallery
-                            items={chessImages}
-                            showPlayButton={true}
-                            showFullscreenButton={false}
-                            showIndex={false}
-                            slideInterval={2500}
-                            showThumbnails={false}
-                            showBullets={true}
-                            autoPlay={true}
-                            showNav={false}
-                        />
-
-                    </div>
-                </div>
-                <Line color="--mediumblue-color" width="100%" />
-
-                <div className="special_container1">
-                    <div className="special_content">
-                        <div className="special_name">
-                            Nordic Ski Camp
-                        </div>
-                        <div className="special_timeloc">
-                            Date: February 25 & March 10, 2024<br />
-                            Location: Summit East, The Summit at Snoqualmie
-                        </div>
-                        <div className="special_selfintro">
-                        International Buddy cooperated with The Summit at Snoqualmie ski resort to host our first nordic ski camp. Although it was raining the whole afternoon on both Sunday, all the 16 children who joined camp were so passionate about cross-country skiing. It was the first time for the children to try Nordic skis, but with the help of our coach and volunteers, they could already ski up and down slopes by themselves and enjoy the fun. We appreciate our incredible volunteers for their passion and dedication! 
-                        </div>
-                    </div>
-                    <div className="special_photo">
-
-                        <ImageGallery
-                            items={nordicSkiCampImages}
-                            showPlayButton={true}
-                            showFullscreenButton={false}
-                            showIndex={false}
-                            slideInterval={2500}
-                            showThumbnails={false}
-                            showBullets={true}
-                            autoPlay={true}
-                            showNav={false}
-                        />
-
-                    </div>
-                </div>
-                <Line color="--mediumblue-color" width="100%" />
-
+                <Line color="--mediumblue-color" width="100%" /> */}
+                
                 <div className="special_container2">
                     <div className="special_content">
                         <div className="special_name">
@@ -720,20 +558,20 @@ const Specialevents = () => {
                 <div className="special_container1">
                     <div className="special_content">
                         <div className="special_name">
-                            Christmas Party
+                            Chess Tournament
                         </div>
                         <div className="special_timeloc">
-                            Date: December 10, 2023<br />
-                            Location: Grand Ridge Elementary, Issaquah, WA 98029
+                            Date: April 21, 2024<br />
+                            Location: Microsoft Cafe
                         </div>
                         <div className="special_selfintro">
-                        IB friends and families have had a wonderful Christmas party this Sunday. We had great talent show, gift exchange, games, art works, as well as pizza, salad and drinks. Thank you all for joining us. Merry Christmas and Happy New Year! 
+                        Check out some highlights from our chess tournament hosted on April 21st at the Microsoft Building Cafe! Congratulations to all the participants and our amazing volunteers who helped with the competition! 
                         </div>
                     </div>
                     <div className="special_photo">
 
                         <ImageGallery
-                            items={specialChristmasImages}
+                            items={chessImages}
                             showPlayButton={true}
                             showFullscreenButton={false}
                             showIndex={false}
@@ -751,82 +589,20 @@ const Specialevents = () => {
                 <div className="special_container2">
                     <div className="special_content">
                         <div className="special_name">
-                            Thanksgiving Party
+                            Nordic Ski Camp
                         </div>
                         <div className="special_timeloc">
-                            Date: November 26, 2023<br />
-                            Location: Grand Ridge Elementary, Issaquah, WA 98029
+                            Date: February 25 & March 10, 2024<br />
+                            Location: Summit East, The Summit at Snoqualmie
                         </div>
                         <div className="special_selfintro">
-                        More than 30 children and volunteers joined our Thanksgiving Party. The party went very well! Thanks Irina for preparing so much food for everyone, and working in the kitchen all by herself! Let's give her a big applause! Thank all of you! You brought delicious food and helped to clean up. Hope everyone has had a great time. See you next week! Happy Holidays!
+                        International Buddy cooperated with The Summit at Snoqualmie ski resort to host our first nordic ski camp. Although it was raining the whole afternoon on both Sunday, all the 16 children who joined camp were so passionate about cross-country skiing. It was the first time for the children to try Nordic skis, but with the help of our coach and volunteers, they could already ski up and down slopes by themselves and enjoy the fun. We appreciate our incredible volunteers for their passion and dedication! 
                         </div>
                     </div>
                     <div className="special_photo">
 
                         <ImageGallery
-                            items={specialThanksgivingImages}
-                            showPlayButton={true}
-                            showFullscreenButton={false}
-                            showIndex={false}
-                            slideInterval={2500}
-                            showThumbnails={false}
-                            showBullets={true}
-                            autoPlay={true}
-                            showNav={false}
-                        />
-
-                    </div>
-                </div>
-                <Line color="--mediumblue-color" width="100%" />
-
-                <div className="special_container1">
-                    <div className="special_content">
-                        <div className="special_name">
-                            Halloween Party
-                        </div>
-                        <div className="special_timeloc">
-                            Date: October 29, 2023<br />
-                            Location: Grand Ridge Elementary, Issaquah, WA 98029
-                        </div>
-                        <div className="special_selfintro">
-                        More than 30 children and volunteers joined our Halloween Party on the sunny morning of this beautiful Sunday. The cotton candy machine is probably the most welcomed corner. A lot of fun games, spooky treats and candies.
-                        </div>
-                    </div>
-                    <div className="special_photo">
-
-                        <ImageGallery
-                            items={specialHalloweenImages}
-                            showPlayButton={true}
-                            showFullscreenButton={false}
-                            showIndex={false}
-                            slideInterval={2500}
-                            showThumbnails={false}
-                            showBullets={true}
-                            autoPlay={true}
-                            showNav={false}
-                        />
-
-                    </div>
-                </div>
-                <Line color="--mediumblue-color" width="100%" />
-
-                <div className="special_container2">
-                    <div className="special_content">
-                        <div className="special_name">
-                            Outreach and Fundraising Event
-                        </div>
-                        <div className="special_timeloc">
-                            Date: October 23, 2023<br />
-                            Location: Microsoft Commons, Redmond, WA 98052
-                        </div>
-                        <div className="special_selfintro">
-                        Seven volunteers joined our outreach and fundraising event at the Commons of Microsoft Campus. We prepared presentation boards, handouts and small gifts to attract attention. The purpose of this event is to raise the awareness of our organization to help more children with special needs, and to raise more funds to support our daily operation. 
-                        </div>
-                    </div>
-                    <div className="special_photo">
-
-                        <ImageGallery
-                            items={specialMicrosoftImages}
+                            items={nordicSkiCampImages}
                             showPlayButton={true}
                             showFullscreenButton={false}
                             showIndex={false}
@@ -875,20 +651,20 @@ const Specialevents = () => {
                 <div className="special_container2">
                     <div className="special_content">
                         <div className="special_name">
-                            Badminton 101
+                            Fundraising Events
                         </div>
                         <div className="special_timeloc">
-                            Date: Jun. 18, 2023 & Jul. 16, 2023 & Nov. 5, 2023<br />
-                            Location: 11609 NE 116th St, Kirkland, WA 98033
+                            Date: Ad-hoc<br />
+                            Location: Microsoft Campus, Redmond, WA
                         </div>
                         <div className="special_selfintro">
-                            Event co-hosted by International Buddy and NeuroDiversity Empowerment. Experienced volunteers helped guide through the basics of the game, including fun and interactive drills to teach grip, footwork, and hand-eye coordination. Children have fun in a safe and inclusive environment!
+                        Our volunteers joined multiple outreach and fundraising events at Microsoft Campus. We prepared presentation boards, handouts and small gifts to attract attention. The purpose of the events is to raise the awareness of our organization, to help more children with special needs, and to raise more funds to support our daily operation. 
                         </div>
                     </div>
                     <div className="special_photo">
 
                         <ImageGallery
-                            items={specialBadmintonImages}
+                            items={specialMicrosoftImages}
                             showPlayButton={true}
                             showFullscreenButton={false}
                             showIndex={false}
@@ -902,49 +678,17 @@ const Specialevents = () => {
                     </div>
                 </div>
                 <Line color="--mediumblue-color" width="100%" />
-
                 <div className="special_container1">
                     <div className="special_content">
                         <div className="special_name">
-                            Wild Waves Park Tour
+                            Yard Sale
                         </div>
                         <div className="special_timeloc">
-                            Date: June 23, 2023 & July 30, 2023<br />
-                            Location: 36201 Enchanted Pkwy S, Federal Way, WA 98003
+                            Date: June<br />
+                            Location: Issaquah, WA
                         </div>
                         <div className="special_selfintro">
-                            International Buddy hosted another Wild Waves Park tour this summer! Buddies were grouped together with volunteers for various activities, such as swimming, park rides, and games.
-                        </div>
-                    </div>
-                    <div className="special_photo">
-
-                        <ImageGallery
-                            items={specialWildWavesImages}
-                            showPlayButton={true}
-                            showFullscreenButton={false}
-                            showIndex={false}
-                            slideInterval={2500}
-                            showThumbnails={false}
-                            showBullets={true}
-                            autoPlay={true}
-                            showNav={false}
-                        />
-
-                    </div>
-                </div>
-                <Line color="--mediumblue-color" width="100%" />
-
-                <div className="special_container2">
-                    <div className="special_content">
-                        <div className="special_name">
-                            Garage Sale
-                        </div>
-                        <div className="special_timeloc">
-                            Date: June 11, 2023<br />
-                            Location: 26th Walk NE, Issaquah, WA 98029
-                        </div>
-                        <div className="special_selfintro">
-                            International Buddy joined the Issaquah Highlands Community Garage Sale to help raising fund. Although it was an rainy day, with the help of our volunteers and buddies, we still raised over $800 in this garage sale.
+                        Starting from 2023, International Buddy joined the Issaquah Highlands Community Yard Sale in June to help raise funds. Although it was raining in both years, with the help of our volunteers and buddies, we still raised $600 - $800 in each yard sale.
                         </div>
                     </div>
                     <div className="special_photo">
@@ -965,17 +709,108 @@ const Specialevents = () => {
                 </div>
                 <Line color="--mediumblue-color" width="100%" />
 
+                <div className="special_container2">
+                    <div className="special_content">
+                        <div className="special_name">
+                            Outreach Event
+                        </div>
+                        <div className="special_timeloc">
+                            Date: June 15, 2024<br />
+                            Location: Blue Origin
+                        </div>
+                        <div className="special_selfintro">
+                        During our field trip to Blue Origin, IB buddies and volunteers learned a great amount of information, not only gained insight into Blue Origin's vision for the future but also were introduced to their Club for the Future, the nonprofit organization funded by Blue Origin. The most exciting part was that we had a rare opportunity to view the very area where Blue Origin built the New Shepard reusable rocket. Overall, everyone had a blast time during the visit, learned about the future with Blue Origin and Blue Origin's passion for exploring the unknown.
+                        </div>
+                    </div>
+                    <div className="special_photo">
+
+                        <ImageGallery
+                            items={blueoriginImages}
+                            showPlayButton={true}
+                            showFullscreenButton={false}
+                            showIndex={false}
+                            slideInterval={2500}
+                            showThumbnails={false}
+                            showBullets={true}
+                            autoPlay={true}
+                            showNav={false}
+                        />
+
+                    </div>
+                </div>
+                <Line color="--mediumblue-color" width="100%" />
+
+                <div className="special_container1">
+                    <div className="special_content">
+                        <div className="special_name">
+                            Summer Camp
+                        </div>
+                        <div className="special_timeloc">
+                            Date: July/August<br />
+                        </div>
+                        <div className="special_selfintro">
+                        International Buddy hosted the first summer camp at Mercer Island in 2022 and two summer camps at Hand-in-Hand Farm (Woodinville) in 2024. They were blasts! Volunteers and buddies participated in many different group activities: farm activities such as animal feeding, fruit u-pick, garden work, farm maintenance, fun athletic activities including tug of war, jump rope, races, etc. Medals were awarded to the best performing volunteer-buddy pairs at the end of each week.
+                        </div>
+                    </div>
+                    <div className="special_photo">
+
+                        <ImageGallery
+                            items={summerCampImages}
+                            showPlayButton={true}
+                            showFullscreenButton={false}
+                            showIndex={false}
+                            slideInterval={2500}
+                            showThumbnails={false}
+                            showBullets={true}
+                            autoPlay={true}
+                            showNav={false}
+                        />
+
+                    </div>
+                </div>
+                <Line color="--mediumblue-color" width="100%" />
+
+                <div className="special_container2">
+                    <div className="special_content">
+                        <div className="special_name">
+                            Wild Waves Park Tour
+                        </div>
+                        <div className="special_timeloc">
+                            Date: June & July<br />
+                            Location: Wild Waves Theme & Water Park
+                        </div>
+                        <div className="special_selfintro">
+                            International Buddy hosts two Wild Waves Park Tours each year! Buddies were grouped together with volunteers for various activities, such as swimming, park rides, and games. Every tour was a blast! Our children have a full day of fun playing together with volunteers.
+                        </div>
+                    </div>
+                    <div className="special_photo">
+
+                        <ImageGallery
+                            items={specialWildWavesImages}
+                            showPlayButton={true}
+                            showFullscreenButton={false}
+                            showIndex={false}
+                            slideInterval={2500}
+                            showThumbnails={false}
+                            showBullets={true}
+                            autoPlay={true}
+                            showNav={false}
+                        />
+
+                    </div>
+                </div>
+                <Line color="--mediumblue-color" width="100%" />
+
                 <div className="special_container1">
                     <div className="special_content">
                         <div className="special_name">
                             Volunteer Appreciation Party
                         </div>
                         <div className="special_timeloc">
-                            Date: June 3, 2023<br />
-                            Location: 3650 W Lake Sammamish Pkwy NE, Redmond, WA 98052
+                            Date: June<br />
                         </div>
                         <div className="special_selfintro">
-                            International Buddy's annual volunteer appreciation party at Idylwood Park! Buddies and families came cheer for their favorite volunteers and showed case their best dishes!
+                        International Buddy has hosted annual volunteer appreciation parties in June since 2023. This is our biggest family event! Buddies and families came to cheer for their favorite volunteers and showcase their best dishes! All buddies, volunteers and families come and enjoy the delicious food, fun games and beautiful weather of PNW in each early summer. 
                         </div>
                     </div>
                     <div className="special_photo">
@@ -999,20 +834,20 @@ const Specialevents = () => {
                 <div className="special_container2">
                     <div className="special_content">
                         <div className="special_name">
-                            Summer Camp
+                            Holiday Parties
                         </div>
                         <div className="special_timeloc">
-                            Date: July 18, 2022 - August 5, 2022<br />
-                            Location: Mercer Island
+                            Date: Holiday Season<br />
+                            Location: Issaquah, WA
                         </div>
                         <div className="special_selfintro">
-                        International Buddy hosted out first summer camp in the summer of 2022 and it was a blast! Volunteers and their buddies participated in many different group activities: Each day kicked off with swimming from 1 to 2 PM, and fun athletic activities from 2 to 4 PM including tug of war, jump rope, races, etc. Medals were awarded to the best performing volunteer-buddy pairs at the end of each week.
+                        International Buddy arranged Halloween, Thanksgiving and Christmas parties during the holiday season. More than 30 children and volunteers joined each party. IB friends and families have had a wonderful time together. We had a great talent show, gift exchange, games, art works, as well as pizza, salad candies and drinks. The cotton candy machine is probably the most welcomed corner. Happy Holidays!
                         </div>
                     </div>
                     <div className="special_photo">
 
                         <ImageGallery
-                            items={summerCampImages}
+                            items={specialChristmasImages}
                             showPlayButton={true}
                             showFullscreenButton={false}
                             showIndex={false}
@@ -1025,6 +860,7 @@ const Specialevents = () => {
 
                     </div>
                 </div>
+
 
             </div>
         </div>

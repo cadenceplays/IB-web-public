@@ -11,12 +11,12 @@ const Numbers = () => {
       <div className="numbers-buttons-container">
         <div className="numbers-button">
           <div className="numbers-blue-button">
-            200+<br/>children
+            260+<br/>children
           </div>
         </div>
         <div className="numbers-button">
           <div className="numbers-blue-button">
-            200+<br/>volunteers
+            300+<br/>volunteers
           </div></div>
         <div className="numbers-button">
           <div className="numbers-blue-button">

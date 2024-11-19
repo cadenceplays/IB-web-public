@@ -16,9 +16,9 @@ const Specialolympics = () => {
         Washington Special Olympics
         </div>
         <div>
-          <p>We are very excited to announce that International Buddy will be participating in the upcoming Washington Special Olympics!</p>
-          <p>There will be 5 teams formed that matches the current activities in IB: Swimming, Track, Soccer, Basketball, and Tennis. </p>
-          <p>All athletes are encouraged to attend and will need to register by mid-October on the Special Olympics registration portal for eligibility and training qualification: </p>
+          <p>International Buddy has been participating in the Washington Special Olympics since 2023!</p>
+          <p>There are 5 teams formed that match the current activities in IB: Swimming, Track & Field, Soccer, Basketball, and Tennis. </p>
+          <p>All athletes are encouraged to attend and will need to register on the Special Olympics registration portal for eligibility and training qualification: </p>
           <ul>
             <li>International Buddy Athlete Team Registration: <Link to="/specialolympicsreg">Click here</Link></li>
             <li>Athlete Registration Portal: <a href="https://portals.specialolympics.org/" target="_blank" rel="noopener">portals.specialolympics.org</a></li>

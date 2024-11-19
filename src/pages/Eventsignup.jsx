@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { UserAuth } from '../context/Authcontext';
 import { db } from "../firebase";
-import { doc, getDoc, getDocs, collection, where, query, writeBatch } from "firebase/firestore";
+import { doc, getDoc, getDocs, collection, where, query, writeBatch, orderBy } from "firebase/firestore";
 import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import "./Eventsignup.css";
 import Swal from 'sweetalert2';
@@ -17,6 +17,7 @@ const Eventsignup = () => {
     const inputFileRef = useRef(null);  // use to reset the <input file> field after uploading
     const [weeklyTemplate, setWeeklyTemplate] = useState([]);
     const [forceGetDocs, setForceGetDocs] = useState(0);
+    const [volunteers, setVolunteers] = useState([]);
 
     const weekdayConversion = [
         "", // this is [0], no use
@@ -33,6 +34,7 @@ const Eventsignup = () => {
     let databaseValues = {}; // use a normal variable instead of state const, as state const won't be updated in a timely manner before page refresh
     databaseValues.photourls = []; // to store the urls of photos after uploading
     databaseValues.photonames = []; // to store the original filenames of photos after uploading
+    databaseValues.captain = {};
 
     const initFormValues = {
         name: "",
@@ -45,6 +47,7 @@ const Eventsignup = () => {
         type: "-1",     // -1 means special (ad hoc) event; all weekly activities are put into "weeklyTemplate" array with index starting from zero
         priority: 10,
         uniquesignup: false,
+        captain: "-1",
     };
     const [formValues, setFormValues] = useState(initFormValues);
 
@@ -66,6 +69,7 @@ const Eventsignup = () => {
 
     const onChange = (e) => {
         setFormValues({ ...formValues, [e.target.name]: e.target.value });
+        console.log("formValues: ", formValues);
     };
 
     const onChangeCheckbox = (e) => {
@@ -220,6 +224,11 @@ const Eventsignup = () => {
         databaseValues.type = (formValues.type === "-1")? "special" : weeklyTemplate[formValues.type].id;
         databaseValues.priority = Number(formValues.priority);   // default value of priority is 10; If an event has higher priority, it will be displayed at the beginning of upcoming event list
         databaseValues.uniquesignup = formValues.uniquesignup;
+        if(formValues.captain !== "-1") {
+            databaseValues.captain.email = volunteers[formValues.captain].id;
+            databaseValues.captain.name = volunteers[formValues.captain].name;
+            databaseValues.captain.phone = volunteers[formValues.captain].phone;
+        }
         activities.map((activity, key) => {
             let akey = key + 101    // akey start from 101, 102, ...
             databaseValues[akey] = activity;
@@ -342,9 +351,28 @@ const Eventsignup = () => {
             }
         }
 
+        const getVolunteers = async () => {
+            const q = query(collection(db, "users"), where("role", "==", "Volunteer"), orderBy("name"));
+            try {
+                const data = await getDocs(q);
+                data.docs && setVolunteers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+            } catch (error) {
+                console.log(error);
+                Swal.fire({
+                    title: 'Error',
+                    text: `Get doc error: ${error}`,
+                    icon: 'error',
+                    iconColor: '#A5C727',
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: '#A5C727'
+                });
+            }
+        }
+
         if (user && user.email) {
             getUserData();
             getWeeklyTemplate();
+            getVolunteers();
         }
         else setUserData(null); // not login yet
     }, [user, forceGetDocs])
@@ -474,6 +502,18 @@ const Eventsignup = () => {
                             <input type="checkbox" name="uniquesignup" id="uniquesignup" checked={formValues.uniquesignup} onChange={onChangeCheckbox} />
                             <span>(Optional) If this event allows a user to sign up more than one activity. Default is No.</span>
                         </div>
+
+                        <div className="event_signup-formInput">
+                            <label htmlFor="captain">Captain*</label>
+                            <select name="captain" id="captain" value={formValues.captain} required onChange={onChange}>
+                                <option value="-1">No Captain</option>
+                                {volunteers.map((volunteer, key) => (
+                                    <option value={key} key={key}>{volunteer.name} - {volunteer.email}</option>
+                                ))}
+                            </select>
+                            <span>The captain this activity/event.</span>
+                        </div>
+
                         {activities.map((activity, key) => {
                             return (
                                 <div key={key}>
