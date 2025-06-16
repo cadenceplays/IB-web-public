@@ -31,6 +31,10 @@ const Training = () => {
                     <Line color="--green-color" width="100%" />
                     <div className="training-category">Training PDFs</div>
                     <div className="training-filename">
+                        <a href="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/volunteer_training%2FCopy%20of%20IB_training_2024_Nov_Final.pdf?alt=media&token=4e3579a2-2231-4aa2-b867-b09c8f2f65bd" download="Training for Volunteers 2024.pdf" target="_blank" rel="noopener">Training for Volunteers (Nov. 2024)</a>&nbsp;&nbsp;
+                        {getLanguageLogo('English')}
+                    </div>
+                    <div className="training-filename">
                         <a href="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/volunteer_training%2FAutism%20Training%20for%20Volunteers%20(1)%5B8226%5D%203.pdf?alt=media&token=6d55498b-dcf3-4906-bc82-f0f7a014b15e" download="Autism Training for Volunteers.pdf" target="_blank" rel="noopener">Autism Training for Volunteers</a>&nbsp;&nbsp;
                         {getLanguageLogo('English')}
                     </div>

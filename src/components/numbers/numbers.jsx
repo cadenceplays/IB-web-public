@@ -11,12 +11,12 @@ const Numbers = () => {
       <div className="numbers-buttons-container">
         <div className="numbers-button">
           <div className="numbers-blue-button">
-            260+<br/>children
+            280+<br/>children
           </div>
         </div>
         <div className="numbers-button">
           <div className="numbers-blue-button">
-            300+<br/>volunteers
+            340+<br/>volunteers
           </div></div>
         <div className="numbers-button">
           <div className="numbers-blue-button">
@@ -24,7 +24,7 @@ const Numbers = () => {
           </div></div>
         <div className="numbers-button">
           <div className="numbers-blue-button">
-            6 years<br/>since 2018
+            7 years<br/>since 2018
           </div></div>
         <div className="numbers-button">
           <div className="numbers-blue-button">

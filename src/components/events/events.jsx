@@ -15,7 +15,7 @@ const Events = () => {
             <div className="events-container">
                 <div className="events-cell">
                     <div className="events-button">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftraining%2FWeixin%20Image_20240625101501s.jpg?alt=media&token=d155b6e1-0d67-45fe-8d03-f24322e3fd0c" alt="Training" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftraining%2FIMG_0100.jpg?alt=media&token=234f82f2-b261-4b2c-8d2f-e25d5038ba81" alt="Training" />
                     </div>
                     <div className="events-button-title">
                         Volunteer Training

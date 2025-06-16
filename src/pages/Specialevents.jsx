@@ -382,7 +382,27 @@ const blueoriginImages = [
 
 const trainingImages = [
     {
-        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftraining%2FWeixin%20Image_20240625101501s.jpg?alt=media&token=d155b6e1-0d67-45fe-8d03-f24322e3fd0c',
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftraining%2Fmmexport1737689947066.jpg?alt=media&token=9250f950-9aef-40a6-bae5-6c06c8d20fb8',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftraining%2Fmmexport1737689995785.jpg?alt=media&token=ee07ef99-3e77-43a7-8e04-b3adcfdb0d1f',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftraining%2FIMG_0051.jpg?alt=media&token=1196565d-b6be-4df3-bb75-7e41c7d44dc9',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftraining%2FIMG_0066.jpg?alt=media&token=9f0f2772-0ef7-4388-a76c-405f104715aa',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftraining%2FIMG_0100.jpg?alt=media&token=234f82f2-b261-4b2c-8d2f-e25d5038ba81',
+        originalHeight: PHOTO_HEIGHT,
+    },
+    {
+        original: 'https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftraining%2F20241103_163748.jpg?alt=media&token=7f71effb-8e92-4fe0-8db4-232065956f28',
         originalHeight: PHOTO_HEIGHT,
     },
     {
@@ -465,14 +485,14 @@ const Specialevents = () => {
                 <div className="special_container1">
                     <div className="special_content">
                         <div className="special_name">
-                            Volunteer Training
+                            Volunteer Trainings
                         </div>
                         <div className="special_timeloc">
-                            Date: June 22, 2024<br />
-                            Location: Mercer Island Library
+                            Date: Jan. 2025, Nov. 2024, Jun. 2024<br />
+                            Location: Bellevue, Issaquah, Mercer Island
                         </div>
                         <div className="special_selfintro">
-                        IB President and VPs gave in person training to our new volunteers and team leaders. More than 20 volunteers joined this session. Thank all the volunteers participated today. The three leaders talked about their experiences and insights in IB. In particular, Neo shared a lot of his experience as a volunteer in high school. The speeches and Q&A were great. We will hold such events regularly in the future to give everyone more opportunities to communicate.  <br/><br/><b><a href="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/volunteer_training%2FCopy%20of%20Copy%20of%20CARES%20-%20Volunteer%20Training%20for%20International%20Buddy.pdf?alt=media&token=62314814-e130-4964-8029-e2754efcbdfe" download="CARES-Volunteer Training for IB.pdf" target="_blank" rel="noopener">Training material can be found here</a></b>
+                        IB President, VPs and Captains gave in person training to our new volunteers. More than 20 volunteers joined each session. The leaders talked about their experiences and insights in IB. The speeches and Q&A were great. We will hold training events regularly to give everyone more opportunities to communicate.  <br/><br/><Link to="/training" className="special_link">Training material can be found here</Link>
                         </div>
                     </div>
                     <div className="special_photo">

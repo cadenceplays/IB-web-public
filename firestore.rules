@@ -10,6 +10,7 @@ service cloud.firestore {
       || userEmail == "support@internationalbuddy.org"
       || userEmail == "internationalbuddyweb@gmail.com"
       || userEmail == "cadencel2019@outlook.com"
+      || userEmail == "ivory_su@hotmail.com"
       || userEmail == "kaicheng.bear@gmail.com");
     }
   
