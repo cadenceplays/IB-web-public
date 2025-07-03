@@ -21,9 +21,9 @@ const Specialnews = () => {
         link: "2025-02-18T03:47:49.972Z_Nordic_Ski_7935",
     }
 
-    // below is for volunteer appreciation party
+    // below is for special olympics track
     const data3Content = {
-        link: "2025-05-29T18:25:29.455Z_Volunteer__3072",
+        link: "2025-07-03T16:42:32.449Z_Special_Ol_5621",
     }
 
     // below is for Wild Waves Water Park
@@ -82,6 +82,20 @@ const Specialnews = () => {
                             <div className="specialnewslist-button">
                             <Link to="/upcomingweekly" state={{ data: data6Content }}>
                                     <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FWeixin%20Image_20250525233506.jpg?alt=media&token=35077539-f2b2-4227-acba-10d1075bdc42" width="100%" alt="featured" />
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="specialnewslist-cell">
+                            <div className="specialnewslist-button-date">July</div>
+                            <div className="specialnewslist-button-title">
+                            <Link to="/upcomingweekly" state={{ data: data3Content }}>
+                                    Special Olympics Track 
+                                </Link>
+                            </div>
+                            <div className="specialnewslist-button">
+                            <Link to="/upcomingweekly" state={{ data: data6Content }}>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fspecial%20olympics%20track.jpg?alt=media&token=9b67f114-9f64-4df0-b98d-3c048a87a791" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
