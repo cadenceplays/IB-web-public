@@ -94,8 +94,8 @@ const Specialnews = () => {
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
-                            <Link to="/upcomingweekly" state={{ data: data6Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fspecial%20olympics%20track.jpg?alt=media&token=9b67f114-9f64-4df0-b98d-3c048a87a791" width="100%" alt="featured" />
+                            <Link to="/upcomingweekly" state={{ data: data3Content }}>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fspecial%20olympics%20track%202.jpg?alt=media&token=732e2e4e-5fb8-4272-91db-790adc2c1a65" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
