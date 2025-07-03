@@ -26,9 +26,14 @@ const Specialnews = () => {
         link: "2025-05-29T18:25:29.455Z_Volunteer__3072",
     }
 
-    // below is for Garage Sale
+    // below is for Wild Waves Water Park
+    const data4Content = {
+        link: "2025-06-10T03:08:12.405Z_Wild_Waves_3713",
+    }
+
+    // below is for Daily Tennis at Mercer Island
     const data5Content = {
-        link: "2025-06-14T21:26:05.789Z_Community__112",
+        link: "2025-06-22T23:45:35.657Z_Summer_Dai_4059",
     }
 
     // below is for Outing to Zoo
@@ -50,19 +55,19 @@ const Specialnews = () => {
                     </div>
                     <div className="specialnewslist-container">
                     
-                        {/* this is the empty sell at the left side */}
-                        <div className="specialnewslist-cell-empty"></div>
+                        {/* this is the empty sell at the left side 
+                        <div className="specialnewslist-cell-empty"></div>*/}
 
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">June 21 (Sat)</div>
+                            <div className="specialnewslist-button-date">June / July </div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: data5Content }}>
-                                Garage Sale
+                                Daily Tennis at Mercer Island / Bellevue High
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: data5Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FWeixin%20Image_20250615171157a.jpg?alt=media&token=21898551-dec1-4936-865f-d84770ee2d5b" width="100%" alt="featured" />
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftennis%20image%20i.jpg?alt=media&token=466a9c6f-9567-4c20-9106-b8096fb3e598" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
@@ -77,6 +82,20 @@ const Specialnews = () => {
                             <div className="specialnewslist-button">
                             <Link to="/upcomingweekly" state={{ data: data6Content }}>
                                     <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FWeixin%20Image_20250525233506.jpg?alt=media&token=35077539-f2b2-4227-acba-10d1075bdc42" width="100%" alt="featured" />
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="specialnewslist-cell">
+                            <div className="specialnewslist-button-date">July 12 (Sat)</div>
+                            <div className="specialnewslist-button-title">
+                                <Link to="/upcomingweekly" state={{ data: data4Content }}>
+                                Wild Waves Water Park
+                                </Link>
+                            </div>
+                            <div className="specialnewslist-button">
+                                <Link to="/upcomingweekly" state={{ data: data4Content }}>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fwild%20waves%20poster.jpg?alt=media&token=0e709d8e-6f41-47da-945a-83a4386b6e2a" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
@@ -109,8 +128,8 @@ const Specialnews = () => {
                             </div>
                         </div> */}
 
-                        {/* this is the empty sell at the right side */}                        
-                        <div className="specialnewslist-cell-empty"></div>
+                        {/* this is the empty sell at the right side }                       
+                        <div className="specialnewslist-cell-empty"></div> */}
                         
                     </div>
                 </div>
