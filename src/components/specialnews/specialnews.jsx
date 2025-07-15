@@ -23,7 +23,7 @@ const Specialnews = () => {
 
     // below is for special olympics track
     const data3Content = {
-        link: "2025-07-03T16:42:32.449Z_Special_Ol_5621",
+        link: "2025-07-15T04:21:40.269Z_Saturday_S_6124",
     }
 
     // below is for Wild Waves Water Park
