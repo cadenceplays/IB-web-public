@@ -31,9 +31,9 @@ const Specialnews = () => {
         link: "2025-06-10T03:08:12.405Z_Wild_Waves_3713",
     }
 
-    // below is for Daily Tennis at Mercer Island
+    // below is for IB Mod Pizza Fundraising
     const data5Content = {
-        link: "2025-06-22T23:45:35.657Z_Summer_Dai_4059",
+        link: "2025-07-20T04:04:38.379Z_IB_Mod_Piz_4008",
     }
 
     // below is for Outing to Zoo
@@ -59,20 +59,20 @@ const Specialnews = () => {
                         <div className="specialnewslist-cell-empty"></div>*/}
 
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">June / July </div>
+                            <div className="specialnewslist-button-date"> July </div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: data5Content }}>
-                                Daily Tennis at Mercer Island / Bellevue High
+                                IB Mod Pizza Fundraising
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: data5Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Ftennis%20image%20i.jpg?alt=media&token=466a9c6f-9567-4c20-9106-b8096fb3e598" width="100%" alt="featured" />
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fib%20mob%20pizza.jpg?alt=media&token=56f65586-ff8a-43b2-8dfc-d027d6bce403" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
 
-                        <div className="specialnewslist-cell">
+                        {/* <div className="specialnewslist-cell">
                             <div className="specialnewslist-button-date">June / July</div>
                             <div className="specialnewslist-button-title">
                             <Link to="/upcomingweekly" state={{ data: data6Content }}>
@@ -84,7 +84,7 @@ const Specialnews = () => {
                                     <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FWeixin%20Image_20250525233506.jpg?alt=media&token=35077539-f2b2-4227-acba-10d1075bdc42" width="100%" alt="featured" />
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="specialnewslist-cell">
                             <div className="specialnewslist-button-date">July</div>
