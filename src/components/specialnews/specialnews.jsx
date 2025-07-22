@@ -26,9 +26,9 @@ const Specialnews = () => {
         link: "2025-07-15T04:21:40.269Z_Saturday_S_6124",
     }
 
-    // below is for Wild Waves Water Park
+    // below is for Archery Tag
     const data4Content = {
-        link: "2025-06-10T03:08:12.405Z_Wild_Waves_3713",
+        link: "2025-07-22T04:36:02.577Z_Archery_Ta_4717",
     }
 
     // below is for IB Mod Pizza Fundraising
@@ -101,15 +101,15 @@ const Specialnews = () => {
                         </div>
 
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">July 12 (Sat)</div>
+                            <div className="specialnewslist-button-date">August 16</div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: data4Content }}>
-                                Wild Waves Water Park
+                                Archery Tag
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: data4Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fwild%20waves%20poster.jpg?alt=media&token=0e709d8e-6f41-47da-945a-83a4386b6e2a" width="100%" alt="featured" />
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Farchery%20tag.jpg?alt=media&token=cf0f77ff-b139-47e0-a421-a83f00d531d9" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
