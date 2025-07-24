@@ -23,7 +23,7 @@ const Specialnews = () => {
 
     // below is for special olympics track
     const data3Content = {
-        link: "2025-07-15T04:21:40.269Z_Saturday_S_6124",
+        link: "2025-07-22T04:12:01.214Z_Saturday_S_7941",
     }
 
     // below is for Archery Tag
