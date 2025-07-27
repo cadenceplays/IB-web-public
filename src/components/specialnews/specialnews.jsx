@@ -55,7 +55,7 @@ const Specialnews = () => {
                     </div>
                     <div className="specialnewslist-container">
                     
-                        {/* this is the empty sell at the left side 
+                        {/* this is the empty cell at the left side 
                         <div className="specialnewslist-cell-empty"></div>*/}
 
                         <div className="specialnewslist-cell">

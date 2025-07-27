@@ -31,28 +31,29 @@
 
 .leaders-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr;
-    justify-content: space-between;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 1.3rem;
+    justify-content: center;
     align-items: start;
-    gap: 0.35rem;
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .leaders-cell {
-    grid-column: span(1);
-    grid-row: span(1);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    text-align: start;
-    padding: 0;
+    text-align: center;
+    padding: 1rem;
     margin: 0;
-    height: 100%;
     border-radius: 5px;
     border: 1px solid var(--green-color);
     background: var(--lightgreen-color);
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .leaders-cell-more {
@@ -73,12 +74,19 @@
     border: 0;
     margin: 0.35rem 0.35rem 0 0.35rem;
     padding: 0;
-    width: auto;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .leaders-button img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -87,11 +95,36 @@
     transform: scale(0.97);
 }
 
-@media (max-width: 45rem) {
+@media (max-width: 992px) { /* adjust grid for smaller screens */
     .leaders-container {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+    .leaders-button {
+        width: 130px;
+        height: 130px;
     }
 
+}
+
+@media (max-width: 768px) { /* adjust grid for even smaller screens */
+    .leaders-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+    .leaders-button {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 45rem) { /* single column layout for mobile */
+    .leaders-container {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    .leaders-button {
+        width: 100px;
+        height: 100px;
+    }
 }
