@@ -174,7 +174,7 @@
 .specialnewslist-container {
     display: grid;
     /* grid-template-columns: repeat(4, 1fr); */
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr; 
     justify-content: space-between;
     align-items: center;
     gap: 0.35rem;
@@ -194,8 +194,8 @@
 }
 
 .specialnewslist-cell-empty {
-    grid-column: span(1);
-    grid-row: span(1);
+    grid-column: span(0.5);
+    grid-row: span(0.5);
     text-align: start;
     padding: 0;
     margin: 0;

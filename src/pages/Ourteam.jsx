@@ -146,39 +146,7 @@ const Ourteam = () => {
       <Line color="--green-color" width="100%" />
       <div className="ourteam_container1">
         <div className="ourteam_photo">
-          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fcadence%20liao%20-%20director%20of%20technology.jpg?alt=media&token=2d6a102b-eeb4-4e41-8b7e-3d1aef737caf" alt="self" />
-        </div>
-        <div className="ourteam_content">
-          <div className="ourteam_name">
-          Cadence Liao<br />
-          Director of Technology
-          </div>
-          <div className="ourteam_selfintro">
-          Hello! My name is Cadence Liao, and I am a junior at Eastside Preparatory School for the 2025 - 2026 school year. I have been with IB since 2023, and I am very excited to serve as the Director of Technology this year! I've met so many wonderful people at this organization, and I am committed to contributing to the growth and impact of IB. I am responsible for the performance and upkeep of the IB website, ensuring it is functional, regularly updated, user-friendly, and meets the goals of the organization. Additionally, I volunteer at the Bellevue Aquatic Center as a swim instructor, and I provide technical assistance during other events. This year, I am looking forward to increasing the awareness of IB and helping facilitate an inclusive and organized environment for the people we serve! Please contact me if you have any inquires/requests for the website - I'm happy to help!
-          </div>
-        </div>
-      </div>
-
-      <Line color="--green-color" width="100%" />
-      <div className="ourteam_container2">
-        <div className="ourteam_photo">
-          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fsophia%20li%20-%20general%20captain.jfif?alt=media&token=a05fad5d-3c99-4ba2-9fb9-30b2417bf9d5" alt="self" />
-        </div>
-        <div className="ourteam_content">
-          <div className="ourteam_name">
-          Sophia Li<br />
-          General Captain
-          </div>
-          <div className="ourteam_selfintro">
-          Hi! My name is Sophia Li, and I'm a rising junior at Eastlake High School for the 2025-2026 school year. I am so grateful to be a part of International Buddy, as it is an organization that means a lot to me. Over the past year, I've witnessed so many heartfelt moments between buddies and volunteers, which constantly reminds me of why I joined, and continues to motivate me to give more. As the General Captain, I strive to keep captains accountable for their work, and to bring the whole leadership team together, through teamwork and communications. With this intercommunication, I aim to better the lives of buddies, and create a thriving organization, more importantly, a family, for them to be a part of.
-          </div>
-        </div>
-      </div>
-
-      <Line color="--green-color" width="100%" />
-      <div className="ourteam_container1">
-        <div className="ourteam_photo">
-          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fowen%20-%20video%20production%20captain%20and%20swim%20captain.jfif?alt=media&token=4a5bc5d2-88eb-4485-8150-67ee2455d579" alt="self" />
+          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fowen%20-%20video%20production%20captain%20and%20swim%20captain.jfif.~tmp?alt=media&token=a9e6e9f4-0f9e-4998-bb12-9eb8651d3f0e" alt="self" />
         </div>
         <div className="ourteam_content">
           <div className="ourteam_name">
@@ -226,7 +194,7 @@ const Ourteam = () => {
       <Line color="--green-color" width="100%" />
       <div className="ourteam_container2">
         <div className="ourteam_photo">
-          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Foliver%20wang%20-%20directior%20of%20creativity%20and%20innovation.jfif?alt=media&token=242025fe-530c-4426-b9ba-370475555ee7" alt="self" />
+          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Foliver%20wang%20-%20directior%20of%20creativity%20and%20innovation.jfif?alt=media&token=b66ea6ce-046e-440d-96d0-ba8d44422877" alt="self" />
         </div>
         <div className="ourteam_content">
           <div className="ourteam_name">
@@ -235,6 +203,38 @@ const Ourteam = () => {
           </div>
           <div className="ourteam_selfintro">
           Hello, my name is Oliver Wang, and I am a senior at Issaquah High School for the 2025-2026 academic year. I enjoy learning new things and building community through creative projects. During my free time, other than volunteering, I enjoy basketball, skiing, running, and electrical and computer learning. Through International Buddy work since Freshman year, I have geared my efforts toward creating fun experiences for kids with special needs. I have directed board game sessions, designed hands-on crafts, and taught interactive games throughout the last year to help children communicate and socialize with peers. Being the Director of Creativity and Innovation, my goal is to bring more new things and diversity into our sessions. I would like both our volunteers and children to do something new each time, enjoy themselves and be a part of it. I am looking forward to working with all of you again and making each week special and fulfilling.
+          </div>
+        </div>
+      </div>
+
+      <Line color="--green-color" width="100%" />
+      <div className="ourteam_container1">
+        <div className="ourteam_photo">
+          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fcadence%20liao%20-%20director%20of%20technology.jpg?alt=media&token=50663de4-07cf-4e58-9e44-dc0aefdc7f47" alt="self" />
+        </div>
+        <div className="ourteam_content">
+          <div className="ourteam_name">
+          Cadence Liao<br />
+          Director of Technology
+          </div>
+          <div className="ourteam_selfintro">
+          Hello! My name is Cadence Liao, and I am a junior at Eastside Preparatory School for the 2025 - 2026 school year. I have been with IB since 2023, and I am very excited to serve as the Director of Technology this year! I've met so many wonderful people at this organization, and I am committed to contributing to the growth and impact of IB. I am responsible for the performance and upkeep of the IB website, ensuring it is functional, regularly updated, user-friendly, and meets the goals of the organization. Additionally, I volunteer at the Bellevue Aquatic Center as a swim instructor, and I provide technical assistance during other events. This year, I am looking forward to increasing the awareness of IB and helping facilitate an inclusive and organized environment for the people we serve! Please contact me if you have any inquires/requests for the website - I'm happy to help!
+          </div>
+        </div>
+      </div>
+
+      <Line color="--green-color" width="100%" />
+      <div className="ourteam_container2">
+        <div className="ourteam_photo">
+          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fsophia%20li%20-%20general%20captain.jfif?alt=media&token=a05fad5d-3c99-4ba2-9fb9-30b2417bf9d5" alt="self" />
+        </div>
+        <div className="ourteam_content">
+          <div className="ourteam_name">
+          Sophia Li<br />
+          General Captain
+          </div>
+          <div className="ourteam_selfintro">
+          Hi! My name is Sophia Li, and I'm a rising junior at Eastlake High School for the 2025-2026 school year. I am so grateful to be a part of International Buddy, as it is an organization that means a lot to me. Over the past year, I've witnessed so many heartfelt moments between buddies and volunteers, which constantly reminds me of why I joined, and continues to motivate me to give more. As the General Captain, I strive to keep captains accountable for their work, and to bring the whole leadership team together, through teamwork and communications. With this intercommunication, I aim to better the lives of buddies, and create a thriving organization, more importantly, a family, for them to be a part of.
           </div>
         </div>
       </div>
@@ -322,7 +322,7 @@ const Ourteam = () => {
       <Line color="--green-color" width="100%" />
       <div className="ourteam_container2">
         <div className="ourteam_photo">
-          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fkatie%20meng%20-%20video%20production%20captain.jfif?alt=media&token=1c294a8b-e6b0-444d-baf7-5a30ebc745a5" alt="self" />
+          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fkatie%20meng%20-%20video%20production%20captain.jfif?alt=media&token=df59cd14-ec80-4d78-a5b9-ac28e610a11d" alt="self" />
         </div>
         <div className="ourteam_content">
           <div className="ourteam_name">
@@ -338,7 +338,7 @@ const Ourteam = () => {
       <Line color="--green-color" width="100%" />
       <div className="ourteam_container1">
         <div className="ourteam_photo">
-          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Femma%20hu%20-%20sunday%20outdoor%20sports%20captain.jfif?alt=media&token=53d8f0ee-c0ab-4baa-99dc-74214f30e597" alt="self" />
+          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Femma%20hu%20-%20sunday%20outdoor%20sports%20captain.jfif?alt=media&token=a950ff61-6238-480d-a1fc-bbb71f2665bf" alt="self" />
         </div>
         <div className="ourteam_content">
           <div className="ourteam_name">
@@ -386,7 +386,7 @@ const Ourteam = () => {
       <Line color="--green-color" width="100%" />
       <div className="ourteam_container2">
         <div className="ourteam_photo">
-          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Falexander%20zhao%20-%20swim%20captain%20mercer%20island.jfif?alt=media&token=e2371aae-63ff-4ddb-a1ce-0154d1131f3d" alt="self" />
+          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Falexander%20zhao%20-%20swim%20captain%20mercer%20island.jfif?alt=media&token=08503c3c-cfb1-431d-8f80-23b0442f90be" alt="self" />
         </div>
         <div className="ourteam_content">
           <div className="ourteam_name">

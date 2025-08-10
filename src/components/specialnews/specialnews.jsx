@@ -21,24 +21,14 @@ const Specialnews = () => {
         link: "2025-02-18T03:47:49.972Z_Nordic_Ski_7935",
     }
 
-    // below is for special olympics track
-    const data3Content = {
-        link: "2025-07-22T04:12:01.214Z_Saturday_S_7941",
-    }
-
     // below is for Archery Tag
     const data4Content = {
         link: "2025-07-22T04:36:02.577Z_Archery_Ta_4717",
     }
 
-    // below is for IB Mod Pizza Fundraising
+    // below is for chipotle fundraising 
     const data5Content = {
-        link: "2025-07-20T04:04:38.379Z_IB_Mod_Piz_4008",
-    }
-
-    // below is for Outing to Zoo
-    const data6Content = {
-        link: "2025-05-26T02:36:10.080Z_Summer_Fie_455",
+        link: "2025-07-28T03:30:01.540Z_Chipotle_F_3376",
     }
 
     if (showSpecial) {
@@ -55,47 +45,19 @@ const Specialnews = () => {
                     </div>
                     <div className="specialnewslist-container">
                     
-                        {/* this is the empty cell at the left side 
-                        <div className="specialnewslist-cell-empty"></div>*/}
+                     
+                        <div className="specialnewslist-cell-empty"></div>
 
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date"> July </div>
+                            <div className="specialnewslist-button-date"> August </div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: data5Content }}>
-                                IB Mod Pizza Fundraising
+                                Chipotle Fundraiser for IB
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: data5Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fib%20mob%20pizza.jpg?alt=media&token=56f65586-ff8a-43b2-8dfc-d027d6bce403" width="100%" alt="featured" />
-                                </Link>
-                            </div>
-                        </div>
-
-                        {/* <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">June / July</div>
-                            <div className="specialnewslist-button-title">
-                            <Link to="/upcomingweekly" state={{ data: data6Content }}>
-                                    Outing to Woodland Zoo
-                                </Link>
-                            </div>
-                            <div className="specialnewslist-button">
-                            <Link to="/upcomingweekly" state={{ data: data6Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FWeixin%20Image_20250525233506.jpg?alt=media&token=35077539-f2b2-4227-acba-10d1075bdc42" width="100%" alt="featured" />
-                                </Link>
-                            </div>
-                        </div> */}
-
-                        <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">July</div>
-                            <div className="specialnewslist-button-title">
-                            <Link to="/upcomingweekly" state={{ data: data3Content }}>
-                                    Special Olympics Track 
-                                </Link>
-                            </div>
-                            <div className="specialnewslist-button">
-                            <Link to="/upcomingweekly" state={{ data: data3Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fspecial%20olympics%20track%202.jpg?alt=media&token=732e2e4e-5fb8-4272-91db-790adc2c1a65" width="100%" alt="featured" />
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchipotle%20fundraiser%20.jpg?alt=media&token=994a51b6-6f00-4938-be00-50016b7b6e27" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
@@ -128,22 +90,7 @@ const Specialnews = () => {
                             </div>
                         </div>
 
-                        {/* <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">Nov 17 (Sun)</div>
-                            <div className="specialnewslist-button-title">
-                            <Link to="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FWeixin%20Image_20241030204746a.png?alt=media&token=959ac5e4-17ca-4c6d-ba6e-dd76222e4998">
-                                    IB Swim Meet
-                                </Link>
-                            </div>
-                            <div className="specialnewslist-button">
-                            <Link to="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FWeixin%20Image_20241030204746a.png?alt=media&token=959ac5e4-17ca-4c6d-ba6e-dd76222e4998">
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FWeixin%20Image_20241030204746b.jpg?alt=media&token=0a622f45-3424-4d02-8a8f-d0043e0aec61" width="100%" alt="featured" />
-                                </Link>
-                            </div>
-                        </div> */}
-
-                        {/* this is the empty sell at the right side }                       
-                        <div className="specialnewslist-cell-empty"></div> */}
+                        <div className="specialnewslist-cell-empty"></div> 
                         
                     </div>
                 </div>

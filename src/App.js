@@ -7,8 +7,9 @@ import {
   History, 
   Ourteam,
   Ourteam20232024, 
-  Whatwedo, 
+  Whatwedo,  
   Volunteer,
+  VolunteerAwards, 
   Weekly, 
   Specialevents,
   Pastevents,
@@ -89,6 +90,7 @@ function App() {
             <Route path="ourteam20232024" element={<Ourteam20232024 />} />
             <Route path="whatwedo" element={<Whatwedo />} />
             <Route path="volunteer" element={<Volunteer />} />
+            <Route path="volunteerawards" element={<VolunteerAwards />} />
             <Route path="pastevents" element={<Pastevents />} />
             <Route path="artgallery" element={<Artgallery />} />
             <Route path="weekly" element={<Weekly />} />

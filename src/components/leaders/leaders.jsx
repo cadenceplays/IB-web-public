@@ -21,6 +21,7 @@ const Leaders = () => {
                     </div>
                     <div className="leaders-button-title">
                         <b>Emily Zheng</b><br/>
+                        <br/>
                         President
                     </div>
                 </div>
