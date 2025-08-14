@@ -495,6 +495,22 @@ const Ourteam = () => {
         </div>
       </div>
 
+      <Line color="--green-color" width="100%" />
+      <div className="ourteam_container1">
+        <div className="ourteam_photo">
+          <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fminhe%20yang.jpg?alt=media&token=80c4fad7-89ad-4668-ba6a-d1067113d075" alt="self" />
+        </div>
+        <div className="ourteam_content">
+          <div className="ourteam_name">
+          Minghe Yang<br />
+          Basketball Captain
+          </div>
+          <div className="ourteam_selfintro">
+          Hi! My name is Minghe Yang, or you could call me Mark. I'm a senior at Skyline High School for the 2025-2026 school year. I first joined the International Buddies program in my sophomore year and now I'm incredibly excited to be one of the basketball captains in my senior year. Basketball has always been one of my favorite sports to play all throughout my childhood. When I first participated in the Basketball activities through International Buddy, I was emotionally touched by the joy on the kids' faces, as well as the improvements they have gradually made through their hard work under our guidance. Over time, I've grown deeply connected to this program, the kids, and so many fun memories that we've all built together. Now, as one of the captains, I'm commited to putting more effort and contributions into improving our community's athletic spirits as well as showing more responsibility to provide the children with happy and fun memories. 
+          </div>
+        </div>
+      </div>
+
     </div>
     </div>
       
