@@ -21,10 +21,17 @@ const Training = () => {
             </div>
             <div className="training-content">
                 <Fragment>
-                    <div className="training-category">Training Video</div>
+                    <div className="training-category">Training Video 1</div>
                     <div className="training-filename">
                         <a href="https://www.youtube.com/watch?v=a379zfelFCk" target="_blank" rel="noopener">Understanding Autism (recorded online training video in 2022)</a>&nbsp;&nbsp;
                         {getLanguageLogo('English')}
+                    </div>
+                </Fragment>
+                <Fragment>
+                    <div className="training-category">Training Video 2</div>
+                    <div className="training-filename">
+                        <a href="https://www.youtube.com/watch?v=nSwdOpjxDKk" target="_blank" rel="noopener">“情感夜线”： 寻找更好的自己 | 走近 A 娃</a>&nbsp;&nbsp;
+                        {getLanguageLogo('Chinese')}
                     </div>
                 </Fragment>
                 <Fragment>
