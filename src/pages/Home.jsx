@@ -10,23 +10,38 @@ const Home = () => {
       <Specialnews />
       <Numbers />
       <Leaders />
-      <section className='volunteer-awards'> {/*this is a bandaid fix i will improve this when its not past my bedtime :/*/}
-        <h2>Volunteer Awards</h2>
-        <Link 
-          to="/volunteerawards"
-          style={{
-            fontWeight: "bold",
-            padding: "0.6rem 1.5rem",
-            fontSize: "1.25rem",
-            marginBottom: "2rem",
-            display: "flex",
-            borderRadius: "12px",
-            justifyContent: "center",
-          }}
-        >
-          <Button type="greenButton" text="More" />
-        </Link>
+      <section className='volunteer-awards'>
+        <div style={{ display: "flex", gap: "1rem", marginBottom: "2rem" }}>
+          <Link 
+            to="/volunteerawards"
+            style={{
+              fontWeight: "bold",
+              padding: "0.6rem 1.5rem",
+              fontSize: "1.25rem",
+              display: "flex",
+              borderRadius: "12px",
+              justifyContent: "center",
+            }}
+          >
+            <Button type="greenButton" text="Volunteer Awards" />
+          </Link>
+
+          <Link 
+            to="/chiefprogrammentor"
+            style={{
+              fontWeight: "bold",
+              padding: "0.6rem 1.5rem",
+              fontSize: "1.25rem",
+              display: "flex",
+              borderRadius: "12px",
+              justifyContent: "center",
+            }}
+          >
+            <Button type="greenButton" text="Our Chief Program Mentor" />
+          </Link>
+        </div>
       </section>
+
       <Activities />
       <Events />
       <Recent />

@@ -10,6 +10,7 @@ import {
   Whatwedo,  
   Volunteer,
   VolunteerAwards, 
+  ChiefProgramMentor,
   Weekly, 
   Specialevents,
   Pastevents,
@@ -91,6 +92,7 @@ function App() {
             <Route path="whatwedo" element={<Whatwedo />} />
             <Route path="volunteer" element={<Volunteer />} />
             <Route path="volunteerawards" element={<VolunteerAwards />} />
+            <Route path="chiefprogrammentor" element={<ChiefProgramMentor />} />
             <Route path="pastevents" element={<Pastevents />} />
             <Route path="artgallery" element={<Artgallery />} />
             <Route path="weekly" element={<Weekly />} />

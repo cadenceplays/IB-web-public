@@ -9,6 +9,7 @@ export {default as Ourteam20232024} from './Ourteam20232024';
 export {default as Whatwedo} from './Whatwedo';
 export {default as Volunteer} from './Volunteer';
 export {default as VolunteerAwards} from './VolunteerAwards';
+export {default as ChiefProgramMentor} from './ChiefProgramMentor';
 export {default as Pastevents} from './Pastevents';
 export {default as Artgallery} from './Artgallery';
 

@@ -1,0 +1,139 @@
+.cpm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--lightgreen-color);
+    font-family: Raleway, sans-serif;
+    gap: 0.75rem;
+    /* margin: 0 0 0.5rem 0; */
+    text-align: start;
+}
+
+.cpm_title_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+    background-color: var(--lightgreen-color);
+    width: 20%;
+}
+
+.cpm_content_container {
+    width: 80%;
+}
+
+.cpm_container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+    background-color: var(--white-color);
+    padding: 0 0.25rem;
+}
+
+.cpm_container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+    background-color: var(--white-color);
+    padding: 0 0.25rem;
+}
+
+.cpm_title {
+    justify-content: start;
+    align-items: start;
+    text-transform: capitalize;
+    font-family: "Trebuchet MS", Raleway, sans-serif;
+    font-weight: 1000;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    color: var(--blue-color);
+    /* text-decoration: underline double;
+    text-underline-offset: 0.35rem; */
+    margin: 0.25rem 0;
+    padding: 0.5rem;
+    /* width: 25%; */
+}
+
+.cpm_description {
+    /* width: 75%; */
+    text-align: start;
+    /* margin: 0.25rem 0; */
+    padding: 0.5rem;
+}
+
+.cpm_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 294px;
+    height: 391px;
+    overflow: hidden;
+}
+
+.cpm_photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center; 
+}
+
+.cpm_content {
+    width: 70%;
+}
+
+.cpm_name {
+    font-weight: 600;
+    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+    color: var(--blue-color);
+    padding: 0.5rem;
+}
+
+.cpm_selfintro {
+    padding: 0.5rem;
+    line-height: 150%;
+}
+
+@media (max-width: 55rem) {
+    .cpm_selfintro {
+        line-height: 125%;
+    }
+}
+
+@media (max-width: 45rem) {
+    .cpm {
+        flex-direction: column;
+    }
+
+    .cpm_selfintro {
+        line-height: 125%;
+    }
+
+    .cpm_container1,
+    .cpm_container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cpm_title_container {
+        width: 100%;
+    }
+
+    .cpm_content_container {
+        width: 100%;
+    }
+
+    .cpm_content {
+        width: 100%;
+    }
+
+    .cpm_photo {
+        width: 100%;
+    }
+}
