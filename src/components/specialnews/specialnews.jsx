@@ -10,8 +10,10 @@ const Specialnews = () => {
     // below are for summer camp
     const photoLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp_2025%2F2.png?alt=media&token=e1fa6116-e349-4159-a5a5-741d8882f00d";
     const photoLink2 = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp_2025%2F3_wide.png?alt=media&token=a018146c-ae1f-4054-90f5-21af7675cd2a";
+
+    // this is for science club
     const dataContent = {
-        link: "2025-04-30T18:02:47.408Z_Summer_Cam_5544",
+        link: "2025-09-04T03:41:02.179Z_Science_Cl_9477",
     }
 
     // below are for nordic ski camp
@@ -48,7 +50,7 @@ const Specialnews = () => {
                      
                         <div className="specialnewslist-cell-empty"></div>
 
-                        <div className="specialnewslist-cell">
+                        {/*<div className="specialnewslist-cell">
                             <div className="specialnewslist-button-date"> August </div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: data5Content }}>
@@ -74,18 +76,18 @@ const Specialnews = () => {
                                     <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Farchery%20tag.jpg?alt=media&token=cf0f77ff-b139-47e0-a421-a83f00d531d9" width="100%" alt="featured" />
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">July / August</div>
+                            <div className="specialnewslist-button-date">September 21</div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    Summer Camp
+                                    Science Club
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2F2.jpg?alt=media&token=620af901-e23d-44a4-aaae-37757b907da5" width="100%" alt="featured" />
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fib%20science%20club%20poster%20fixed.jpg?alt=media&token=94f62103-15bc-455a-b52d-ac10b44945b5" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
