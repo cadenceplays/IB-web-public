@@ -210,6 +210,22 @@ const Ourteam = () => {
         <Line color="--green-color" width="100%" />
         <div className="ourteam_container1">
           <div className="ourteam_photo">
+            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fsalvatore%20faso.jpg?alt=media&token=19eb927e-5ded-4c62-b883-eb06f7c94599" alt="self" />
+          </div>
+          <div className="ourteam_content">
+            <div className="ourteam_name">
+              Salvatore Faso<br />
+              Sunday Outdoor Sports Captain
+            </div>
+            <div className="ourteam_selfintro">
+              Hi, I am Sam, a senior for the class of 2026 at Issaquah High, and the Sunday Outdoor Sports Captain for International Buddy. Ever since I have started volunteering at this organization, I've grown a love for serving these children through the use of my volunteer work. I have always tried my best to make a positive impact to the children's lives, even if it is small and I am eager to further my work the International Buddy!
+            </div>
+          </div>
+        </div>
+
+        <Line color="--green-color" width="100%" />
+        <div className="ourteam_container2">
+          <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fcadence%20liao%20-%20director%20of%20technology.jpg?alt=media&token=50663de4-07cf-4e58-9e44-dc0aefdc7f47" alt="self" />
           </div>
           <div className="ourteam_content">
@@ -224,7 +240,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fsophia%20li%20-%20general%20captain.jfif?alt=media&token=a05fad5d-3c99-4ba2-9fb9-30b2417bf9d5" alt="self" />
           </div>
@@ -240,7 +256,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Faddy%20wei%20-%20art%20group%20captain.jpg?alt=media&token=b2801e30-3369-4968-b587-2954d3b46111" alt="self" />
           </div>
@@ -256,7 +272,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FTimothy%20Liao.JPG?alt=media&token=b3ad0cec-fb64-4ee3-8a9e-b6155e05e7a1" alt="self" />
           </div>
@@ -272,7 +288,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fandy%20peng.jpg?alt=media&token=7815aa5f-6842-4797-b6cd-bc60dd5f7a50" alt="self" />
           </div>
@@ -288,7 +304,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fchanning%20huang%20-%20book%20club%20captain.jpg?alt=media&token=060ebe83-dabb-4439-877b-d8d1a0e8d1c0" alt="self" />
           </div>
@@ -304,7 +320,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Femmaline%20-%20book%20club%20captain.jfif?alt=media&token=f7f318b1-a7d6-4047-b6fb-4d5e293c8864" alt="self" />
           </div>
@@ -320,7 +336,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fkatie%20meng%20-%20video%20production%20captain.jfif?alt=media&token=df59cd14-ec80-4d78-a5b9-ac28e610a11d" alt="self" />
           </div>
@@ -336,7 +352,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Femma%20hu%20-%20sunday%20outdoor%20sports%20captain.jfif?alt=media&token=a950ff61-6238-480d-a1fc-bbb71f2665bf" alt="self" />
           </div>
@@ -352,7 +368,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Falex%20kang%20-%20special%20olympics%20swim%20captain.jfif?alt=media&token=c20a321c-f07f-4bd7-b18b-2cee82e43752" alt="self" />
           </div>
@@ -368,7 +384,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fcloris%20-%20swimming%20captain%20bac.jfif?alt=media&token=19e9c6c7-ae3a-4ad7-9f1e-13fd93ad36a8" alt="self" />
           </div>
@@ -384,7 +400,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Falexander%20zhao%20-%20swim%20captain%20mercer%20island.jfif?alt=media&token=08503c3c-cfb1-431d-8f80-23b0442f90be" alt="self" />
           </div>
@@ -400,7 +416,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Femma%20-%20science%20captain.jpg?alt=media&token=f979ed82-fc9a-434b-b154-8f75f3448c4a" alt="self" />
           </div>
@@ -416,7 +432,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fedward%20-%20science%20captain.jpg?alt=media&token=9c73044d-6877-4e70-bd0a-ee46d3ab78e4" alt="self" />
           </div>
@@ -432,7 +448,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fmaanha%20rahman%20-%20snoqualmie%20outreach%20director.jpg?alt=media&token=24df06be-facf-4129-ac05-7bc89d3bcb57" alt="self" />
           </div>
@@ -448,7 +464,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FJennifer%20Xue.JPG?alt=media&token=2c5633af-bbe8-42c9-aead-5a143ef28bd2" alt="self" />
           </div>
@@ -464,7 +480,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FDerek%20Li.JPG?alt=media&token=c7d79803-e069-4b2a-8b7a-48401c844b00" alt="self" />
           </div>
@@ -480,7 +496,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FAlexandra%20Deschenes.JPG?alt=media&token=682b7296-7413-4aff-905d-188acdf9a049" alt="self" />
           </div>
@@ -496,7 +512,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fminhe%20yang.jpg?alt=media&token=80c4fad7-89ad-4668-ba6a-d1067113d075" alt="self" />
           </div>
