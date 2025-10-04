@@ -28,9 +28,9 @@ const Specialnews = () => {
         link: "2025-07-22T04:36:02.577Z_Archery_Ta_4717",
     }
 
-    // below is for chipotle fundraising 
+    // below is for pirates movie thing
     const data5Content = {
-        link: "2025-07-28T03:30:01.540Z_Chipotle_F_3376",
+        link: "2025-10-04T20:05:29.011Z_The_Pirate_316",
     }
 
     if (showSpecial) {
@@ -46,8 +46,8 @@ const Specialnews = () => {
                         </div>
                     </div>
                     <div className="specialnewslist-container">
-                    
-                     
+
+
                         <div className="specialnewslist-cell-empty"></div>
 
                         {/*<div className="specialnewslist-cell">
@@ -87,21 +87,35 @@ const Specialnews = () => {
                             </div>
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fib%20science%20club%20poster%20fixed.jpg?alt=media&token=94f62103-15bc-455a-b52d-ac10b44945b5" width="100%" alt="featured" />
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fscience%20club%20cropped.jpg?alt=media&token=fccb14ce-b1ad-45e1-a352-58db674211b1" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
 
-                        <div className="specialnewslist-cell-empty"></div> 
-                        
+                        <div className="specialnewslist-cell">
+                            <div className="specialnewslist-button-date">November 1st</div>
+                            <div className="specialnewslist-button-title">
+                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
+                                    The Pirates of Penzance
+                                </Link>
+                            </div>
+                            <div className="specialnewslist-button">
+                                <Link to="/upcomingweekly" state={{ data: data5Content }}>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fpirates%20of%20penzance%20croppd.jpg?alt=media&token=797c749b-e322-4314-8703-276027ddbe6c" width="100%" alt="featured" />
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="specialnewslist-cell-empty"></div>
+
                     </div>
                 </div>
 
 
                 {/* below are for all-wide banners */}
 
-                    {/* below are for science club banner */}
-                    {/* <div className="specialnews3a">
+                {/* below are for science club banner */}
+                {/* <div className="specialnews3a">
                         <Link to="/upcomingweekly" state={{ data: data5Content }}>
                             <img src={photo5aLink} width="100%" alt="featured" />
                         </Link>
@@ -112,8 +126,8 @@ const Specialnews = () => {
                         </Link>
                     </div> */}
 
-                    {/* below are for nordic ski camp banner */}
-                    {/* <div className="specialnews3a">
+                {/* below are for nordic ski camp banner */}
+                {/* <div className="specialnews3a">
                         <Link to="/upcomingweekly" state={{ data: data2Content }}>
                             <img src={photo2bLink} width="100%" alt="featured" />
                         </Link>
@@ -123,9 +137,9 @@ const Specialnews = () => {
                             <img src={photo2aLink} width="100%" alt="featured" />
                         </Link>
                     </div> */}
-                    
-                    {/* below are for summer camp banner */}
-                    {/* <div className="specialnews2a">
+
+                {/* below are for summer camp banner */}
+                {/* <div className="specialnews2a">
                         <Link to="/upcomingweekly" state={{ data: dataContent }}>
                             <div className="specialnews-blue-button">
                                 <img src={photoLink2} width="800" alt="featured" />
@@ -142,11 +156,11 @@ const Specialnews = () => {
 
 
                 {/* below are for special olympics */}
-                
+
                 <div className="specialnews">
                     <div className="specialnews-so">
                         <Link to="/specialolympics">
-                        <img src={featuredImg} width="300" alt="featured" />
+                            <img src={featuredImg} width="300" alt="featured" />
                         </Link>
                     </div>
 
