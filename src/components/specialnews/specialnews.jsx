@@ -19,8 +19,10 @@ const Specialnews = () => {
     // below are for nordic ski camp
     const photo2aLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fnordic_ski%2F2025_2.jpg?alt=media&token=73d87c3e-5fc3-4b51-8a2f-076c8094db7a";
     const photo2bLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fnordic_ski%2FNordic%20ski%20banner_w3.jpg?alt=media&token=4833929c-a7b8-4ea0-9c11-1ed06a257b72";
+
+    // this is for volunteer training
     const data2Content = {
-        link: "2025-02-18T03:47:49.972Z_Nordic_Ski_7935",
+        link: "2025-10-13T19:29:30.384Z_IB_Trainin_2314",
     }
 
     // below is for Archery Tag
@@ -48,7 +50,7 @@ const Specialnews = () => {
                     <div className="specialnewslist-container">
 
 
-                        <div className="specialnewslist-cell-empty"></div>
+                        {/*<div className="specialnewslist-cell-empty"></div>*/}
 
                         {/*<div className="specialnewslist-cell">
                             <div className="specialnewslist-button-date"> August </div>
@@ -93,6 +95,20 @@ const Specialnews = () => {
                         </div>
 
                         <div className="specialnewslist-cell">
+                            <div className="specialnewslist-button-date">October 26th</div>
+                            <div className="specialnewslist-button-title">
+                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
+                                    IB Training
+                                </Link>
+                            </div>
+                            <div className="specialnewslist-button">
+                                <Link to="/upcomingweekly" state={{ data: data2Content }}>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2Fvolunteer%20training.384Z_0_9213?alt=media&token=d6d53cf7-0070-4099-9001-3b917482e69d" width="100%" alt="featured" />
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="specialnewslist-cell">
                             <div className="specialnewslist-button-date">November 1st</div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: dataContent }}>
@@ -105,8 +121,6 @@ const Specialnews = () => {
                                 </Link>
                             </div>
                         </div>
-
-                        <div className="specialnewslist-cell-empty"></div>
 
                     </div>
                 </div>
