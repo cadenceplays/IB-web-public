@@ -22,7 +22,7 @@ const Specialnews = () => {
 
     // this is for volunteer training
     const data2Content = {
-        link: "2025-10-13T19:29:30.384Z_IB_Trainin_2314",
+        link: "2025-10-14T05:12:27.856Z_IB_Trainin_5611",
     }
 
     // below is for halloween party
