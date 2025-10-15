@@ -11,9 +11,9 @@ const Specialnews = () => {
     const photoLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp_2025%2F2.png?alt=media&token=e1fa6116-e349-4159-a5a5-741d8882f00d";
     const photoLink2 = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp_2025%2F3_wide.png?alt=media&token=a018146c-ae1f-4054-90f5-21af7675cd2a";
 
-    // this is for science club
+    // this is for moms party
     const dataContent = {
-        link: "2025-09-04T03:41:02.179Z_Science_Cl_9477",
+        link: "2025-10-15T05:27:14.694Z_Enrichment_6341",
     }
 
     // below are for nordic ski camp
@@ -52,44 +52,16 @@ const Specialnews = () => {
 
                         {/*<div className="specialnewslist-cell-empty"></div>*/}
 
-                        {/*<div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date"> August </div>
-                            <div className="specialnewslist-button-title">
-                                <Link to="/upcomingweekly" state={{ data: data5Content }}>
-                                Chipotle Fundraiser for IB
-                                </Link>
-                            </div>
-                            <div className="specialnewslist-button">
-                                <Link to="/upcomingweekly" state={{ data: data5Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fchipotle%20fundraiser%20.jpg?alt=media&token=994a51b6-6f00-4938-be00-50016b7b6e27" width="100%" alt="featured" />
-                                </Link>
-                            </div>
-                        </div>
-
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">August 16</div>
-                            <div className="specialnewslist-button-title">
-                                <Link to="/upcomingweekly" state={{ data: data4Content }}>
-                                Archery Tag
-                                </Link>
-                            </div>
-                            <div className="specialnewslist-button">
-                                <Link to="/upcomingweekly" state={{ data: data4Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Farchery%20tag.jpg?alt=media&token=cf0f77ff-b139-47e0-a421-a83f00d531d9" width="100%" alt="featured" />
-                                </Link>
-                            </div>
-                        </div> */}
-
-                        <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">September 21</div>
+                            <div className="specialnewslist-button-date">October 25th</div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    Science Club
+                                    Enrichment for Moms
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fscience%20club%20cropped.jpg?alt=media&token=fccb14ce-b1ad-45e1-a352-58db674211b1" width="100%" alt="featured" />
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2Fmoms%20enrichment%20cropped.jpg?alt=media&token=a4719d1e-b161-4d7a-8789-9cacdda8d378" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
