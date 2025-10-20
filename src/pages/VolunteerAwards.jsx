@@ -94,6 +94,24 @@ const VolunteerAwards = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="volunteerawards_content_container">
+                <div className="volunteerawards_container">
+                    <div className="volunteerawards_photo">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2F30143437f69a0eac92e17bac1fcb75f5.JPG?alt=media&token=10081436-ac2c-4a37-8c37-de05b8e27fc7"
+                            alt="Owen Cao"
+                        />
+                    </div>
+
+                    <div className="volunteerawards_content">
+                        <h2 className="volunteerawards_name">Outstanding Captain's Achievement Award</h2>
+                        <p className="volunteerawards_extra">Kyle Zhuang</p>
+                        <p className="volunteerawards_extra"></p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     );
 };
