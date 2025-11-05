@@ -20,9 +20,9 @@ const Specialnews = () => {
     const photo2aLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fnordic_ski%2F2025_2.jpg?alt=media&token=73d87c3e-5fc3-4b51-8a2f-076c8094db7a";
     const photo2bLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fnordic_ski%2FNordic%20ski%20banner_w3.jpg?alt=media&token=4833929c-a7b8-4ea0-9c11-1ed06a257b72";
 
-    // this is for volunteer training
+    // this is for video production training
     const data2Content = {
-        link: "2025-10-14T05:12:27.856Z_IB_Trainin_5611",
+        link: "2025-11-05T01:47:32.523Z_Video_Prod_9314",
     }
 
     // below is for halloween party
@@ -81,15 +81,15 @@ const Specialnews = () => {
                         </div>*/}
 
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">October 26th</div>
+                            <div className="specialnewslist-button-date">Nov 8th</div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: data2Content }}>
-                                    Volunteer Training
+                                    Video Production Training
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: data2Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2Fvolunteer%20training%20poster%20cut.jpg?alt=media&token=846572f5-1e93-4f9f-b33f-0b8879fb6540" width="100%" alt="featured" />
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2025-11-05T01%3A47%3A32.523Z_0_1288?alt=media&token=fc7f7953-0dea-4c85-8171-547caf9f62fe" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
