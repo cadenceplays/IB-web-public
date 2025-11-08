@@ -94,6 +94,7 @@ const Specialnews = () => {
                             </div>
                         </div>
 
+                        {/*
                         <div className="specialnewslist-cell">
                             <div className="specialnewslist-button-date">November 1st</div>
                             <div className="specialnewslist-button-title">
@@ -106,7 +107,7 @@ const Specialnews = () => {
                                     <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fpirates%20of%20penzance%20croppd.jpg?alt=media&token=797c749b-e322-4314-8703-276027ddbe6c" width="100%" alt="featured" />
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="specialnewslist-cell-empty"></div>
 
