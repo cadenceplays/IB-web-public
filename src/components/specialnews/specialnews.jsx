@@ -22,7 +22,7 @@ const Specialnews = () => {
 
     // this is for video production training
     const data2Content = {
-        link: "2025-11-05T01:47:32.523Z_Video_Prod_9314",
+        link: "2025-11-19T22:05:12.784Z_Video_Prod_1076",
     }
 
     // below is for halloween party
@@ -81,7 +81,7 @@ const Specialnews = () => {
                         </div>*/}
 
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">Nov 8th</div>
+                            <div className="specialnewslist-button-date">Nov 23th</div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: data2Content }}>
                                     Video Production Training
@@ -89,7 +89,7 @@ const Specialnews = () => {
                             </div>
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: data2Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2025-11-05T01%3A47%3A32.523Z_0_1288?alt=media&token=fc7f7953-0dea-4c85-8171-547caf9f62fe" width="100%" alt="featured" />
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2025-11-19T22%3A05%3A12.784Z_0_5121?alt=media&token=723beb48-772a-43ad-9482-0fa1182efbd4" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
