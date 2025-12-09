@@ -30,9 +30,9 @@ const Specialnews = () => {
         link: "2025-10-14T04:35:02.543Z_Halloween__9690",
     }
 
-    // below is for pirates movie thing
+    // below is for gingerbread house decorating
     const data5Content = {
-        link: "2025-10-04T20:05:29.011Z_The_Pirate_316",
+        link: "2025-12-09T02:14:04.147Z_Gingerbrea_4406",
     }
 
     if (showSpecial) {
@@ -80,7 +80,7 @@ const Specialnews = () => {
                             </div>
                         </div>*/}
 
-                        <div className="specialnewslist-cell">
+                        {/*<div className="specialnewslist-cell">
                             <div className="specialnewslist-button-date">Nov 23th</div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: data2Content }}>
@@ -92,22 +92,21 @@ const Specialnews = () => {
                                     <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2025-11-19T22%3A05%3A12.784Z_0_5121?alt=media&token=723beb48-772a-43ad-9482-0fa1182efbd4" width="100%" alt="featured" />
                                 </Link>
                             </div>
-                        </div>
+                        </div>*/}
 
-                        {/*
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">November 1st</div>
+                            <div className="specialnewslist-button-date">December 20th</div>
                             <div className="specialnewslist-button-title">
-                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    The Pirates of Penzance
+                                <Link to="/upcomingweekly" state={{ data: data5Content }}>
+                                    Gingerbread House Decorating
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: data5Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fpirates%20of%20penzance%20croppd.jpg?alt=media&token=797c749b-e322-4314-8703-276027ddbe6c" width="100%" alt="featured" />
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fgingerbread%20house%20decorating%20ib.jpg?alt=media&token=656d2a34-e2b8-4f99-bd6d-1796a888cdaa" width="100%" alt="featured" />
                                 </Link>
                             </div>
-                        </div> */}
+                        </div>
 
                         <div className="specialnewslist-cell-empty"></div>
 
