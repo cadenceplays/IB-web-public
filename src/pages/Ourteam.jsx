@@ -1,8 +1,22 @@
 import React from 'react';
 import "./Ourteam.css";
 import { Line } from '../components';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const Ourteam = () => {
+  // scroll to leader's bio if you click on link
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const el = document.getElementById(hash.substring(1));
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+  }, [hash]);
+
   return (
     <div className="ourteam">
 
@@ -15,7 +29,7 @@ const Ourteam = () => {
         </div>
       </div>
       <div className="ourteam_content_container">
-        <div className="ourteam_container1">
+        <div id="emily-zheng" className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Femily%20zheng%20-%20president.jfif?alt=media&token=da58d7ed-bc6e-47da-9faf-f6e05c0bf496" alt="self" />
           </div>
@@ -32,7 +46,7 @@ const Ourteam = () => {
 
         <Line color="--green-color" width="100%" />
 
-        <div className="ourteam_container2">
+        <div id="kaicheng-shen" className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fkaicheng%20-%20vp%20of%20technology.jfif?alt=media&token=fd534b2f-9c73-406b-bb1a-db47595caa06" alt="self" />
           </div>
@@ -48,7 +62,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div id="julia-shang" className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fjulia%20shang%20-%20vp%20of%20development.jfif?alt=media&token=ec606378-eed3-4fbd-8566-547292373511" alt="self" />
           </div>
@@ -64,7 +78,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div id="aiden-li" className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Faiden%20li%20-%20vp%20of%20communication.jfif?alt=media&token=5bff3152-e680-49f5-b505-286f425b0521" alt="self" />
           </div>
@@ -80,7 +94,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div id="william-chee" className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fwilliam%20-%20vp%20of%20community%20outreach.jfif?alt=media&token=32b0394b-4df9-4e9c-849f-6e490d89043c" alt="self" />
           </div>
@@ -96,7 +110,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div id="celena-zhang" className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fcelena%20-%20vp%20of%20events%20-%20resized.jpg?alt=media&token=d59ca047-caa5-4b14-a45d-2bcfa8acc32a" alt="self" />
           </div>
@@ -112,7 +126,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div id="ivan-pong" className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FIvan%20Pong.JPG?alt=media&token=541d1f21-cdea-440b-9d76-eb90b6b1a5ac" alt="self" />
           </div>
@@ -128,7 +142,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div id="oliver-lambert" className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Foliver%20-%20vp%20of%20sustainability.jfif?alt=media&token=05c090c5-d8ab-4e8e-9ab1-77ca302b2c34" alt="self" />
           </div>
