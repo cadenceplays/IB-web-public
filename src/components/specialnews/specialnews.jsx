@@ -30,9 +30,9 @@ const Specialnews = () => {
         link: "2025-12-15T04:08:16.892Z_Volunteer__8738",
     }
 
-    // below is for gingerbread house decorating
+    // below is for aquarium visit idk why it's spelled wrong lmao
     const data5Content = {
-        link: "2025-12-09T02:14:04.147Z_Gingerbrea_4406",
+        link: "2026-01-01T04:29:22.024Z_IB_Aquariu_7343",
     }
 
     if (showSpecial) {
@@ -66,19 +66,19 @@ const Specialnews = () => {
                             </div>
                         </div>*/}
 
-                        {/*<div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">December 20th</div>
+                        <div className="specialnewslist-cell">
+                            <div className="specialnewslist-button-date">January 11th</div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: data5Content }}>
-                                    Gingerbread House Decorating
+                                    IB Aquarium Visit
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: data5Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fgingerbread%20house%20decorating%20ib.jpg?alt=media&token=656d2a34-e2b8-4f99-bd6d-1796a888cdaa" width="100%" alt="featured" />
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2026-01-01T04%3A29%3A22.024Z_0_2937?alt=media&token=3ff2c852-9e1f-477f-a0b1-e499dab862f7" width="100%" alt="featured" />
                                 </Link>
                             </div>
-                        </div>*/}
+                        </div>
 
                         <div className="specialnewslist-cell">
                             <div className="specialnewslist-button-date">Janurary 31st</div>
