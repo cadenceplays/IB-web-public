@@ -13,7 +13,7 @@ const Specialnews = () => {
 
     // this is for moms party
     const dataContent = {
-        link: "2025-10-15T05:27:14.694Z_Enrichment_6341",
+        link: "2026-01-08T17:39:39.412Z_IB_Singing_9495",
     }
 
     // below are for nordic ski camp
@@ -50,21 +50,21 @@ const Specialnews = () => {
                     <div className="specialnewslist-container">
 
 
-                        <div className="specialnewslist-cell-empty"></div>
+                        {/*<div className="specialnewslist-cell-empty"></div>*/}
 
-                        {/*<div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">October 25th</div>
+                        <div className="specialnewslist-cell">
+                            <div className="specialnewslist-button-date">January 11th</div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    Enrichment for Moms
+                                    IB Singing
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2Fmoms%20enrichment%20cropped.jpg?alt=media&token=a4719d1e-b161-4d7a-8789-9cacdda8d378" width="100%" alt="featured" />
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2026-01-08T17%3A39%3A39.412Z_0_1684?alt=media&token=f2369f77-d6ad-4807-b1fc-d9bef7fa8501" width="100%" alt="featured" />
                                 </Link>
                             </div>
-                        </div>*/}
+                        </div>
 
                         <div className="specialnewslist-cell">
                             <div className="specialnewslist-button-date">January 11th</div>
@@ -108,7 +108,7 @@ const Specialnews = () => {
                             </div>
                         </div>
 
-                        <div className="specialnewslist-cell-empty"></div>
+                        {/*<div className="specialnewslist-cell-empty"></div>*/}
 
                     </div>
                 </div>
