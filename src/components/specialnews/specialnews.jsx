@@ -11,9 +11,9 @@ const Specialnews = () => {
     const photoLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp_2025%2F2.png?alt=media&token=e1fa6116-e349-4159-a5a5-741d8882f00d";
     const photoLink2 = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp_2025%2F3_wide.png?alt=media&token=a018146c-ae1f-4054-90f5-21af7675cd2a";
 
-    // this is for moms party
+    // this is for singing event; i'll remove the ad soon
     const dataContent = {
-        link: "2026-01-08T17:39:39.412Z_IB_Singing_9495",
+        link: "2026-01-14T06:31:43.791Z_IB_Singing_4055",
     }
 
     // below are for nordic ski camp
@@ -50,10 +50,10 @@ const Specialnews = () => {
                     <div className="specialnewslist-container">
 
 
-                        {/*<div className="specialnewslist-cell-empty"></div>*/}
+                        <div className="specialnewslist-cell-empty"></div>
 
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">January 11th</div>
+                            <div className="specialnewslist-button-date">January 18th</div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: dataContent }}>
                                     IB Singing
@@ -62,20 +62,6 @@ const Specialnews = () => {
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: dataContent }}>
                                     <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2026-01-08T17%3A39%3A39.412Z_0_1684?alt=media&token=f2369f77-d6ad-4807-b1fc-d9bef7fa8501" width="100%" alt="featured" />
-                                </Link>
-                            </div>
-                        </div>
-
-                        <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">January 11th</div>
-                            <div className="specialnewslist-button-title">
-                                <Link to="/upcomingweekly" state={{ data: data5Content }}>
-                                    IB Aquarium Visit
-                                </Link>
-                            </div>
-                            <div className="specialnewslist-button">
-                                <Link to="/upcomingweekly" state={{ data: data5Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2026-01-01T04%3A29%3A22.024Z_0_2937?alt=media&token=3ff2c852-9e1f-477f-a0b1-e499dab862f7" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
@@ -108,7 +94,7 @@ const Specialnews = () => {
                             </div>
                         </div>
 
-                        {/*<div className="specialnewslist-cell-empty"></div>*/}
+                        <div className="specialnewslist-cell-empty"></div>
 
                     </div>
                 </div>
