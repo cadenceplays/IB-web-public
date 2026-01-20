@@ -13,7 +13,7 @@ const Specialnews = () => {
 
     // this is for singing event; i'll remove the ad soon
     const dataContent = {
-        link: "2026-01-14T06:31:43.791Z_IB_Singing_4055",
+        link: "2026-01-20T04:50:02.294Z_IB_Singing_4315",
     }
 
     // below are for nordic ski camp
@@ -53,7 +53,7 @@ const Specialnews = () => {
                         <div className="specialnewslist-cell-empty"></div>
 
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">January 18th</div>
+                            <div className="specialnewslist-button-date">January 25th</div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: dataContent }}>
                                     IB Singing
