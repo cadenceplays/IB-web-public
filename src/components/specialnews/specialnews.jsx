@@ -53,20 +53,6 @@ const Specialnews = () => {
                         <div className="specialnewslist-cell-empty"></div>
 
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">January 25th</div>
-                            <div className="specialnewslist-button-title">
-                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    IB Singing
-                                </Link>
-                            </div>
-                            <div className="specialnewslist-button">
-                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2026-01-08T17%3A39%3A39.412Z_0_1684?alt=media&token=f2369f77-d6ad-4807-b1fc-d9bef7fa8501" width="100%" alt="featured" />
-                                </Link>
-                            </div>
-                        </div>
-
-                        <div className="specialnewslist-cell">
                             <div className="specialnewslist-button-date">Janurary 31st</div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: data4Content }}>
