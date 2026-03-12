@@ -20,9 +20,9 @@ const Specialnews = () => {
     const photo2aLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fnordic_ski%2F2025_2.jpg?alt=media&token=73d87c3e-5fc3-4b51-8a2f-076c8094db7a";
     const photo2bLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fnordic_ski%2FNordic%20ski%20banner_w3.jpg?alt=media&token=4833929c-a7b8-4ea0-9c11-1ed06a257b72";
 
-    // this is for holiday talent show
+    // this is for pacific science center visit
     const data2Content = {
-        link: "2025-12-15T00:57:35.224Z_Holiday_Ta_4985",
+        link: "2026-03-12T20:09:17.789Z_Pacific_Sc_5708",
     }
 
     // below is for volunteer training r2 ;/
@@ -53,15 +53,15 @@ const Specialnews = () => {
                         <div className="specialnewslist-cell-empty"></div>
 
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">Every Sunday </div>
+                            <div className="specialnewslist-button-date">April 16</div>
                             <div className="specialnewslist-button-title">
-                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    IB Singing
+                                <Link to="/upcomingweekly" state={{ data: data2Content }}>
+                                    Pacific Science Center Visit
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
-                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FScreenshot%202026-03-11%20192927.jpg?alt=media&token=8dbb6214-8cfe-48c3-aa81-ae7ea8bbc58f" width="100%" alt="featured" />
+                                <Link to="/upcomingweekly" state={{ data: data2Content }}>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2026-03-12T20%3A09%3A17.789Z_0_7943?alt=media&token=0f0b4005-8044-4946-b3c2-28c6f8d34c6b" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
