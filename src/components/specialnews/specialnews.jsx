@@ -13,7 +13,7 @@ const Specialnews = () => {
 
     // this is for singing event; i'll remove the ad soon
     const dataContent = {
-        link: "2026-01-20T04:50:02.294Z_IB_Singing_4315",
+        link: "2026-03-10T04:42:50.080Z_Sunday_IB__5672",
     }
 
     // below are for nordic ski camp
@@ -53,29 +53,15 @@ const Specialnews = () => {
                         <div className="specialnewslist-cell-empty"></div>
 
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">Janurary 31st</div>
+                            <div className="specialnewslist-button-date">Every Sunday </div>
                             <div className="specialnewslist-button-title">
-                                <Link to="/upcomingweekly" state={{ data: data4Content }}>
-                                    Volunteer Training
+                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
+                                    IB Singing
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
-                                <Link to="/upcomingweekly" state={{ data: data4Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FPurple%20Cute%20Playful%20Modern%20Open%20Volunteer%20Instagram%20Post.jpg?alt=media&token=13c4c467-38dd-4f8a-b300-9f44dc9ab770" width="100%" alt="featured" />
-                                </Link>
-                            </div>
-                        </div>
-
-                        <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">January 31st</div>
-                            <div className="specialnewslist-button-title">
-                                <Link to="/upcomingweekly" state={{ data: data2Content }}>
-                                    Holiday Talent Show
-                                </Link>
-                            </div>
-                            <div className="specialnewslist-button">
-                                <Link to="/upcomingweekly" state={{ data: data2Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2025-12-15T00%3A57%3A35.224Z_0_658?alt=media&token=2f29a5f1-217f-41b8-9cb9-132cde1d682a" width="100%" alt="featured" />
+                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2FScreenshot%202026-03-11%20192927.jpg?alt=media&token=8dbb6214-8cfe-48c3-aa81-ae7ea8bbc58f" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
