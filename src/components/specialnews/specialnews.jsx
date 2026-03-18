@@ -11,9 +11,9 @@ const Specialnews = () => {
     const photoLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp_2025%2F2.png?alt=media&token=e1fa6116-e349-4159-a5a5-741d8882f00d";
     const photoLink2 = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp_2025%2F3_wide.png?alt=media&token=a018146c-ae1f-4054-90f5-21af7675cd2a";
 
-    // this is for singing event; i'll remove the ad soon
+    // this is for easter egg hunt
     const dataContent = {
-        link: "2026-03-10T04:42:50.080Z_Sunday_IB__5672",
+        link: "2026-03-18T04:42:34.060Z_Sunday_Eas_5597",
     }
 
     // below are for nordic ski camp
@@ -51,6 +51,20 @@ const Specialnews = () => {
 
 
                         <div className="specialnewslist-cell-empty"></div>
+
+                        <div className="specialnewslist-cell">
+                            <div className="specialnewslist-button-date">April 5</div>
+                            <div className="specialnewslist-button-title">
+                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
+                                    Easter Egg Hunt
+                                </Link>
+                            </div>
+                            <div className="specialnewslist-button">
+                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2026-03-18T04%3A42%3A34.060Z_0_7427?alt=media&token=d134f93a-8540-467f-a7c1-6bb3c42cf3db" width="100%" alt="featured" />
+                                </Link>
+                            </div>
+                        </div>
 
                         <div className="specialnewslist-cell">
                             <div className="specialnewslist-button-date">April 16</div>
