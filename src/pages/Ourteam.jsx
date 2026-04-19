@@ -541,6 +541,22 @@ const Ourteam = () => {
           </div>
         </div>
 
+        <Line color="--green-color" width="100%" />
+        <div className="ourteam_container1">
+          <div className="ourteam_photo">
+            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2Fbrian%20yan.jfif?alt=media&token=ea2fa6b6-15ec-42aa-8d77-60c1c2c32ea5" alt="self" />
+          </div>
+          <div className="ourteam_content">
+            <div className="ourteam_name">
+              Brian Yan<br />
+              Reading Club Captain
+            </div>
+            <div className="ourteam_selfintro">
+              Hi, my name is Brian Yan. I am a junior at International School for the 2025-2026 year. I started to volunteer at International Buddy as a Freshman, going to the Indoor activities, sports, and IB events. I then started the in-person Reading Club about a year ago. We help children of different ages and levels advance their reading skills through popcorn reading, asking, and answering questions. I find the volunteering work is both rewarding and enjoying!
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
