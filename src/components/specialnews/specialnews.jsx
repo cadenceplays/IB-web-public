@@ -11,9 +11,9 @@ const Specialnews = () => {
     const photoLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp_2025%2F2.png?alt=media&token=e1fa6116-e349-4159-a5a5-741d8882f00d";
     const photoLink2 = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp_2025%2F3_wide.png?alt=media&token=a018146c-ae1f-4054-90f5-21af7675cd2a";
 
-    // this is for easter egg hunt
+    // current singing event promo, temp
     const dataContent = {
-        link: "2026-03-18T04:42:34.060Z_Sunday_Eas_5597",
+        link: "2026-04-28T04:10:26.555Z_Sunday_IB__8409",
     }
 
     // below are for nordic ski camp
@@ -53,29 +53,15 @@ const Specialnews = () => {
                         <div className="specialnewslist-cell-empty"></div>
 
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">April 5</div>
+                            <div className="specialnewslist-button-date">May 3</div>
                             <div className="specialnewslist-button-title">
-                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    Easter Egg Hunt
+                                <Link to="/upcomingweekly" state={{ data: data2Content }}>
+                                    IB Singing on Sundays!
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2026-03-18T04%3A42%3A34.060Z_0_7427?alt=media&token=d134f93a-8540-467f-a7c1-6bb3c42cf3db" width="100%" alt="featured" />
-                                </Link>
-                            </div>
-                        </div>
-
-                        <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">April 16</div>
-                            <div className="specialnewslist-button-title">
-                                <Link to="/upcomingweekly" state={{ data: data2Content }}>
-                                    Pacific Science Center Visit
-                                </Link>
-                            </div>
-                            <div className="specialnewslist-button">
-                                <Link to="/upcomingweekly" state={{ data: data2Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2026-03-12T20%3A09%3A17.789Z_0_7943?alt=media&token=0f0b4005-8044-4946-b3c2-28c6f8d34c6b" width="100%" alt="featured" />
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2026-04-28T04%3A10%3A26.555Z_0_7338?alt=media&token=2451a305-c67c-45b9-848b-08353674311f" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
