@@ -11,18 +11,13 @@ const Specialnews = () => {
     const photoLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp_2025%2F2.png?alt=media&token=e1fa6116-e349-4159-a5a5-741d8882f00d";
     const photoLink2 = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fsummer_camp_2025%2F3_wide.png?alt=media&token=a018146c-ae1f-4054-90f5-21af7675cd2a";
 
-    // current singing event promo, temp
-    const dataContent = {
-        link: "2026-04-28T04:10:26.555Z_Sunday_IB__8409",
-    }
-
     // below are for nordic ski camp
     const photo2aLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fnordic_ski%2F2025_2.jpg?alt=media&token=73d87c3e-5fc3-4b51-8a2f-076c8094db7a";
     const photo2bLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fnordic_ski%2FNordic%20ski%20banner_w3.jpg?alt=media&token=4833929c-a7b8-4ea0-9c11-1ed06a257b72";
 
-    // this is for pacific science center visit
-    const data2Content = {
-        link: "2026-03-12T20:09:17.789Z_Pacific_Sc_5708",
+    // this is for volunteer appreciation party
+    const dataContent = {
+        link: "2026-05-06T04:37:18.447Z_IB_Volunte_715",
     }
 
     // below is for volunteer training r2 ;/
@@ -53,15 +48,15 @@ const Specialnews = () => {
                         <div className="specialnewslist-cell-empty"></div>
 
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">May 3</div>
+                            <div className="specialnewslist-button-date">June 7</div>
                             <div className="specialnewslist-button-title">
-                                <Link to="/upcomingweekly" state={{ data: data2Content }}>
-                                    IB Singing on Sundays!
+                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
+                                    IB Volunteer Appreciation Party
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2026-04-28T04%3A10%3A26.555Z_0_7338?alt=media&token=2451a305-c67c-45b9-848b-08353674311f" width="100%" alt="featured" />
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2Faf385873-40e5-4a61-834f-7b43cd552e11.png?alt=media&token=70247048-d0c6-4796-b1f5-a3e46616595f" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
