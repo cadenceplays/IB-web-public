@@ -15,19 +15,15 @@ const Specialnews = () => {
     const photo2aLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fnordic_ski%2F2025_2.jpg?alt=media&token=73d87c3e-5fc3-4b51-8a2f-076c8094db7a";
     const photo2bLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fnordic_ski%2FNordic%20ski%20banner_w3.jpg?alt=media&token=4833929c-a7b8-4ea0-9c11-1ed06a257b72";
 
-    // this is for volunteer appreciation party
+    // this is for mother's day 5k
     const dataContent = {
+        link: "2026-05-07T00:15:22.629Z_Mothers_Da_4648",
+    }
+
+
+    // this is for volunteer appreciation party
+    const data2Content = {
         link: "2026-05-06T04:37:18.447Z_IB_Volunte_715",
-    }
-
-    // below is for volunteer training r2 ;/
-    const data4Content = {
-        link: "2025-12-15T04:08:16.892Z_Volunteer__8738",
-    }
-
-    // below is for aquarium visit idk why it's spelled wrong lmao
-    const data5Content = {
-        link: "2026-01-01T04:29:22.024Z_IB_Aquariu_7343",
     }
 
     if (showSpecial) {
@@ -48,14 +44,28 @@ const Specialnews = () => {
                         <div className="specialnewslist-cell-empty"></div>
 
                         <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">June 7</div>
+                            <div className="specialnewslist-button-date">May 10</div>
                             <div className="specialnewslist-button-title">
                                 <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    IB Volunteer Appreciation Party
+                                    Mother's Day 5k
                                 </Link>
                             </div>
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: dataContent }}>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2026-05-07T00%3A15%3A22.629Z_0_5912?alt=media&token=02d57f5e-cc4c-4ccf-9de9-a1dc282d44d3" width="100%" alt="featured" />
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="specialnewslist-cell">
+                            <div className="specialnewslist-button-date">June 7</div>
+                            <div className="specialnewslist-button-title">
+                                <Link to="/upcomingweekly" state={{ data: data2Content }}>
+                                    IB Volunteer Appreciation Party
+                                </Link>
+                            </div>
+                            <div className="specialnewslist-button">
+                                <Link to="/upcomingweekly" state={{ data: data2Content }}>
                                     <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2Faf385873-40e5-4a61-834f-7b43cd552e11.png?alt=media&token=70247048-d0c6-4796-b1f5-a3e46616595f" width="100%" alt="featured" />
                                 </Link>
                             </div>
