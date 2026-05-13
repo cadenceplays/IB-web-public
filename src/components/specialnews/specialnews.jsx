@@ -26,6 +26,11 @@ const Specialnews = () => {
         link: "2026-05-06T04:37:18.447Z_IB_Volunte_715",
     }
 
+    // this is for the stupid fricking summer camp
+    const data3Content = {
+        link: "2026-05-13T05:10:58.504Z_IB_Summer__7726"
+    }
+
     if (showSpecial) {
         return (
 
@@ -70,6 +75,21 @@ const Specialnews = () => {
                                 </Link>
                             </div>
                         </div>
+
+                        <div className="specialnewslist-cell">
+                            <div className="specialnewslist-button-date">July</div>
+                            <div className="specialnewslist-button-title">
+                                <Link to="/upcomingweekly" state={{ data: data3Content }}>
+                                    IB Summer Camp
+                                </Link>
+                            </div>
+                            <div className="specialnewslist-button">
+                                <Link to="/upcomingweekly" state={{ data: data3Content }}>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2026-05-13T05%3A10%3A58.504Z_0_5285?alt=media&token=3e9e1902-2b56-4da5-a790-842629b4e3b8" width="100%" alt="featured" />
+                                </Link>
+                            </div>
+                        </div>
+
 
                         <div className="specialnewslist-cell-empty"></div>
 
