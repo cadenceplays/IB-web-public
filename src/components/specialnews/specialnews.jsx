@@ -15,11 +15,6 @@ const Specialnews = () => {
     const photo2aLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fnordic_ski%2F2025_2.jpg?alt=media&token=73d87c3e-5fc3-4b51-8a2f-076c8094db7a";
     const photo2bLink = "https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/special_events%2Fnordic_ski%2FNordic%20ski%20banner_w3.jpg?alt=media&token=4833929c-a7b8-4ea0-9c11-1ed06a257b72";
 
-    // this is for mother's day 5k
-    const dataContent = {
-        link: "2026-05-07T00:15:22.629Z_Mothers_Da_4648",
-    }
-
 
     // this is for volunteer appreciation party
     const data2Content = {
@@ -47,20 +42,6 @@ const Specialnews = () => {
 
 
                         <div className="specialnewslist-cell-empty"></div>
-
-                        <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">May 10</div>
-                            <div className="specialnewslist-button-title">
-                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    Mother's Day 5k
-                                </Link>
-                            </div>
-                            <div className="specialnewslist-button">
-                                <Link to="/upcomingweekly" state={{ data: dataContent }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2026-05-07T00%3A15%3A22.629Z_0_5912?alt=media&token=02d57f5e-cc4c-4ccf-9de9-a1dc282d44d3" width="100%" alt="featured" />
-                                </Link>
-                            </div>
-                        </div>
 
                         <div className="specialnewslist-cell">
                             <div className="specialnewslist-button-date">June 7</div>
