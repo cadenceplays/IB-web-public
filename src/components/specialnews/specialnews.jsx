@@ -26,10 +26,6 @@ const Specialnews = () => {
         link: "2026-05-13T05:10:58.504Z_IB_Summer__7726"
     }
 
-    const data4Content = {
-        link: "2026-06-05T05:35:05.928Z_IB_and_Bat_9546"
-    }
-
     if (showSpecial) {
         return (
 
@@ -57,20 +53,6 @@ const Specialnews = () => {
                             <div className="specialnewslist-button">
                                 <Link to="/upcomingweekly" state={{ data: data2Content }}>
                                     <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2Faf385873-40e5-4a61-834f-7b43cd552e11.png?alt=media&token=70247048-d0c6-4796-b1f5-a3e46616595f" width="100%" alt="featured" />
-                                </Link>
-                            </div>
-                        </div>
-
-                        <div className="specialnewslist-cell">
-                            <div className="specialnewslist-button-date">June 26</div>
-                            <div className="specialnewslist-button-title">
-                                <Link to="/upcomingweekly" state={{ data: data4Content }}>
-                                    IB and Bates Technician Training
-                                </Link>
-                            </div>
-                            <div className="specialnewslist-button">
-                                <Link to="/upcomingweekly" state={{ data: data4Content }}>
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/event_upcomings%2F2026-06-05T05%3A35%3A05.928Z_0_6682?alt=media&token=797d3c62-3e27-44db-a12c-f99bbaa0a328" width="100%" alt="featured" />
                                 </Link>
                             </div>
                         </div>
