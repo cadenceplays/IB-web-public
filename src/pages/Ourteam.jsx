@@ -39,7 +39,7 @@ const Ourteam = () => {
               President
             </div>
             <div className="ourteam_selfintro">
-              Emily is a junior from international school for the 2025-2026 school year. She likes being involved and doesn’t mind helping when something needs to get done. She’s especially passionate about creative expression and learning how different people think, which shows up in both her art and her love for debate. Emily started working with International Buddy since its founding in 2018, making her knowledgeable and integrated into International Buddy’s core values. In her presidency, Emily strives to bolster volunteer inter connection in order to sustain hosting the ever-so-growing community.
+              Emily is a rising senior from international school for the 2026-2027 school year. She likes being involved and doesn’t mind helping when something needs to get done. She’s especially passionate about creative expression and learning how different people think, which shows up in both her art and her love for debate. Emily started working with International Buddy since its founding in 2018, making her knowledgeable and integrated into International Buddy’s core values. In her presidency, Emily strives to bolster volunteer inter connection in order to sustain hosting the ever-so-growing community.
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@ const Ourteam = () => {
               VP of Fundraising
             </div>
             <div className="ourteam_selfintro">
-              Hi, I'm Emma, a junior at Lakeside School for the 2025-2026 school year. I started volunteering with International Buddy in my freshman year and have enjoyed the past two years of tutoring, teaching science, and playing chess and sports with kids and other volunteers. As a leader of Science Club, I hope to share my love for biology, inspire kids to pursue their interests, and use my knowledge to make science a more inclusive, comfortable place for all.
+              HHi, I'm Emma Li, a senior at Lakeside School for the 2026-2027 school year. I started volunteering with International Buddy in my freshman year and have enjoyed the past three years of tutoring, leading Science Club, and playing chess and sports with kids and other volunteers. Moreover, I have loved not only that live interaction but also working behind the scenes to raise thousands of dollars that support our activities. As VP of Fundraising, I will continue to apply for grants and lead other fundraising activities, ensuring that International Buddy provides a positive and meaningful experience for everyone in the community.
             </div>
           </div>
         </div>

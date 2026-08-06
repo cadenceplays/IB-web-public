@@ -1,13 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/*fredoka (headings)*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Varela+Round&display=swap');
+
+@font-face {
+  font-family: 'DyslexicFont';
+  src: url('https://cdn.jsdelivr.net/gh/antijingoist/opendyslexic@master/compiled/OpenDyslexic-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0;
-  font-family: Raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  background-color: var(--bg-main) !important;
+  color: var(--text-main) !important;
+  font-family: var(--font-body);
+  font-size: 1.125rem; 
+  line-height: 1.65; 
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: var(--lightergrey-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading) !important;
+  letter-spacing: -0.01rem;
+  color: var(--text-main);
+  margin-top: 0;
 }
 
 code {
@@ -16,18 +32,148 @@ code {
 }
 
 :root {
-  --white-color:#ffffff;
-  --green-color: #A5C727;
-  --blue-color: #005D8B;
-  --darkgrey-color: #333333;
-  --grey-color: #666666;
-  --black-color: #000000;
-  --lightgreen-color: #e8f4be;
-  --lightblue-color: #d0e5f1;
-  --lightgrey-color: #999999;
-  --lightergrey-color: #dddddd;
-  --lightestgrey-color: #ebebeb;
-  --white-color-semitransparent: #ffffffee;
-  --transparent-color: #ffffff00;
-  --mediumblue-color: #4d94b8;
+  --bg-main:#ffffff;
+  --bg-subtle-gray: #f8fafc;
+  --main-blue: #0dddfd; 
+  --blue-glow: #0d65fd; 
+  --deep-blue: #0016a3; 
+  --yellow-accent: #ffde00; 
+  --pastel-blue: #e8f2ff;
+  --pastel-yellow: #fff9e5;
+  --pastel-green: #ebf9f0;
+  --pastel-pink: #ffebf0;
+  --pastel-purple: #f3ebf9;
+
+  /* update aliases */
+  --blue-color: var(--main-blue);
+  --green-color: var(--pastel-green);
+  --yellow-color: var(--yellow-accent);
+  --darkgrey-color: #4a5568;
+  --black-color: #1e293b; 
+
+  --text-main: #1e293b; 
+  --font-heading: 'Fredoka', sans-serif;
+  --font-body: 'Varela Round', sans-serif;
+  --font-accessibility: 'DyslexicFont', sans-serif;
+
+  --radius-card: 32px;
+  --radius-pill: 999px;
+  --bounce-transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* disability friendly mode toggle */
+
+body.diability-mode {
+  font-family: var(--font-accessibility) !important;
+  font-size: 1.2rem;
+  line-height: 1.85;
+  letter-spacing: 0.03em;
+  word-spacing: 0.08em;
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+}
+
+body.disability-mode h1,
+body.disability-mode h2,
+body.disability-mode h3,
+body.disability-mode h4,
+body.disability-mode p,
+body.disability-mode a,
+body.disability-mode button {
+  font-family: var(--font-accessibility) !important;
+}
+
+/* card sections and buttons */
+
+.screen-card {
+  min-height: 85vh;
+  margin: 1.5rem;
+  padding: 3.5rem 2.5rem;
+  border-radius: var(--radius-card);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: var(--bounce-transition);
+}
+
+.screen-card:hover {
+  transform: translateY(-4px);
+}
+
+.screen-card.blue   { background-color: var(--pastel-blue); }
+.screen-card.yellow { background-color: var(--pastel-yellow); }
+.screen-card.green  { background-color: var(--pastel-green); }
+.screen-card.pink   { background-color: var(--pastel-pink); }
+.screen-card.purple { background-color: var(--pastel-purple); }
+
+.btn-pill {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1.1rem;
+  background-color: var(--main-blue);
+  color: #FFFFFF;
+  border: none;
+  border-radius: var(--radius-pill);
+  padding: 0.9rem 2.25rem;
+  cursor: pointer;
+  outline: none;
+  transition: var(--bounce-transition);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-pill:hover {
+  background-color: var(--blue-glow);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 0 25px var(--blue-glow), 0 8px 20px rgba(0, 114, 255, 0.25);
+}
+
+body, body *, 
+input, button, select, textarea, a, p, span, label {
+  font-family: var(--font-body) !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.login-title {
+  font-family: var(--font-heading) !important;
+}
+
+/* Add/Replace at the BOTTOM of src/index.css */
+
+/* 1. Reset old rigid width containers so full-screen cards can work */
+main, #root, .App, div[class*="-container"], section {
+  max-width: 100% !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* 2. Force full-screen rounded cards across all existing page blocks */
+.screen-card, 
+section, 
+div[class$="-section"], 
+div[class$="-card"] {
+  border-radius: var(--radius-card) !important;
+  transition: var(--bounce-transition) !important;
+}
+
+/* 3. Force rounded pill shapes on ALL buttons everywhere */
+button, 
+.btn, 
+input[type="submit"], 
+a[class*="button"] {
+  font-family: var(--font-heading) !important;
+  border-radius: var(--radius-pill) !important;
+  transition: var(--bounce-transition) !important;
+}
+
+/* 4. Glowing hover effect forced onto all buttons */
+button:hover, 
+.btn:hover, 
+input[type="submit"]:hover, 
+a[class*="button"]:hover {
+  transform: translateY(-3px) scale(1.04) !important;
+  box-shadow: 0 0 20px var(--hikaru-blue-glow) !important;
 }
