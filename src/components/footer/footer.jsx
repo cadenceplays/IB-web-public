@@ -64,7 +64,7 @@ const Footer = () => {
           <a href="https://www.tiktok.com/@international.buddy" target="_blank" rel="noopener"><img src={tiktok} alt="tiktok" height="35" /></a>
         </div>
         <div>
-          <p>Copyright © 2026 International Buddy. <br /> Website by Yiran (Ryan) Pang</p>
+          <p>Copyright © 2026 International Buddy. <br /> Website by Yiran (Ryan) Pang & Cadence Liao</p>
         </div>
       </div>
     </div>
