@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './article.css';
-import featuredImg from '../../assets/all.jpg';
+import featuredImg from '../../assets/2026 group photo.jpg';
 
 const Article = () => {
   return (
