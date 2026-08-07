@@ -4,10 +4,11 @@
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
-    gap: 0.5rem;
+    gap: 0.75rem;
     background-color: var(--white-color);
     padding: 0.75rem 0.5rem;
     box-sizing: border-box;
+    font-family: Raleway, sans-serif;
 }
 
 .leaders-title-container {
@@ -15,6 +16,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .leaders-title {
@@ -23,21 +25,20 @@
     font-weight: 1000;
     font-size: clamp(1.2rem, 2.5vw, 1.6rem);
     color: var(--blue-color);
-    /* text-decoration: underline double;
-    text-underline-offset: 0.35rem; */
     white-space: nowrap;
     padding: 0 1rem 0.25rem 0.35rem;
 }
 
+/* Responsive Grid layout to fit more leaders on screen */
 .leaders-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(auto-fill, auto);
-    gap: 1.5rem;
+    gap: 1.25rem 1rem;
     justify-content: center;
-    align-items: start;
+    align-items: stretch;
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -45,13 +46,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
-    padding: 1rem;
+    padding: 0;
     margin: 0;
-    border-radius: 5px;
-    border: 1px solid var(--green-color);
-    background: var(--lightgreen-color);
+    border: none;
+    background: transparent;
     width: 100%;
     box-sizing: border-box;
 }
@@ -60,22 +60,15 @@
     justify-content: center;
 }
 
-.leaders-button-title {
-    border: 0;
-    text-align: center;
-    font-weight: 500;
-    /* font-size: clamp(1.0rem, 2.5vw, 1.1rem); */
-    margin: 0.15rem;
-    padding: 0.25rem;
-    width: auto;
-}
-
+/* Circular profile image button */
 .leaders-button {
     border: 0;
-    margin: 0.35rem 0.35rem 0 0.35rem;
+    margin: 0.35rem 0;
     padding: 0;
-    width: 350px;
-    height: 350px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
@@ -88,42 +81,72 @@
     object-fit: cover;
     object-position: center center;
     cursor: pointer;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
 }
 
 .leaders-button img:hover {
-    transform: scale(0.97);
+    transform: scale(1.05);
 }
 
-@media (max-width: 992px) { /* adjust grid for smaller screens */
+/* Green box with rounded corners for name & title */
+.leaders-button-title {
+    border: 1px solid var(--green-color);
+    border-radius: 8px;
+    background: var(--lightgreen-color);
+    text-align: center;
+    font-weight: 500;
+    margin: 0.35rem 0 0 0;
+    padding: 0.5rem 0.35rem;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+    font-size: clamp(0.85rem, 2vw, 0.95rem);
+    color: var(--blue-color);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.leaders-button-title b {
+    font-weight: 700;
+    color: var(--blue-color);
+}
+
+/* ==========================================================================
+   MEDIA QUERIES FOR SCREEN SIZE ADJUSTMENTS
+   ========================================================================== */
+
+@media (max-width: 992px) {
     .leaders-container {
         grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
+        gap: 1rem 0.75rem;
     }
     .leaders-button {
-        width: 170px;
-        height: 170px;
-    }
-
-}
-
-@media (max-width: 768px) { /* adjust grid for even smaller screens */
-    .leaders-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0.75rem;
-    }
-    .leaders-button {
-        width: 140px;
-        height: 140px;
+        width: 110px;
+        height: 110px;
     }
 }
 
-@media (max-width: 45rem) { /* column layout for mobile */
+@media (max-width: 768px) {
     .leaders-container {
         grid-template-columns: repeat(2, 1fr);
-        gap: 0.5rem;
+        gap: 0.85rem 0.5rem;
     }
     .leaders-button {
-        width: 250px;
-        height: 250px;
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 45rem) {
+    .leaders-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem 0.5rem;
+    }
+    .leaders-button {
+        width: 100px;
+        height: 100px;
     }
 }

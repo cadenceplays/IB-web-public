@@ -61,9 +61,9 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div id="cadence-liao" className="ourteam_container1">
           <div className="ourteam_photo">
-            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2026%2Fcadence%20liao.jpg?alt=media&token=00b36dd7-3679-45b0-9562-c0b7e61e1f44" alt="self" />
+            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2026%2Fcadence%20our%20team%20page.jpg?alt=media&token=67ef9758-b43d-4f19-bb62-ed3aaacabcb7" alt="self" />
           </div>
           <div className="ourteam_content">
             <div className="ourteam_name">
@@ -77,7 +77,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div id="sophia-li" className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2026%2Fsophia%20li.jpg?alt=media&token=47aab4ca-b1e6-4318-9d91-a35491cf95c8" alt="self" />
           </div>
@@ -93,7 +93,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div id="emma-li" className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Femma%20-%20science%20captain.jpg?alt=media&token=f979ed82-fc9a-434b-b154-8f75f3448c4a" alt="self" />
           </div>
@@ -109,9 +109,9 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div id="emma-hu" className="ourteam_container2">
           <div className="ourteam_photo">
-            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2026%2Femma%20hu.jpg?alt=media&token=05f0ec65-efc1-46ce-af42-d8abf5dd0b20" alt="self" />
+            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2026%2Femma%20hu.jpg?alt=media&token=719717de-18b2-4009-a021-42fa8fc8fbbd" alt="self" />
           </div>
           <div className="ourteam_content">
             <div className="ourteam_name">
@@ -125,9 +125,9 @@ const Ourteam = () => {
         </div>
 
          <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div id="derek-li" className="ourteam_container1">
           <div className="ourteam_photo">
-            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2026%2Fderek%20li.jpg?alt=media&token=c4ac33fe-2e67-4911-bba2-2e5fb5f79039" alt="self" />
+            <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2026%2Fderek%20li.jpg?alt=media&token=2e6bc5d5-6a7d-4e6b-bba8-bf891469c633" alt="self" />
           </div>
           <div className="ourteam_content">
             <div className="ourteam_name">
@@ -141,7 +141,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div id="edward-li" className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fedward%20-%20science%20captain.jpg?alt=media&token=9c73044d-6877-4e70-bd0a-ee46d3ab78e4" alt="self" />
           </div>
@@ -157,7 +157,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div id="timothy-liao" className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FTimothy%20Liao.JPG?alt=media&token=b3ad0cec-fb64-4ee3-8a9e-b6155e05e7a1" alt="self" />
           </div>
@@ -173,7 +173,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div id="cloris-wang" className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Fcloris%20-%20swimming%20captain%20bac.jfif?alt=media&token=19e9c6c7-ae3a-4ad7-9f1e-13fd93ad36a8" alt="self" />
           </div>
@@ -189,7 +189,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div id="jennifer-xue" className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2024%2FJennifer%20Xue.JPG?alt=media&token=2c5633af-bbe8-42c9-aead-5a143ef28bd2" alt="self" />
           </div>
@@ -205,7 +205,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div id="alex-kang" className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Falex%20kang%20-%20special%20olympics%20swim%20captain.jfif?alt=media&token=c20a321c-f07f-4bd7-b18b-2cee82e43752" alt="self" />
           </div>
@@ -221,7 +221,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container1">
+        <div id="alexander-zhao" className="ourteam_container1">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Falexander%20zhao%20-%20swim%20captain%20mercer%20island.jfif?alt=media&token=08503c3c-cfb1-431d-8f80-23b0442f90be" alt="self" />
           </div>
@@ -237,7 +237,7 @@ const Ourteam = () => {
         </div>
 
         <Line color="--green-color" width="100%" />
-        <div className="ourteam_container2">
+        <div id="addy-wei" className="ourteam_container2">
           <div className="ourteam_photo">
             <img src="https://firebasestorage.googleapis.com/v0/b/internationalbuddy2018.appspot.com/o/our_team%2F2025%20leaders%2Faddy%20wei%20-%20art%20group%20captain.jpg?alt=media&token=b2801e30-3369-4968-b587-2954d3b46111" alt="self" />
           </div>
@@ -423,7 +423,7 @@ const Ourteam = () => {
               Swim Captain (Mercer Island)
             </div>
             <div className="ourteam_selfintro">
-              My name is Jeff, I will be a 10th Grade student attending Newport High School in September. I had my first swimming lesson at the YMCA when I was three. I found out that I loved swimming very much. I still vividly remember those summers kayaking at Rattlesnake Ledge and Lake Sammamish with my friends. All those family vacations competing in swim races against my dad and older brother helped me improve in swimming and has brought so much pure joy into my life. Over the years, swimming has become a huge part of who I am, from training with the PDST swim team for six years and swimming for my high school team last year, to volunteering at MW for the IB program for over nine months now. Looking back, these experiences gave me so much more than just a good time or a lesson in mental toughness. More importantly, they made me realize how incredibly rewarding it is to teach others. Sharing what I know brings me so much happiness. Seriously, nothing beats the feeling of watching a kid go from being terrified of the water to becoming brave, falling in love with swimming, and crushing it in the pool. I am so proud of them. The volunteer job of IB program is so meaningful to me, so I am excited to become the new Captain of the MW swimming pool. I promise to give it my all, not just by continuing to teach at the pool, but also by working alongside all of our amazing volunteers to keep things running smoothly. Together, I hope we can give even more water-loving kids a fun place to learn, and make the IB program bigger and better than ever!
+              My name is Jeff, I will be a 10th Grade student attending Newport High School in September. The volunteer job of IB program is so meaningful to me, so I am excited to become the new Captain of the MW swimming pool. I promise to give it my all, not just by continuing to teach at the pool, but also by working alongside all of our amazing volunteers to keep things running smoothly. 
             </div>
           </div>
         </div>
